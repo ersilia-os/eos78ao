@@ -1,15 +1,26 @@
-# Mordred
+# Mordred physicochemical descriptors
 
-Mordred physicochemical descriptors
+## Model Identifiers
+- Slug: mordred
+- Ersilia ID: eos78ao
+- Tags: mordred,	ML,	descriptor
 
-| Description | Input  | Output  | Training Data | Experimental Validation |
-| ------- | --- | --- | --- | --- |
-| A set of ca 1,800 chemical descriptors comparable to the well known PADEL descriptors | SMILES | Vector | 7197 compounds | No |
+## Model Description
+A set of ca 1,800 chemical descriptors comparable to the well known PADEL descriptors 
+- Input: SMILES 
+- Output: Vector 
+- Model type: Regression
+- Mode of training: Pretrained
+- Training data: 7197 compounds (https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y/tables/5)
+- Experimentally validated: No 
 
 ## Source code
 This model was published by Moriwaki, H., Tian, YS., Kawashita, N. et al. Mordred: a molecular descriptor calculator. J Cheminform 10, 4 (2018). DOI: https://doi.org/10.1186/s13321-018-0258-y
+- Code: https://github.com/mordred-descriptor/mordred 
+- Checkpoints: https://github.com/mordred-descriptor/mordred/tree/develop/mordred/_base
 
-Code: https://github.com/mordred-descriptor/mordred 
+## License
+The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "mordred", located at `/model` and licensed under a BSD-3 License
 
 ## History 
 This model was downloaded on September 28, 2021
