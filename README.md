@@ -1,26 +1,40 @@
-# Mordred physicochemical descriptors
+# Mordred chemical descriptors
 
-## Model Identifiers
-- Slug: mordred
-- Ersilia ID: eos78ao
-- Tags: mordred,	ML,	descriptor
+A set of ca 1,800 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules.
 
-## Model Description
-A set of ca 1,800 chemical descriptors comparable to the well known PADEL descriptors 
-- Input: SMILES 
-- Output: Vector 
-- Model type: Regression
-- Mode of training: Pretrained
-- Training data: 7197 compounds (https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y/tables/5)
-- Experimentally validated: No 
+## Identifiers
 
-## Source code
-This model was published by Moriwaki, H., Tian, YS., Kawashita, N. et al. Mordred: a molecular descriptor calculator. J Cheminform 10, 4 (2018). DOI: https://doi.org/10.1186/s13321-018-0258-y
-- Code: https://github.com/mordred-descriptor/mordred 
-- Checkpoints: https://github.com/mordred-descriptor/mordred/tree/develop/mordred/_base
+* EOS model ID: `eos78ao`
+* Slug: `mordred`
+
+## Characteristics
+
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Representation`
+* Output: `Descriptor`
+* Output Type: `Float`
+* Output Shape: `List`
+* Interpretation: Vector representation of a molecule
+
+## References
+
+* [Publication](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y)
+* [Source Code](https://github.com/mordred-descriptor/mordred)
+* Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "mordred", located at `/model` and licensed under a BSD-3 License
 
-## History 
-This model was downloaded on September 28, 2021
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a BSD-3.0 license.
+
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+
+## About Us
+
+The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
+
+[Help us](https://www.ersilia.io/donate) achieve our mission!
