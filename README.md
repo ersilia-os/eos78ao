@@ -23,6 +23,9 @@ A set of ca 1,800 chemical descriptors, including both RDKit and original module
 * [Source Code](https://github.com/mordred-descriptor/mordred)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos78ao)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
