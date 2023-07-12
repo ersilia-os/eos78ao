@@ -25,6 +25,8 @@ A set of ca 1,800 chemical descriptors, including both RDKit and original module
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos78ao)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos78ao) (AMD64, ARM64)
 
 ## Citation
 
