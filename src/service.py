@@ -74,10 +74,10 @@ class Model(object):
             h = next(reader)
             R = []
             for r in reader:
-                R += [{"descriptor": [Float(x) for x in r]}]
+                R += [{"outcome": [Float(x) for x in r]}]
         result = {
             "result": R,
-            "meta": {"descriptor": h}
+            "meta": {"outcome": h}
         }
         return R
 
