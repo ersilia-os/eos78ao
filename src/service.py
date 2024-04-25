@@ -79,7 +79,7 @@ class Model(object):
             "result": R,
             "meta": {"outcome": h}
         }
-        return R
+        return result
 
 
 class Artifact(BentoServiceArtifact):
