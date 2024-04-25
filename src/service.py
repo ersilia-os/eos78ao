@@ -74,10 +74,10 @@ class Model(object):
             h = next(reader)
             R = []
             for r in reader:
-                R += [{"outcome": [Float(x) for x in r]}]
+                R += [[Float(x) for x in r]]
         result = {
             "result": R,
-            "meta": {"outcome": h}
+            "meta": h
         }
         return result
 
