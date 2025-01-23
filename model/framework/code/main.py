@@ -34,9 +34,5 @@ for smi in smiles:
         r = [None for _ in range(len(columns))]
     R += [r]
 
-# We read as float dtype because mordred gives us errors for many of the MAX... type descriptors
-# Refer to https://github.com/mordred-descriptor/mordred/issues/68
-df = pd.DataFrame(R, columns=columns, dtype=float)
-# Then we fill those empty columns with 0.0
-df.fillna(0.0, inplace=True)
+df = pd.DataFrame(R, columns=columns)
 df.to_csv(outfile, index=False)
