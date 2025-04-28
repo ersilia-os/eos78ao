@@ -3,34 +3,44 @@
     "Slug": "mordred",
     "Status": "Ready",
     "Title": "Mordred chemical descriptors",
-    "Description": "A set of ca 1,800 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules.\n",
-    "Mode": "Pretrained",
+    "Description": "A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1455 features\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
-    "Task": [
-        "Representation"
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Descriptor"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
+    "Output Dimension": 1455,
+    "Output Consistency": "Fixed",
     "Interpretation": "Vector representation of a molecule",
     "Tag": [
         "Descriptor"
     ],
     "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2018,
     "Source Code": "https://github.com/mordred-descriptor/mordred",
-    "License": "BSD-3.0",
+    "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip",
+    "Incorporation Date": "2021-09-17",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos78ao",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip",
+    "Deployment": [
+        "Local"
     ]
 }
