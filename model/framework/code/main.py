@@ -62,7 +62,7 @@ R = R.drop(columns=cols_to_drop)
 R = convert_to_float(R)
 R = imputer.transform(R)
 
-cols = [c for c in columns if c not in cols_to_drop]
+cols = [c.lower() for c in columns if c not in cols_to_drop]
 
 #TODO: we are now imputing molecules that might be all NaNs originally
 

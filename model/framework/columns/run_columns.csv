@@ -1,1456 +1,1456 @@
 name,type,direction,description
-ABC,float,,atom-bond connectivity index
-ABCGG,float,,Graovac-Ghorbani atom-bond connectivity index
-nAcid,float,,acidic group count
-nBase,float,,basic group count
-SpAbs_A,float,,SpAbs of adjacency matrix
-SpMax_A,float,,SpMax of adjacency matrix
-SpDiam_A,float,,SpDiam of adjacency matrix
-SpAD_A,float,,SpAD of adjacency matrix
-SpMAD_A,float,,SpMAD of adjacency matrix
-LogEE_A,float,,LogEE of adjacency matrix
-VE1_A,float,,VE1 of adjacency matrix
-VE2_A,float,,VE2 of adjacency matrix
-VE3_A,float,,VE3 of adjacency matrix
-VR1_A,float,,VR1 of adjacency matrix
-VR2_A,float,,VR2 of adjacency matrix
-VR3_A,float,,VR3 of adjacency matrix
-nAromAtom,float,,aromatic atoms count
-nAromBond,float,,aromatic bonds count
-nAtom,float,,number of all atoms
-nHeavyAtom,float,,number of heavy atoms
-nSpiro,float,,number of spiro atoms
-nBridgehead,float,,number of bridgehead atoms
-nH,float,,number of H atoms
-nB,float,,number of B atoms
-nC,float,,number of C atoms
-nN,float,,number of N atoms
-nO,float,,number of O atoms
-nS,float,,number of S atoms
-nP,float,,number of P atoms
-nF,float,,number of F atoms
-nCl,float,,number of Cl atoms
-nBr,float,,number of Br atoms
-nI,float,,number of I atoms
-nX,float,,number of halogen atoms
-ATS0dv,float,,moreau-broto autocorrelation of lag 0 weighted by valence electrons
-ATS1dv,float,,moreau-broto autocorrelation of lag 1 weighted by valence electrons
-ATS2dv,float,,moreau-broto autocorrelation of lag 2 weighted by valence electrons
-ATS3dv,float,,moreau-broto autocorrelation of lag 3 weighted by valence electrons
-ATS4dv,float,,moreau-broto autocorrelation of lag 4 weighted by valence electrons
-ATS5dv,float,,moreau-broto autocorrelation of lag 5 weighted by valence electrons
-ATS6dv,float,,moreau-broto autocorrelation of lag 6 weighted by valence electrons
-ATS7dv,float,,moreau-broto autocorrelation of lag 7 weighted by valence electrons
-ATS8dv,float,,moreau-broto autocorrelation of lag 8 weighted by valence electrons
-ATS0d,float,,moreau-broto autocorrelation of lag 0 weighted by sigma electrons
-ATS1d,float,,moreau-broto autocorrelation of lag 1 weighted by sigma electrons
-ATS2d,float,,moreau-broto autocorrelation of lag 2 weighted by sigma electrons
-ATS3d,float,,moreau-broto autocorrelation of lag 3 weighted by sigma electrons
-ATS4d,float,,moreau-broto autocorrelation of lag 4 weighted by sigma electrons
-ATS5d,float,,moreau-broto autocorrelation of lag 5 weighted by sigma electrons
-ATS6d,float,,moreau-broto autocorrelation of lag 6 weighted by sigma electrons
-ATS7d,float,,moreau-broto autocorrelation of lag 7 weighted by sigma electrons
-ATS8d,float,,moreau-broto autocorrelation of lag 8 weighted by sigma electrons
-ATS0s,float,,moreau-broto autocorrelation of lag 0 weighted by intrinsic state
-ATS1s,float,,moreau-broto autocorrelation of lag 1 weighted by intrinsic state
-ATS2s,float,,moreau-broto autocorrelation of lag 2 weighted by intrinsic state
-ATS3s,float,,moreau-broto autocorrelation of lag 3 weighted by intrinsic state
-ATS4s,float,,moreau-broto autocorrelation of lag 4 weighted by intrinsic state
-ATS5s,float,,moreau-broto autocorrelation of lag 5 weighted by intrinsic state
-ATS6s,float,,moreau-broto autocorrelation of lag 6 weighted by intrinsic state
-ATS7s,float,,moreau-broto autocorrelation of lag 7 weighted by intrinsic state
-ATS8s,float,,moreau-broto autocorrelation of lag 8 weighted by intrinsic state
-ATS0Z,float,,moreau-broto autocorrelation of lag 0 weighted by atomic number
-ATS1Z,float,,moreau-broto autocorrelation of lag 1 weighted by atomic number
-ATS2Z,float,,moreau-broto autocorrelation of lag 2 weighted by atomic number
-ATS3Z,float,,moreau-broto autocorrelation of lag 3 weighted by atomic number
-ATS4Z,float,,moreau-broto autocorrelation of lag 4 weighted by atomic number
-ATS5Z,float,,moreau-broto autocorrelation of lag 5 weighted by atomic number
-ATS6Z,float,,moreau-broto autocorrelation of lag 6 weighted by atomic number
-ATS7Z,float,,moreau-broto autocorrelation of lag 7 weighted by atomic number
-ATS8Z,float,,moreau-broto autocorrelation of lag 8 weighted by atomic number
-ATS0m,float,,moreau-broto autocorrelation of lag 0 weighted by mass
-ATS1m,float,,moreau-broto autocorrelation of lag 1 weighted by mass
-ATS2m,float,,moreau-broto autocorrelation of lag 2 weighted by mass
-ATS3m,float,,moreau-broto autocorrelation of lag 3 weighted by mass
-ATS4m,float,,moreau-broto autocorrelation of lag 4 weighted by mass
-ATS5m,float,,moreau-broto autocorrelation of lag 5 weighted by mass
-ATS6m,float,,moreau-broto autocorrelation of lag 6 weighted by mass
-ATS7m,float,,moreau-broto autocorrelation of lag 7 weighted by mass
-ATS8m,float,,moreau-broto autocorrelation of lag 8 weighted by mass
-ATS0v,float,,moreau-broto autocorrelation of lag 0 weighted by vdw volume
-ATS1v,float,,moreau-broto autocorrelation of lag 1 weighted by vdw volume
-ATS2v,float,,moreau-broto autocorrelation of lag 2 weighted by vdw volume
-ATS3v,float,,moreau-broto autocorrelation of lag 3 weighted by vdw volume
-ATS4v,float,,moreau-broto autocorrelation of lag 4 weighted by vdw volume
-ATS5v,float,,moreau-broto autocorrelation of lag 5 weighted by vdw volume
-ATS6v,float,,moreau-broto autocorrelation of lag 6 weighted by vdw volume
-ATS7v,float,,moreau-broto autocorrelation of lag 7 weighted by vdw volume
-ATS8v,float,,moreau-broto autocorrelation of lag 8 weighted by vdw volume
-ATS0se,float,,moreau-broto autocorrelation of lag 0 weighted by sanderson EN
-ATS1se,float,,moreau-broto autocorrelation of lag 1 weighted by sanderson EN
-ATS2se,float,,moreau-broto autocorrelation of lag 2 weighted by sanderson EN
-ATS3se,float,,moreau-broto autocorrelation of lag 3 weighted by sanderson EN
-ATS4se,float,,moreau-broto autocorrelation of lag 4 weighted by sanderson EN
-ATS5se,float,,moreau-broto autocorrelation of lag 5 weighted by sanderson EN
-ATS6se,float,,moreau-broto autocorrelation of lag 6 weighted by sanderson EN
-ATS7se,float,,moreau-broto autocorrelation of lag 7 weighted by sanderson EN
-ATS8se,float,,moreau-broto autocorrelation of lag 8 weighted by sanderson EN
-ATS0pe,float,,moreau-broto autocorrelation of lag 0 weighted by pauling EN
-ATS1pe,float,,moreau-broto autocorrelation of lag 1 weighted by pauling EN
-ATS2pe,float,,moreau-broto autocorrelation of lag 2 weighted by pauling EN
-ATS3pe,float,,moreau-broto autocorrelation of lag 3 weighted by pauling EN
-ATS4pe,float,,moreau-broto autocorrelation of lag 4 weighted by pauling EN
-ATS5pe,float,,moreau-broto autocorrelation of lag 5 weighted by pauling EN
-ATS6pe,float,,moreau-broto autocorrelation of lag 6 weighted by pauling EN
-ATS7pe,float,,moreau-broto autocorrelation of lag 7 weighted by pauling EN
-ATS8pe,float,,moreau-broto autocorrelation of lag 8 weighted by pauling EN
-ATS0are,float,,moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
-ATS1are,float,,moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
-ATS2are,float,,moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
-ATS3are,float,,moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
-ATS4are,float,,moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
-ATS5are,float,,moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
-ATS6are,float,,moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
-ATS7are,float,,moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
-ATS8are,float,,moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
-ATS0p,float,,moreau-broto autocorrelation of lag 0 weighted by polarizability
-ATS1p,float,,moreau-broto autocorrelation of lag 1 weighted by polarizability
-ATS2p,float,,moreau-broto autocorrelation of lag 2 weighted by polarizability
-ATS3p,float,,moreau-broto autocorrelation of lag 3 weighted by polarizability
-ATS4p,float,,moreau-broto autocorrelation of lag 4 weighted by polarizability
-ATS5p,float,,moreau-broto autocorrelation of lag 5 weighted by polarizability
-ATS6p,float,,moreau-broto autocorrelation of lag 6 weighted by polarizability
-ATS7p,float,,moreau-broto autocorrelation of lag 7 weighted by polarizability
-ATS8p,float,,moreau-broto autocorrelation of lag 8 weighted by polarizability
-ATS0i,float,,moreau-broto autocorrelation of lag 0 weighted by ionization potential
-ATS1i,float,,moreau-broto autocorrelation of lag 1 weighted by ionization potential
-ATS2i,float,,moreau-broto autocorrelation of lag 2 weighted by ionization potential
-ATS3i,float,,moreau-broto autocorrelation of lag 3 weighted by ionization potential
-ATS4i,float,,moreau-broto autocorrelation of lag 4 weighted by ionization potential
-ATS5i,float,,moreau-broto autocorrelation of lag 5 weighted by ionization potential
-ATS6i,float,,moreau-broto autocorrelation of lag 6 weighted by ionization potential
-ATS7i,float,,moreau-broto autocorrelation of lag 7 weighted by ionization potential
-ATS8i,float,,moreau-broto autocorrelation of lag 8 weighted by ionization potential
-AATS0dv,float,,averaged moreau-broto autocorrelation of lag 0 weighted by valence electrons
-AATS1dv,float,,averaged moreau-broto autocorrelation of lag 1 weighted by valence electrons
-AATS2dv,float,,averaged moreau-broto autocorrelation of lag 2 weighted by valence electrons
-AATS3dv,float,,averaged moreau-broto autocorrelation of lag 3 weighted by valence electrons
-AATS4dv,float,,averaged moreau-broto autocorrelation of lag 4 weighted by valence electrons
-AATS5dv,float,,averaged moreau-broto autocorrelation of lag 5 weighted by valence electrons
-AATS6dv,float,,averaged moreau-broto autocorrelation of lag 6 weighted by valence electrons
-AATS7dv,float,,averaged moreau-broto autocorrelation of lag 7 weighted by valence electrons
-AATS8dv,float,,averaged moreau-broto autocorrelation of lag 8 weighted by valence electrons
-AATS0d,float,,averaged moreau-broto autocorrelation of lag 0 weighted by sigma electrons
-AATS1d,float,,averaged moreau-broto autocorrelation of lag 1 weighted by sigma electrons
-AATS2d,float,,averaged moreau-broto autocorrelation of lag 2 weighted by sigma electrons
-AATS3d,float,,averaged moreau-broto autocorrelation of lag 3 weighted by sigma electrons
-AATS4d,float,,averaged moreau-broto autocorrelation of lag 4 weighted by sigma electrons
-AATS5d,float,,averaged moreau-broto autocorrelation of lag 5 weighted by sigma electrons
-AATS6d,float,,averaged moreau-broto autocorrelation of lag 6 weighted by sigma electrons
-AATS7d,float,,averaged moreau-broto autocorrelation of lag 7 weighted by sigma electrons
-AATS8d,float,,averaged moreau-broto autocorrelation of lag 8 weighted by sigma electrons
-AATS0s,float,,averaged moreau-broto autocorrelation of lag 0 weighted by intrinsic state
-AATS1s,float,,averaged moreau-broto autocorrelation of lag 1 weighted by intrinsic state
-AATS2s,float,,averaged moreau-broto autocorrelation of lag 2 weighted by intrinsic state
-AATS3s,float,,averaged moreau-broto autocorrelation of lag 3 weighted by intrinsic state
-AATS4s,float,,averaged moreau-broto autocorrelation of lag 4 weighted by intrinsic state
-AATS5s,float,,averaged moreau-broto autocorrelation of lag 5 weighted by intrinsic state
-AATS6s,float,,averaged moreau-broto autocorrelation of lag 6 weighted by intrinsic state
-AATS7s,float,,averaged moreau-broto autocorrelation of lag 7 weighted by intrinsic state
-AATS8s,float,,averaged moreau-broto autocorrelation of lag 8 weighted by intrinsic state
-AATS0Z,float,,averaged moreau-broto autocorrelation of lag 0 weighted by atomic number
-AATS1Z,float,,averaged moreau-broto autocorrelation of lag 1 weighted by atomic number
-AATS2Z,float,,averaged moreau-broto autocorrelation of lag 2 weighted by atomic number
-AATS3Z,float,,averaged moreau-broto autocorrelation of lag 3 weighted by atomic number
-AATS4Z,float,,averaged moreau-broto autocorrelation of lag 4 weighted by atomic number
-AATS5Z,float,,averaged moreau-broto autocorrelation of lag 5 weighted by atomic number
-AATS6Z,float,,averaged moreau-broto autocorrelation of lag 6 weighted by atomic number
-AATS7Z,float,,averaged moreau-broto autocorrelation of lag 7 weighted by atomic number
-AATS8Z,float,,averaged moreau-broto autocorrelation of lag 8 weighted by atomic number
-AATS0m,float,,averaged moreau-broto autocorrelation of lag 0 weighted by mass
-AATS1m,float,,averaged moreau-broto autocorrelation of lag 1 weighted by mass
-AATS2m,float,,averaged moreau-broto autocorrelation of lag 2 weighted by mass
-AATS3m,float,,averaged moreau-broto autocorrelation of lag 3 weighted by mass
-AATS4m,float,,averaged moreau-broto autocorrelation of lag 4 weighted by mass
-AATS5m,float,,averaged moreau-broto autocorrelation of lag 5 weighted by mass
-AATS6m,float,,averaged moreau-broto autocorrelation of lag 6 weighted by mass
-AATS7m,float,,averaged moreau-broto autocorrelation of lag 7 weighted by mass
-AATS8m,float,,averaged moreau-broto autocorrelation of lag 8 weighted by mass
-AATS0v,float,,averaged moreau-broto autocorrelation of lag 0 weighted by vdw volume
-AATS1v,float,,averaged moreau-broto autocorrelation of lag 1 weighted by vdw volume
-AATS2v,float,,averaged moreau-broto autocorrelation of lag 2 weighted by vdw volume
-AATS3v,float,,averaged moreau-broto autocorrelation of lag 3 weighted by vdw volume
-AATS4v,float,,averaged moreau-broto autocorrelation of lag 4 weighted by vdw volume
-AATS5v,float,,averaged moreau-broto autocorrelation of lag 5 weighted by vdw volume
-AATS6v,float,,averaged moreau-broto autocorrelation of lag 6 weighted by vdw volume
-AATS7v,float,,averaged moreau-broto autocorrelation of lag 7 weighted by vdw volume
-AATS8v,float,,averaged moreau-broto autocorrelation of lag 8 weighted by vdw volume
-AATS0se,float,,averaged moreau-broto autocorrelation of lag 0 weighted by sanderson EN
-AATS1se,float,,averaged moreau-broto autocorrelation of lag 1 weighted by sanderson EN
-AATS2se,float,,averaged moreau-broto autocorrelation of lag 2 weighted by sanderson EN
-AATS3se,float,,averaged moreau-broto autocorrelation of lag 3 weighted by sanderson EN
-AATS4se,float,,averaged moreau-broto autocorrelation of lag 4 weighted by sanderson EN
-AATS5se,float,,averaged moreau-broto autocorrelation of lag 5 weighted by sanderson EN
-AATS6se,float,,averaged moreau-broto autocorrelation of lag 6 weighted by sanderson EN
-AATS7se,float,,averaged moreau-broto autocorrelation of lag 7 weighted by sanderson EN
-AATS8se,float,,averaged moreau-broto autocorrelation of lag 8 weighted by sanderson EN
-AATS0pe,float,,averaged moreau-broto autocorrelation of lag 0 weighted by pauling EN
-AATS1pe,float,,averaged moreau-broto autocorrelation of lag 1 weighted by pauling EN
-AATS2pe,float,,averaged moreau-broto autocorrelation of lag 2 weighted by pauling EN
-AATS3pe,float,,averaged moreau-broto autocorrelation of lag 3 weighted by pauling EN
-AATS4pe,float,,averaged moreau-broto autocorrelation of lag 4 weighted by pauling EN
-AATS5pe,float,,averaged moreau-broto autocorrelation of lag 5 weighted by pauling EN
-AATS6pe,float,,averaged moreau-broto autocorrelation of lag 6 weighted by pauling EN
-AATS7pe,float,,averaged moreau-broto autocorrelation of lag 7 weighted by pauling EN
-AATS8pe,float,,averaged moreau-broto autocorrelation of lag 8 weighted by pauling EN
-AATS0are,float,,averaged moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
-AATS1are,float,,averaged moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
-AATS2are,float,,averaged moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
-AATS3are,float,,averaged moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
-AATS4are,float,,averaged moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
-AATS5are,float,,averaged moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
-AATS6are,float,,averaged moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
-AATS7are,float,,averaged moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
-AATS8are,float,,averaged moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
-AATS0p,float,,averaged moreau-broto autocorrelation of lag 0 weighted by polarizability
-AATS1p,float,,averaged moreau-broto autocorrelation of lag 1 weighted by polarizability
-AATS2p,float,,averaged moreau-broto autocorrelation of lag 2 weighted by polarizability
-AATS3p,float,,averaged moreau-broto autocorrelation of lag 3 weighted by polarizability
-AATS4p,float,,averaged moreau-broto autocorrelation of lag 4 weighted by polarizability
-AATS5p,float,,averaged moreau-broto autocorrelation of lag 5 weighted by polarizability
-AATS6p,float,,averaged moreau-broto autocorrelation of lag 6 weighted by polarizability
-AATS7p,float,,averaged moreau-broto autocorrelation of lag 7 weighted by polarizability
-AATS8p,float,,averaged moreau-broto autocorrelation of lag 8 weighted by polarizability
-AATS0i,float,,averaged moreau-broto autocorrelation of lag 0 weighted by ionization potential
-AATS1i,float,,averaged moreau-broto autocorrelation of lag 1 weighted by ionization potential
-AATS2i,float,,averaged moreau-broto autocorrelation of lag 2 weighted by ionization potential
-AATS3i,float,,averaged moreau-broto autocorrelation of lag 3 weighted by ionization potential
-AATS4i,float,,averaged moreau-broto autocorrelation of lag 4 weighted by ionization potential
-AATS5i,float,,averaged moreau-broto autocorrelation of lag 5 weighted by ionization potential
-AATS6i,float,,averaged moreau-broto autocorrelation of lag 6 weighted by ionization potential
-AATS7i,float,,averaged moreau-broto autocorrelation of lag 7 weighted by ionization potential
-AATS8i,float,,averaged moreau-broto autocorrelation of lag 8 weighted by ionization potential
-ATSC0c,float,,centered moreau-broto autocorrelation of lag 0 weighted by gasteiger charge
-ATSC1c,float,,centered moreau-broto autocorrelation of lag 1 weighted by gasteiger charge
-ATSC2c,float,,centered moreau-broto autocorrelation of lag 2 weighted by gasteiger charge
-ATSC3c,float,,centered moreau-broto autocorrelation of lag 3 weighted by gasteiger charge
-ATSC4c,float,,centered moreau-broto autocorrelation of lag 4 weighted by gasteiger charge
-ATSC5c,float,,centered moreau-broto autocorrelation of lag 5 weighted by gasteiger charge
-ATSC6c,float,,centered moreau-broto autocorrelation of lag 6 weighted by gasteiger charge
-ATSC7c,float,,centered moreau-broto autocorrelation of lag 7 weighted by gasteiger charge
-ATSC8c,float,,centered moreau-broto autocorrelation of lag 8 weighted by gasteiger charge
-ATSC0dv,float,,centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
-ATSC1dv,float,,centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
-ATSC2dv,float,,centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
-ATSC3dv,float,,centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
-ATSC4dv,float,,centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
-ATSC5dv,float,,centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
-ATSC6dv,float,,centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
-ATSC7dv,float,,centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
-ATSC8dv,float,,centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
-ATSC0d,float,,centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
-ATSC1d,float,,centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
-ATSC2d,float,,centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
-ATSC3d,float,,centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
-ATSC4d,float,,centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
-ATSC5d,float,,centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
-ATSC6d,float,,centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
-ATSC7d,float,,centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
-ATSC8d,float,,centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
-ATSC0s,float,,centered moreau-broto autocorrelation of lag 0 weighted by intrinsic state
-ATSC1s,float,,centered moreau-broto autocorrelation of lag 1 weighted by intrinsic state
-ATSC2s,float,,centered moreau-broto autocorrelation of lag 2 weighted by intrinsic state
-ATSC3s,float,,centered moreau-broto autocorrelation of lag 3 weighted by intrinsic state
-ATSC4s,float,,centered moreau-broto autocorrelation of lag 4 weighted by intrinsic state
-ATSC5s,float,,centered moreau-broto autocorrelation of lag 5 weighted by intrinsic state
-ATSC6s,float,,centered moreau-broto autocorrelation of lag 6 weighted by intrinsic state
-ATSC7s,float,,centered moreau-broto autocorrelation of lag 7 weighted by intrinsic state
-ATSC8s,float,,centered moreau-broto autocorrelation of lag 8 weighted by intrinsic state
-ATSC0Z,float,,centered moreau-broto autocorrelation of lag 0 weighted by atomic number
-ATSC1Z,float,,centered moreau-broto autocorrelation of lag 1 weighted by atomic number
-ATSC2Z,float,,centered moreau-broto autocorrelation of lag 2 weighted by atomic number
-ATSC3Z,float,,centered moreau-broto autocorrelation of lag 3 weighted by atomic number
-ATSC4Z,float,,centered moreau-broto autocorrelation of lag 4 weighted by atomic number
-ATSC5Z,float,,centered moreau-broto autocorrelation of lag 5 weighted by atomic number
-ATSC6Z,float,,centered moreau-broto autocorrelation of lag 6 weighted by atomic number
-ATSC7Z,float,,centered moreau-broto autocorrelation of lag 7 weighted by atomic number
-ATSC8Z,float,,centered moreau-broto autocorrelation of lag 8 weighted by atomic number
-ATSC0m,float,,centered moreau-broto autocorrelation of lag 0 weighted by mass
-ATSC1m,float,,centered moreau-broto autocorrelation of lag 1 weighted by mass
-ATSC2m,float,,centered moreau-broto autocorrelation of lag 2 weighted by mass
-ATSC3m,float,,centered moreau-broto autocorrelation of lag 3 weighted by mass
-ATSC4m,float,,centered moreau-broto autocorrelation of lag 4 weighted by mass
-ATSC5m,float,,centered moreau-broto autocorrelation of lag 5 weighted by mass
-ATSC6m,float,,centered moreau-broto autocorrelation of lag 6 weighted by mass
-ATSC7m,float,,centered moreau-broto autocorrelation of lag 7 weighted by mass
-ATSC8m,float,,centered moreau-broto autocorrelation of lag 8 weighted by mass
-ATSC0v,float,,centered moreau-broto autocorrelation of lag 0 weighted by vdw volume
-ATSC1v,float,,centered moreau-broto autocorrelation of lag 1 weighted by vdw volume
-ATSC2v,float,,centered moreau-broto autocorrelation of lag 2 weighted by vdw volume
-ATSC3v,float,,centered moreau-broto autocorrelation of lag 3 weighted by vdw volume
-ATSC4v,float,,centered moreau-broto autocorrelation of lag 4 weighted by vdw volume
-ATSC5v,float,,centered moreau-broto autocorrelation of lag 5 weighted by vdw volume
-ATSC6v,float,,centered moreau-broto autocorrelation of lag 6 weighted by vdw volume
-ATSC7v,float,,centered moreau-broto autocorrelation of lag 7 weighted by vdw volume
-ATSC8v,float,,centered moreau-broto autocorrelation of lag 8 weighted by vdw volume
-ATSC0se,float,,centered moreau-broto autocorrelation of lag 0 weighted by sanderson EN
-ATSC1se,float,,centered moreau-broto autocorrelation of lag 1 weighted by sanderson EN
-ATSC2se,float,,centered moreau-broto autocorrelation of lag 2 weighted by sanderson EN
-ATSC3se,float,,centered moreau-broto autocorrelation of lag 3 weighted by sanderson EN
-ATSC4se,float,,centered moreau-broto autocorrelation of lag 4 weighted by sanderson EN
-ATSC5se,float,,centered moreau-broto autocorrelation of lag 5 weighted by sanderson EN
-ATSC6se,float,,centered moreau-broto autocorrelation of lag 6 weighted by sanderson EN
-ATSC7se,float,,centered moreau-broto autocorrelation of lag 7 weighted by sanderson EN
-ATSC8se,float,,centered moreau-broto autocorrelation of lag 8 weighted by sanderson EN
-ATSC0pe,float,,centered moreau-broto autocorrelation of lag 0 weighted by pauling EN
-ATSC1pe,float,,centered moreau-broto autocorrelation of lag 1 weighted by pauling EN
-ATSC2pe,float,,centered moreau-broto autocorrelation of lag 2 weighted by pauling EN
-ATSC3pe,float,,centered moreau-broto autocorrelation of lag 3 weighted by pauling EN
-ATSC4pe,float,,centered moreau-broto autocorrelation of lag 4 weighted by pauling EN
-ATSC5pe,float,,centered moreau-broto autocorrelation of lag 5 weighted by pauling EN
-ATSC6pe,float,,centered moreau-broto autocorrelation of lag 6 weighted by pauling EN
-ATSC7pe,float,,centered moreau-broto autocorrelation of lag 7 weighted by pauling EN
-ATSC8pe,float,,centered moreau-broto autocorrelation of lag 8 weighted by pauling EN
-ATSC0are,float,,centered moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
-ATSC1are,float,,centered moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
-ATSC2are,float,,centered moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
-ATSC3are,float,,centered moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
-ATSC4are,float,,centered moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
-ATSC5are,float,,centered moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
-ATSC6are,float,,centered moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
-ATSC7are,float,,centered moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
-ATSC8are,float,,centered moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
-ATSC0p,float,,centered moreau-broto autocorrelation of lag 0 weighted by polarizability
-ATSC1p,float,,centered moreau-broto autocorrelation of lag 1 weighted by polarizability
-ATSC2p,float,,centered moreau-broto autocorrelation of lag 2 weighted by polarizability
-ATSC3p,float,,centered moreau-broto autocorrelation of lag 3 weighted by polarizability
-ATSC4p,float,,centered moreau-broto autocorrelation of lag 4 weighted by polarizability
-ATSC5p,float,,centered moreau-broto autocorrelation of lag 5 weighted by polarizability
-ATSC6p,float,,centered moreau-broto autocorrelation of lag 6 weighted by polarizability
-ATSC7p,float,,centered moreau-broto autocorrelation of lag 7 weighted by polarizability
-ATSC8p,float,,centered moreau-broto autocorrelation of lag 8 weighted by polarizability
-ATSC0i,float,,centered moreau-broto autocorrelation of lag 0 weighted by ionization potential
-ATSC1i,float,,centered moreau-broto autocorrelation of lag 1 weighted by ionization potential
-ATSC2i,float,,centered moreau-broto autocorrelation of lag 2 weighted by ionization potential
-ATSC3i,float,,centered moreau-broto autocorrelation of lag 3 weighted by ionization potential
-ATSC4i,float,,centered moreau-broto autocorrelation of lag 4 weighted by ionization potential
-ATSC5i,float,,centered moreau-broto autocorrelation of lag 5 weighted by ionization potential
-ATSC6i,float,,centered moreau-broto autocorrelation of lag 6 weighted by ionization potential
-ATSC7i,float,,centered moreau-broto autocorrelation of lag 7 weighted by ionization potential
-ATSC8i,float,,centered moreau-broto autocorrelation of lag 8 weighted by ionization potential
-AATSC0c,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by gasteiger charge
-AATSC1c,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by gasteiger charge
-AATSC2c,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by gasteiger charge
-AATSC3c,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by gasteiger charge
-AATSC4c,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by gasteiger charge
-AATSC5c,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by gasteiger charge
-AATSC6c,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by gasteiger charge
-AATSC7c,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by gasteiger charge
-AATSC8c,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by gasteiger charge
-AATSC0dv,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
-AATSC1dv,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
-AATSC2dv,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
-AATSC3dv,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
-AATSC4dv,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
-AATSC5dv,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
-AATSC6dv,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
-AATSC7dv,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
-AATSC8dv,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
-AATSC0d,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
-AATSC1d,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
-AATSC2d,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
-AATSC3d,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
-AATSC4d,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
-AATSC5d,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
-AATSC6d,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
-AATSC7d,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
-AATSC8d,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
-AATSC0s,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by intrinsic state
-AATSC1s,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by intrinsic state
-AATSC2s,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by intrinsic state
-AATSC3s,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by intrinsic state
-AATSC4s,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by intrinsic state
-AATSC5s,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by intrinsic state
-AATSC6s,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by intrinsic state
-AATSC7s,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by intrinsic state
-AATSC8s,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by intrinsic state
-AATSC0Z,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by atomic number
-AATSC1Z,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by atomic number
-AATSC2Z,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by atomic number
-AATSC3Z,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by atomic number
-AATSC4Z,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by atomic number
-AATSC5Z,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by atomic number
-AATSC6Z,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by atomic number
-AATSC7Z,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by atomic number
-AATSC8Z,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by atomic number
-AATSC0m,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by mass
-AATSC1m,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by mass
-AATSC2m,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by mass
-AATSC3m,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by mass
-AATSC4m,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by mass
-AATSC5m,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by mass
-AATSC6m,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by mass
-AATSC7m,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by mass
-AATSC8m,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by mass
-AATSC0v,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by vdw volume
-AATSC1v,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by vdw volume
-AATSC2v,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by vdw volume
-AATSC3v,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by vdw volume
-AATSC4v,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by vdw volume
-AATSC5v,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by vdw volume
-AATSC6v,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by vdw volume
-AATSC7v,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by vdw volume
-AATSC8v,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by vdw volume
-AATSC0se,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sanderson EN
-AATSC1se,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sanderson EN
-AATSC2se,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by sanderson EN
-AATSC3se,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by sanderson EN
-AATSC4se,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by sanderson EN
-AATSC5se,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by sanderson EN
-AATSC6se,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by sanderson EN
-AATSC7se,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by sanderson EN
-AATSC8se,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by sanderson EN
-AATSC0pe,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by pauling EN
-AATSC1pe,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by pauling EN
-AATSC2pe,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by pauling EN
-AATSC3pe,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by pauling EN
-AATSC4pe,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by pauling EN
-AATSC5pe,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by pauling EN
-AATSC6pe,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by pauling EN
-AATSC7pe,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by pauling EN
-AATSC8pe,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by pauling EN
-AATSC0are,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
-AATSC1are,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
-AATSC2are,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
-AATSC3are,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
-AATSC4are,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
-AATSC5are,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
-AATSC6are,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
-AATSC7are,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
-AATSC8are,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
-AATSC0p,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by polarizability
-AATSC1p,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by polarizability
-AATSC2p,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by polarizability
-AATSC3p,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by polarizability
-AATSC4p,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by polarizability
-AATSC5p,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by polarizability
-AATSC6p,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by polarizability
-AATSC7p,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by polarizability
-AATSC8p,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by polarizability
-AATSC0i,float,,averaged and centered moreau-broto autocorrelation of lag 0 weighted by ionization potential
-AATSC1i,float,,averaged and centered moreau-broto autocorrelation of lag 1 weighted by ionization potential
-AATSC2i,float,,averaged and centered moreau-broto autocorrelation of lag 2 weighted by ionization potential
-AATSC3i,float,,averaged and centered moreau-broto autocorrelation of lag 3 weighted by ionization potential
-AATSC4i,float,,averaged and centered moreau-broto autocorrelation of lag 4 weighted by ionization potential
-AATSC5i,float,,averaged and centered moreau-broto autocorrelation of lag 5 weighted by ionization potential
-AATSC6i,float,,averaged and centered moreau-broto autocorrelation of lag 6 weighted by ionization potential
-AATSC7i,float,,averaged and centered moreau-broto autocorrelation of lag 7 weighted by ionization potential
-AATSC8i,float,,averaged and centered moreau-broto autocorrelation of lag 8 weighted by ionization potential
-MATS1c,float,,moran coefficient of lag 1 weighted by gasteiger charge
-MATS2c,float,,moran coefficient of lag 2 weighted by gasteiger charge
-MATS3c,float,,moran coefficient of lag 3 weighted by gasteiger charge
-MATS4c,float,,moran coefficient of lag 4 weighted by gasteiger charge
-MATS5c,float,,moran coefficient of lag 5 weighted by gasteiger charge
-MATS6c,float,,moran coefficient of lag 6 weighted by gasteiger charge
-MATS7c,float,,moran coefficient of lag 7 weighted by gasteiger charge
-MATS8c,float,,moran coefficient of lag 8 weighted by gasteiger charge
-MATS1dv,float,,moran coefficient of lag 1 weighted by valence electrons
-MATS2dv,float,,moran coefficient of lag 2 weighted by valence electrons
-MATS3dv,float,,moran coefficient of lag 3 weighted by valence electrons
-MATS4dv,float,,moran coefficient of lag 4 weighted by valence electrons
-MATS5dv,float,,moran coefficient of lag 5 weighted by valence electrons
-MATS6dv,float,,moran coefficient of lag 6 weighted by valence electrons
-MATS7dv,float,,moran coefficient of lag 7 weighted by valence electrons
-MATS8dv,float,,moran coefficient of lag 8 weighted by valence electrons
-MATS1d,float,,moran coefficient of lag 1 weighted by sigma electrons
-MATS2d,float,,moran coefficient of lag 2 weighted by sigma electrons
-MATS3d,float,,moran coefficient of lag 3 weighted by sigma electrons
-MATS4d,float,,moran coefficient of lag 4 weighted by sigma electrons
-MATS5d,float,,moran coefficient of lag 5 weighted by sigma electrons
-MATS6d,float,,moran coefficient of lag 6 weighted by sigma electrons
-MATS7d,float,,moran coefficient of lag 7 weighted by sigma electrons
-MATS8d,float,,moran coefficient of lag 8 weighted by sigma electrons
-MATS1s,float,,moran coefficient of lag 1 weighted by intrinsic state
-MATS2s,float,,moran coefficient of lag 2 weighted by intrinsic state
-MATS3s,float,,moran coefficient of lag 3 weighted by intrinsic state
-MATS4s,float,,moran coefficient of lag 4 weighted by intrinsic state
-MATS5s,float,,moran coefficient of lag 5 weighted by intrinsic state
-MATS6s,float,,moran coefficient of lag 6 weighted by intrinsic state
-MATS7s,float,,moran coefficient of lag 7 weighted by intrinsic state
-MATS8s,float,,moran coefficient of lag 8 weighted by intrinsic state
-MATS1Z,float,,moran coefficient of lag 1 weighted by atomic number
-MATS2Z,float,,moran coefficient of lag 2 weighted by atomic number
-MATS3Z,float,,moran coefficient of lag 3 weighted by atomic number
-MATS4Z,float,,moran coefficient of lag 4 weighted by atomic number
-MATS5Z,float,,moran coefficient of lag 5 weighted by atomic number
-MATS6Z,float,,moran coefficient of lag 6 weighted by atomic number
-MATS7Z,float,,moran coefficient of lag 7 weighted by atomic number
-MATS8Z,float,,moran coefficient of lag 8 weighted by atomic number
-MATS1m,float,,moran coefficient of lag 1 weighted by mass
-MATS2m,float,,moran coefficient of lag 2 weighted by mass
-MATS3m,float,,moran coefficient of lag 3 weighted by mass
-MATS4m,float,,moran coefficient of lag 4 weighted by mass
-MATS5m,float,,moran coefficient of lag 5 weighted by mass
-MATS6m,float,,moran coefficient of lag 6 weighted by mass
-MATS7m,float,,moran coefficient of lag 7 weighted by mass
-MATS8m,float,,moran coefficient of lag 8 weighted by mass
-MATS1v,float,,moran coefficient of lag 1 weighted by vdw volume
-MATS2v,float,,moran coefficient of lag 2 weighted by vdw volume
-MATS3v,float,,moran coefficient of lag 3 weighted by vdw volume
-MATS4v,float,,moran coefficient of lag 4 weighted by vdw volume
-MATS5v,float,,moran coefficient of lag 5 weighted by vdw volume
-MATS6v,float,,moran coefficient of lag 6 weighted by vdw volume
-MATS7v,float,,moran coefficient of lag 7 weighted by vdw volume
-MATS8v,float,,moran coefficient of lag 8 weighted by vdw volume
-MATS1se,float,,moran coefficient of lag 1 weighted by sanderson EN
-MATS2se,float,,moran coefficient of lag 2 weighted by sanderson EN
-MATS3se,float,,moran coefficient of lag 3 weighted by sanderson EN
-MATS4se,float,,moran coefficient of lag 4 weighted by sanderson EN
-MATS5se,float,,moran coefficient of lag 5 weighted by sanderson EN
-MATS6se,float,,moran coefficient of lag 6 weighted by sanderson EN
-MATS7se,float,,moran coefficient of lag 7 weighted by sanderson EN
-MATS8se,float,,moran coefficient of lag 8 weighted by sanderson EN
-MATS1pe,float,,moran coefficient of lag 1 weighted by pauling EN
-MATS2pe,float,,moran coefficient of lag 2 weighted by pauling EN
-MATS3pe,float,,moran coefficient of lag 3 weighted by pauling EN
-MATS4pe,float,,moran coefficient of lag 4 weighted by pauling EN
-MATS5pe,float,,moran coefficient of lag 5 weighted by pauling EN
-MATS6pe,float,,moran coefficient of lag 6 weighted by pauling EN
-MATS7pe,float,,moran coefficient of lag 7 weighted by pauling EN
-MATS8pe,float,,moran coefficient of lag 8 weighted by pauling EN
-MATS1are,float,,moran coefficient of lag 1 weighted by allred-rocow EN
-MATS2are,float,,moran coefficient of lag 2 weighted by allred-rocow EN
-MATS3are,float,,moran coefficient of lag 3 weighted by allred-rocow EN
-MATS4are,float,,moran coefficient of lag 4 weighted by allred-rocow EN
-MATS5are,float,,moran coefficient of lag 5 weighted by allred-rocow EN
-MATS6are,float,,moran coefficient of lag 6 weighted by allred-rocow EN
-MATS7are,float,,moran coefficient of lag 7 weighted by allred-rocow EN
-MATS8are,float,,moran coefficient of lag 8 weighted by allred-rocow EN
-MATS1p,float,,moran coefficient of lag 1 weighted by polarizability
-MATS2p,float,,moran coefficient of lag 2 weighted by polarizability
-MATS3p,float,,moran coefficient of lag 3 weighted by polarizability
-MATS4p,float,,moran coefficient of lag 4 weighted by polarizability
-MATS5p,float,,moran coefficient of lag 5 weighted by polarizability
-MATS6p,float,,moran coefficient of lag 6 weighted by polarizability
-MATS7p,float,,moran coefficient of lag 7 weighted by polarizability
-MATS8p,float,,moran coefficient of lag 8 weighted by polarizability
-MATS1i,float,,moran coefficient of lag 1 weighted by ionization potential
-MATS2i,float,,moran coefficient of lag 2 weighted by ionization potential
-MATS3i,float,,moran coefficient of lag 3 weighted by ionization potential
-MATS4i,float,,moran coefficient of lag 4 weighted by ionization potential
-MATS5i,float,,moran coefficient of lag 5 weighted by ionization potential
-MATS6i,float,,moran coefficient of lag 6 weighted by ionization potential
-MATS7i,float,,moran coefficient of lag 7 weighted by ionization potential
-MATS8i,float,,moran coefficient of lag 8 weighted by ionization potential
-GATS1c,float,,geary coefficient of lag 1 weighted by gasteiger charge
-GATS2c,float,,geary coefficient of lag 2 weighted by gasteiger charge
-GATS3c,float,,geary coefficient of lag 3 weighted by gasteiger charge
-GATS4c,float,,geary coefficient of lag 4 weighted by gasteiger charge
-GATS5c,float,,geary coefficient of lag 5 weighted by gasteiger charge
-GATS6c,float,,geary coefficient of lag 6 weighted by gasteiger charge
-GATS7c,float,,geary coefficient of lag 7 weighted by gasteiger charge
-GATS8c,float,,geary coefficient of lag 8 weighted by gasteiger charge
-GATS1dv,float,,geary coefficient of lag 1 weighted by valence electrons
-GATS2dv,float,,geary coefficient of lag 2 weighted by valence electrons
-GATS3dv,float,,geary coefficient of lag 3 weighted by valence electrons
-GATS4dv,float,,geary coefficient of lag 4 weighted by valence electrons
-GATS5dv,float,,geary coefficient of lag 5 weighted by valence electrons
-GATS6dv,float,,geary coefficient of lag 6 weighted by valence electrons
-GATS7dv,float,,geary coefficient of lag 7 weighted by valence electrons
-GATS8dv,float,,geary coefficient of lag 8 weighted by valence electrons
-GATS1d,float,,geary coefficient of lag 1 weighted by sigma electrons
-GATS2d,float,,geary coefficient of lag 2 weighted by sigma electrons
-GATS3d,float,,geary coefficient of lag 3 weighted by sigma electrons
-GATS4d,float,,geary coefficient of lag 4 weighted by sigma electrons
-GATS5d,float,,geary coefficient of lag 5 weighted by sigma electrons
-GATS6d,float,,geary coefficient of lag 6 weighted by sigma electrons
-GATS7d,float,,geary coefficient of lag 7 weighted by sigma electrons
-GATS8d,float,,geary coefficient of lag 8 weighted by sigma electrons
-GATS1s,float,,geary coefficient of lag 1 weighted by intrinsic state
-GATS2s,float,,geary coefficient of lag 2 weighted by intrinsic state
-GATS3s,float,,geary coefficient of lag 3 weighted by intrinsic state
-GATS4s,float,,geary coefficient of lag 4 weighted by intrinsic state
-GATS5s,float,,geary coefficient of lag 5 weighted by intrinsic state
-GATS6s,float,,geary coefficient of lag 6 weighted by intrinsic state
-GATS7s,float,,geary coefficient of lag 7 weighted by intrinsic state
-GATS8s,float,,geary coefficient of lag 8 weighted by intrinsic state
-GATS1Z,float,,geary coefficient of lag 1 weighted by atomic number
-GATS2Z,float,,geary coefficient of lag 2 weighted by atomic number
-GATS3Z,float,,geary coefficient of lag 3 weighted by atomic number
-GATS4Z,float,,geary coefficient of lag 4 weighted by atomic number
-GATS5Z,float,,geary coefficient of lag 5 weighted by atomic number
-GATS6Z,float,,geary coefficient of lag 6 weighted by atomic number
-GATS7Z,float,,geary coefficient of lag 7 weighted by atomic number
-GATS8Z,float,,geary coefficient of lag 8 weighted by atomic number
-GATS1m,float,,geary coefficient of lag 1 weighted by mass
-GATS2m,float,,geary coefficient of lag 2 weighted by mass
-GATS3m,float,,geary coefficient of lag 3 weighted by mass
-GATS4m,float,,geary coefficient of lag 4 weighted by mass
-GATS5m,float,,geary coefficient of lag 5 weighted by mass
-GATS6m,float,,geary coefficient of lag 6 weighted by mass
-GATS7m,float,,geary coefficient of lag 7 weighted by mass
-GATS8m,float,,geary coefficient of lag 8 weighted by mass
-GATS1v,float,,geary coefficient of lag 1 weighted by vdw volume
-GATS2v,float,,geary coefficient of lag 2 weighted by vdw volume
-GATS3v,float,,geary coefficient of lag 3 weighted by vdw volume
-GATS4v,float,,geary coefficient of lag 4 weighted by vdw volume
-GATS5v,float,,geary coefficient of lag 5 weighted by vdw volume
-GATS6v,float,,geary coefficient of lag 6 weighted by vdw volume
-GATS7v,float,,geary coefficient of lag 7 weighted by vdw volume
-GATS8v,float,,geary coefficient of lag 8 weighted by vdw volume
-GATS1se,float,,geary coefficient of lag 1 weighted by sanderson EN
-GATS2se,float,,geary coefficient of lag 2 weighted by sanderson EN
-GATS3se,float,,geary coefficient of lag 3 weighted by sanderson EN
-GATS4se,float,,geary coefficient of lag 4 weighted by sanderson EN
-GATS5se,float,,geary coefficient of lag 5 weighted by sanderson EN
-GATS6se,float,,geary coefficient of lag 6 weighted by sanderson EN
-GATS7se,float,,geary coefficient of lag 7 weighted by sanderson EN
-GATS8se,float,,geary coefficient of lag 8 weighted by sanderson EN
-GATS1pe,float,,geary coefficient of lag 1 weighted by pauling EN
-GATS2pe,float,,geary coefficient of lag 2 weighted by pauling EN
-GATS3pe,float,,geary coefficient of lag 3 weighted by pauling EN
-GATS4pe,float,,geary coefficient of lag 4 weighted by pauling EN
-GATS5pe,float,,geary coefficient of lag 5 weighted by pauling EN
-GATS6pe,float,,geary coefficient of lag 6 weighted by pauling EN
-GATS7pe,float,,geary coefficient of lag 7 weighted by pauling EN
-GATS8pe,float,,geary coefficient of lag 8 weighted by pauling EN
-GATS1are,float,,geary coefficient of lag 1 weighted by allred-rocow EN
-GATS2are,float,,geary coefficient of lag 2 weighted by allred-rocow EN
-GATS3are,float,,geary coefficient of lag 3 weighted by allred-rocow EN
-GATS4are,float,,geary coefficient of lag 4 weighted by allred-rocow EN
-GATS5are,float,,geary coefficient of lag 5 weighted by allred-rocow EN
-GATS6are,float,,geary coefficient of lag 6 weighted by allred-rocow EN
-GATS7are,float,,geary coefficient of lag 7 weighted by allred-rocow EN
-GATS8are,float,,geary coefficient of lag 8 weighted by allred-rocow EN
-GATS1p,float,,geary coefficient of lag 1 weighted by polarizability
-GATS2p,float,,geary coefficient of lag 2 weighted by polarizability
-GATS3p,float,,geary coefficient of lag 3 weighted by polarizability
-GATS4p,float,,geary coefficient of lag 4 weighted by polarizability
-GATS5p,float,,geary coefficient of lag 5 weighted by polarizability
-GATS6p,float,,geary coefficient of lag 6 weighted by polarizability
-GATS7p,float,,geary coefficient of lag 7 weighted by polarizability
-GATS8p,float,,geary coefficient of lag 8 weighted by polarizability
-GATS1i,float,,geary coefficient of lag 1 weighted by ionization potential
-GATS2i,float,,geary coefficient of lag 2 weighted by ionization potential
-GATS3i,float,,geary coefficient of lag 3 weighted by ionization potential
-GATS4i,float,,geary coefficient of lag 4 weighted by ionization potential
-GATS5i,float,,geary coefficient of lag 5 weighted by ionization potential
-GATS6i,float,,geary coefficient of lag 6 weighted by ionization potential
-GATS7i,float,,geary coefficient of lag 7 weighted by ionization potential
-GATS8i,float,,geary coefficient of lag 8 weighted by ionization potential
-BalabanJ,float,,Balaban's J index
-SpAbs_DzZ,float,,graph energy from Barysz matrix weighted by atomic number
-SpMax_DzZ,float,,leading eigenvalue from Barysz matrix weighted by atomic number
-SpDiam_DzZ,float,,spectral diamiter from Barysz matrix weighted by atomic number
-SpAD_DzZ,float,,spectral absolute diviation from Barysz matrix weighted by atomic number
-SpMAD_DzZ,float,,spectral mean absolute diviation from Barysz matrix weighted by atomic number
-LogEE_DzZ,float,,Estrada-like index from Barysz matrix weighted by atomic number
-SM1_DzZ,float,,spectral moment from Barysz matrix weighted by atomic number
-VE1_DzZ,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by atomic number
-VE2_DzZ,float,,average coefficient of the last eigenvector from Barysz matrix weighted by atomic number
-VE3_DzZ,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by atomic number
-VR1_DzZ,float,,Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
-VR2_DzZ,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
-VR3_DzZ,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
-SpAbs_Dzm,float,,graph energy from Barysz matrix weighted by mass
-SpMax_Dzm,float,,leading eigenvalue from Barysz matrix weighted by mass
-SpDiam_Dzm,float,,spectral diamiter from Barysz matrix weighted by mass
-SpAD_Dzm,float,,spectral absolute diviation from Barysz matrix weighted by mass
-SpMAD_Dzm,float,,spectral mean absolute diviation from Barysz matrix weighted by mass
-LogEE_Dzm,float,,Estrada-like index from Barysz matrix weighted by mass
-SM1_Dzm,float,,spectral moment from Barysz matrix weighted by mass
-VE1_Dzm,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by mass
-VE2_Dzm,float,,average coefficient of the last eigenvector from Barysz matrix weighted by mass
-VE3_Dzm,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by mass
-VR1_Dzm,float,,Randic-like eigenvector-based index from Barysz matrix weighted by mass
-VR2_Dzm,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by mass
-VR3_Dzm,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by mass
-SpAbs_Dzv,float,,graph energy from Barysz matrix weighted by vdw volume
-SpMax_Dzv,float,,leading eigenvalue from Barysz matrix weighted by vdw volume
-SpDiam_Dzv,float,,spectral diamiter from Barysz matrix weighted by vdw volume
-SpAD_Dzv,float,,spectral absolute diviation from Barysz matrix weighted by vdw volume
-SpMAD_Dzv,float,,spectral mean absolute diviation from Barysz matrix weighted by vdw volume
-LogEE_Dzv,float,,Estrada-like index from Barysz matrix weighted by vdw volume
-SM1_Dzv,float,,spectral moment from Barysz matrix weighted by vdw volume
-VE1_Dzv,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by vdw volume
-VE2_Dzv,float,,average coefficient of the last eigenvector from Barysz matrix weighted by vdw volume
-VE3_Dzv,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by vdw volume
-VR1_Dzv,float,,Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
-VR2_Dzv,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
-VR3_Dzv,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
-SpAbs_Dzse,float,,graph energy from Barysz matrix weighted by sanderson EN
-SpMax_Dzse,float,,leading eigenvalue from Barysz matrix weighted by sanderson EN
-SpDiam_Dzse,float,,spectral diamiter from Barysz matrix weighted by sanderson EN
-SpAD_Dzse,float,,spectral absolute diviation from Barysz matrix weighted by sanderson EN
-SpMAD_Dzse,float,,spectral mean absolute diviation from Barysz matrix weighted by sanderson EN
-LogEE_Dzse,float,,Estrada-like index from Barysz matrix weighted by sanderson EN
-SM1_Dzse,float,,spectral moment from Barysz matrix weighted by sanderson EN
-VE1_Dzse,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by sanderson EN
-VE2_Dzse,float,,average coefficient of the last eigenvector from Barysz matrix weighted by sanderson EN
-VE3_Dzse,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by sanderson EN
-VR1_Dzse,float,,Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
-VR2_Dzse,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
-VR3_Dzse,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
-SpAbs_Dzpe,float,,graph energy from Barysz matrix weighted by pauling EN
-SpMax_Dzpe,float,,leading eigenvalue from Barysz matrix weighted by pauling EN
-SpDiam_Dzpe,float,,spectral diamiter from Barysz matrix weighted by pauling EN
-SpAD_Dzpe,float,,spectral absolute diviation from Barysz matrix weighted by pauling EN
-SpMAD_Dzpe,float,,spectral mean absolute diviation from Barysz matrix weighted by pauling EN
-LogEE_Dzpe,float,,Estrada-like index from Barysz matrix weighted by pauling EN
-SM1_Dzpe,float,,spectral moment from Barysz matrix weighted by pauling EN
-VE1_Dzpe,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by pauling EN
-VE2_Dzpe,float,,average coefficient of the last eigenvector from Barysz matrix weighted by pauling EN
-VE3_Dzpe,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by pauling EN
-VR1_Dzpe,float,,Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
-VR2_Dzpe,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
-VR3_Dzpe,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
-SpAbs_Dzare,float,,graph energy from Barysz matrix weighted by allred-rocow EN
-SpMax_Dzare,float,,leading eigenvalue from Barysz matrix weighted by allred-rocow EN
-SpDiam_Dzare,float,,spectral diamiter from Barysz matrix weighted by allred-rocow EN
-SpAD_Dzare,float,,spectral absolute diviation from Barysz matrix weighted by allred-rocow EN
-SpMAD_Dzare,float,,spectral mean absolute diviation from Barysz matrix weighted by allred-rocow EN
-LogEE_Dzare,float,,Estrada-like index from Barysz matrix weighted by allred-rocow EN
-SM1_Dzare,float,,spectral moment from Barysz matrix weighted by allred-rocow EN
-VE1_Dzare,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by allred-rocow EN
-VE2_Dzare,float,,average coefficient of the last eigenvector from Barysz matrix weighted by allred-rocow EN
-VE3_Dzare,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by allred-rocow EN
-VR1_Dzare,float,,Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
-VR2_Dzare,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
-VR3_Dzare,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
-SpAbs_Dzp,float,,graph energy from Barysz matrix weighted by polarizability
-SpMax_Dzp,float,,leading eigenvalue from Barysz matrix weighted by polarizability
-SpDiam_Dzp,float,,spectral diamiter from Barysz matrix weighted by polarizability
-SpAD_Dzp,float,,spectral absolute diviation from Barysz matrix weighted by polarizability
-SpMAD_Dzp,float,,spectral mean absolute diviation from Barysz matrix weighted by polarizability
-LogEE_Dzp,float,,Estrada-like index from Barysz matrix weighted by polarizability
-SM1_Dzp,float,,spectral moment from Barysz matrix weighted by polarizability
-VE1_Dzp,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by polarizability
-VE2_Dzp,float,,average coefficient of the last eigenvector from Barysz matrix weighted by polarizability
-VE3_Dzp,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by polarizability
-VR1_Dzp,float,,Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
-VR2_Dzp,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
-VR3_Dzp,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
-SpAbs_Dzi,float,,graph energy from Barysz matrix weighted by ionization potential
-SpMax_Dzi,float,,leading eigenvalue from Barysz matrix weighted by ionization potential
-SpDiam_Dzi,float,,spectral diamiter from Barysz matrix weighted by ionization potential
-SpAD_Dzi,float,,spectral absolute diviation from Barysz matrix weighted by ionization potential
-SpMAD_Dzi,float,,spectral mean absolute diviation from Barysz matrix weighted by ionization potential
-LogEE_Dzi,float,,Estrada-like index from Barysz matrix weighted by ionization potential
-SM1_Dzi,float,,spectral moment from Barysz matrix weighted by ionization potential
-VE1_Dzi,float,,coefficient sum of the last eigenvector from Barysz matrix weighted by ionization potential
-VE2_Dzi,float,,average coefficient of the last eigenvector from Barysz matrix weighted by ionization potential
-VE3_Dzi,float,,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by ionization potential
-VR1_Dzi,float,,Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
-VR2_Dzi,float,,normalized Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
-VR3_Dzi,float,,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
-BCUTc-1h,float,,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
-BCUTc-1l,float,,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
-BCUTdv-1h,float,,first heighest eigenvalue of Burden matrix weighted by valence electrons
-BCUTdv-1l,float,,first lowest eigenvalue of Burden matrix weighted by valence electrons
-BCUTd-1h,float,,first heighest eigenvalue of Burden matrix weighted by sigma electrons
-BCUTd-1l,float,,first lowest eigenvalue of Burden matrix weighted by sigma electrons
-BCUTs-1h,float,,first heighest eigenvalue of Burden matrix weighted by intrinsic state
-BCUTs-1l,float,,first lowest eigenvalue of Burden matrix weighted by intrinsic state
-BCUTZ-1h,float,,first heighest eigenvalue of Burden matrix weighted by atomic number
-BCUTZ-1l,float,,first lowest eigenvalue of Burden matrix weighted by atomic number
-BCUTm-1h,float,,first heighest eigenvalue of Burden matrix weighted by mass
-BCUTm-1l,float,,first lowest eigenvalue of Burden matrix weighted by mass
-BCUTv-1h,float,,first heighest eigenvalue of Burden matrix weighted by vdw volume
-BCUTv-1l,float,,first lowest eigenvalue of Burden matrix weighted by vdw volume
-BCUTse-1h,float,,first heighest eigenvalue of Burden matrix weighted by sanderson EN
-BCUTse-1l,float,,first lowest eigenvalue of Burden matrix weighted by sanderson EN
-BCUTpe-1h,float,,first heighest eigenvalue of Burden matrix weighted by pauling EN
-BCUTpe-1l,float,,first lowest eigenvalue of Burden matrix weighted by pauling EN
-BCUTare-1h,float,,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
-BCUTare-1l,float,,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
-BCUTp-1h,float,,first heighest eigenvalue of Burden matrix weighted by polarizability
-BCUTp-1l,float,,first lowest eigenvalue of Burden matrix weighted by polarizability
-BCUTi-1h,float,,first heighest eigenvalue of Burden matrix weighted by ionization potential
-BCUTi-1l,float,,first lowest eigenvalue of Burden matrix weighted by ionization potential
-BertzCT,float,,Bertz CT
-nBonds,float,,number of all bonds in non-kekulized structure
-nBondsO,float,,number of bonds connecting to heavy atom in non-kekulized structure
-nBondsS,float,,number of single bonds in non-kekulized structure
-nBondsD,float,,number of double bonds in non-kekulized structure
-nBondsT,float,,number of triple bonds in non-kekulized structure
-nBondsA,float,,number of aromatic bonds in non-kekulized structure
-nBondsM,float,,number of multiple bonds in non-kekulized structure
-nBondsKS,float,,number of single bonds in kekulized structure
-nBondsKD,float,,number of double bonds in kekulized structure
-C1SP1,float,,SP carbon bound to 1 other carbon
-C2SP1,float,,SP carbon bound to 2 other carbons
-C1SP2,float,,SP2 carbon bound to 1 other carbon
-C2SP2,float,,SP2 carbon bound to 2 other carbons
-C3SP2,float,,SP2 carbon bound to 3 other carbons
-C1SP3,float,,SP3 carbon bound to 1 other carbon
-C2SP3,float,,SP3 carbon bound to 2 other carbons
-C3SP3,float,,SP3 carbon bound to 3 other carbons
-C4SP3,float,,SP3 carbon bound to 4 other carbons
-HybRatio,float,,hybridization ratio
-Xch-3d,float,,3-ordered Chi chain weighted by sigma electrons
-Xch-4d,float,,4-ordered Chi chain weighted by sigma electrons
-Xch-5d,float,,5-ordered Chi chain weighted by sigma electrons
-Xch-6d,float,,6-ordered Chi chain weighted by sigma electrons
-Xch-7d,float,,7-ordered Chi chain weighted by sigma electrons
-Xch-3dv,float,,3-ordered Chi chain weighted by valence electrons
-Xch-4dv,float,,4-ordered Chi chain weighted by valence electrons
-Xch-5dv,float,,5-ordered Chi chain weighted by valence electrons
-Xch-6dv,float,,6-ordered Chi chain weighted by valence electrons
-Xch-7dv,float,,7-ordered Chi chain weighted by valence electrons
-Xc-3d,float,,3-ordered Chi cluster weighted by sigma electrons
-Xc-4d,float,,4-ordered Chi cluster weighted by sigma electrons
-Xc-5d,float,,5-ordered Chi cluster weighted by sigma electrons
-Xc-6d,float,,6-ordered Chi cluster weighted by sigma electrons
-Xc-3dv,float,,3-ordered Chi cluster weighted by valence electrons
-Xc-4dv,float,,4-ordered Chi cluster weighted by valence electrons
-Xc-5dv,float,,5-ordered Chi cluster weighted by valence electrons
-Xc-6dv,float,,6-ordered Chi cluster weighted by valence electrons
-Xpc-4d,float,,4-ordered Chi path-cluster weighted by sigma electrons
-Xpc-5d,float,,5-ordered Chi path-cluster weighted by sigma electrons
-Xpc-6d,float,,6-ordered Chi path-cluster weighted by sigma electrons
-Xpc-4dv,float,,4-ordered Chi path-cluster weighted by valence electrons
-Xpc-5dv,float,,5-ordered Chi path-cluster weighted by valence electrons
-Xpc-6dv,float,,6-ordered Chi path-cluster weighted by valence electrons
-Xp-0d,float,,0-ordered Chi path weighted by sigma electrons
-Xp-1d,float,,1-ordered Chi path weighted by sigma electrons
-Xp-2d,float,,2-ordered Chi path weighted by sigma electrons
-Xp-3d,float,,3-ordered Chi path weighted by sigma electrons
-Xp-4d,float,,4-ordered Chi path weighted by sigma electrons
-Xp-5d,float,,5-ordered Chi path weighted by sigma electrons
-Xp-6d,float,,6-ordered Chi path weighted by sigma electrons
-Xp-7d,float,,7-ordered Chi path weighted by sigma electrons
-AXp-0d,float,,0-ordered averaged Chi path weighted by sigma electrons
-AXp-1d,float,,1-ordered averaged Chi path weighted by sigma electrons
-AXp-2d,float,,2-ordered averaged Chi path weighted by sigma electrons
-AXp-3d,float,,3-ordered averaged Chi path weighted by sigma electrons
-AXp-4d,float,,4-ordered averaged Chi path weighted by sigma electrons
-AXp-5d,float,,5-ordered averaged Chi path weighted by sigma electrons
-AXp-6d,float,,6-ordered averaged Chi path weighted by sigma electrons
-AXp-7d,float,,7-ordered averaged Chi path weighted by sigma electrons
-Xp-0dv,float,,0-ordered Chi path weighted by valence electrons
-Xp-1dv,float,,1-ordered Chi path weighted by valence electrons
-Xp-2dv,float,,2-ordered Chi path weighted by valence electrons
-Xp-3dv,float,,3-ordered Chi path weighted by valence electrons
-Xp-4dv,float,,4-ordered Chi path weighted by valence electrons
-Xp-5dv,float,,5-ordered Chi path weighted by valence electrons
-Xp-6dv,float,,6-ordered Chi path weighted by valence electrons
-Xp-7dv,float,,7-ordered Chi path weighted by valence electrons
-AXp-0dv,float,,0-ordered averaged Chi path weighted by valence electrons
-AXp-1dv,float,,1-ordered averaged Chi path weighted by valence electrons
-AXp-2dv,float,,2-ordered averaged Chi path weighted by valence electrons
-AXp-3dv,float,,3-ordered averaged Chi path weighted by valence electrons
-AXp-4dv,float,,4-ordered averaged Chi path weighted by valence electrons
-AXp-5dv,float,,5-ordered averaged Chi path weighted by valence electrons
-AXp-6dv,float,,6-ordered averaged Chi path weighted by valence electrons
-AXp-7dv,float,,7-ordered averaged Chi path weighted by valence electrons
-SZ,float,,sum of constitutional weighted by atomic number
-Sm,float,,sum of constitutional weighted by mass
-Sv,float,,sum of constitutional weighted by vdw volume
-Sse,float,,sum of constitutional weighted by sanderson EN
-Spe,float,,sum of constitutional weighted by pauling EN
-Sare,float,,sum of constitutional weighted by allred-rocow EN
-Sp,float,,sum of constitutional weighted by polarizability
-Si,float,,sum of constitutional weighted by ionization potential
-MZ,float,,mean of constitutional weighted by atomic number
-Mm,float,,mean of constitutional weighted by mass
-Mv,float,,mean of constitutional weighted by vdw volume
-Mse,float,,mean of constitutional weighted by sanderson EN
-Mpe,float,,mean of constitutional weighted by pauling EN
-Mare,float,,mean of constitutional weighted by allred-rocow EN
-Mp,float,,mean of constitutional weighted by polarizability
-Mi,float,,mean of constitutional weighted by ionization potential
-RNCG,float,,relative negative charge
-RPCG,float,,relative positive charge
-SpAbs_Dt,float,,graph energy from detourn matrix
-SpMax_Dt,float,,leading eigenvalue from detourn matrix
-SpDiam_Dt,float,,spectral diamiter from detourn matrix
-SpAD_Dt,float,,spectral absolute diviation from detourn matrix
-SpMAD_Dt,float,,spectral mean absolute diviation from detourn matrix
-LogEE_Dt,float,,Estrada-like index from detourn matrix
-SM1_Dt,float,,spectral moment from detourn matrix
-VE1_Dt,float,,coefficient sum of the last eigenvector from detourn matrix
-VE2_Dt,float,,average coefficient of the last eigenvector from detourn matrix
-VE3_Dt,float,,logarithmic coefficient sum of the last eigenvector from detourn matrix
-VR1_Dt,float,,Randic-like eigenvector-based index from detourn matrix
-VR2_Dt,float,,normalized Randic-like eigenvector-based index from detourn matrix
-VR3_Dt,float,,logarithmic Randic-like eigenvector-based index from detourn matrix
-DetourIndex,float,,detour index
-SpAbs_D,float,,graph energy from distance matrix
-SpMax_D,float,,leading eigenvalue from distance matrix
-SpDiam_D,float,,spectral diamiter from distance matrix
-SpAD_D,float,,spectral absolute diviation from distance matrix
-SpMAD_D,float,,spectral mean absolute diviation from distance matrix
-LogEE_D,float,,Estrada-like index from distance matrix
-VE1_D,float,,coefficient sum of the last eigenvector from distance matrix
-VE2_D,float,,average coefficient of the last eigenvector from distance matrix
-VE3_D,float,,logarithmic coefficient sum of the last eigenvector from distance matrix
-VR1_D,float,,Randic-like eigenvector-based index from distance matrix
-VR2_D,float,,normalized Randic-like eigenvector-based index from distance matrix
-VR3_D,float,,logarithmic Randic-like eigenvector-based index from distance matrix
-ECIndex,float,,eccentric connectivity index
-NsLi,float,,number of sLi
-NssBe,float,,number of ssBe
-NssssBe,float,,number of ssssBe
-NssBH,float,,number of ssBH
-NsssB,float,,number of sssB
-NssssB,float,,number of ssssB
-NsCH3,float,,number of sCH3
-NdCH2,float,,number of dCH2
-NssCH2,float,,number of ssCH2
-NtCH,float,,number of tCH
-NdsCH,float,,number of dsCH
-NaaCH,float,,number of aaCH
-NsssCH,float,,number of sssCH
-NddC,float,,number of ddC
-NtsC,float,,number of tsC
-NdssC,float,,number of dssC
-NaasC,float,,number of aasC
-NaaaC,float,,number of aaaC
-NssssC,float,,number of ssssC
-NsNH3,float,,number of sNH3
-NsNH2,float,,number of sNH2
-NssNH2,float,,number of ssNH2
-NdNH,float,,number of dNH
-NssNH,float,,number of ssNH
-NaaNH,float,,number of aaNH
-NtN,float,,number of tN
-NsssNH,float,,number of sssNH
-NdsN,float,,number of dsN
-NaaN,float,,number of aaN
-NsssN,float,,number of sssN
-NddsN,float,,number of ddsN
-NaasN,float,,number of aasN
-NssssN,float,,number of ssssN
-NsOH,float,,number of sOH
-NdO,float,,number of dO
-NssO,float,,number of ssO
-NaaO,float,,number of aaO
-NsF,float,,number of sF
-NsSiH3,float,,number of sSiH3
-NssSiH2,float,,number of ssSiH2
-NsssSiH,float,,number of sssSiH
-NssssSi,float,,number of ssssSi
-NsPH2,float,,number of sPH2
-NssPH,float,,number of ssPH
-NsssP,float,,number of sssP
-NdsssP,float,,number of dsssP
-NsssssP,float,,number of sssssP
-NsSH,float,,number of sSH
-NdS,float,,number of dS
-NssS,float,,number of ssS
-NaaS,float,,number of aaS
-NdssS,float,,number of dssS
-NddssS,float,,number of ddssS
-NsCl,float,,number of sCl
-NsGeH3,float,,number of sGeH3
-NssGeH2,float,,number of ssGeH2
-NsssGeH,float,,number of sssGeH
-NssssGe,float,,number of ssssGe
-NsAsH2,float,,number of sAsH2
-NssAsH,float,,number of ssAsH
-NsssAs,float,,number of sssAs
-NsssdAs,float,,number of sssdAs
-NsssssAs,float,,number of sssssAs
-NsSeH,float,,number of sSeH
-NdSe,float,,number of dSe
-NssSe,float,,number of ssSe
-NaaSe,float,,number of aaSe
-NdssSe,float,,number of dssSe
-NddssSe,float,,number of ddssSe
-NsBr,float,,number of sBr
-NsSnH3,float,,number of sSnH3
-NssSnH2,float,,number of ssSnH2
-NsssSnH,float,,number of sssSnH
-NssssSn,float,,number of ssssSn
-NsI,float,,number of sI
-NsPbH3,float,,number of sPbH3
-NssPbH2,float,,number of ssPbH2
-NsssPbH,float,,number of sssPbH
-NssssPb,float,,number of ssssPb
-SsLi,float,,sum of sLi
-SssBe,float,,sum of ssBe
-SssssBe,float,,sum of ssssBe
-SssBH,float,,sum of ssBH
-SsssB,float,,sum of sssB
-SssssB,float,,sum of ssssB
-SsCH3,float,,sum of sCH3
-SdCH2,float,,sum of dCH2
-SssCH2,float,,sum of ssCH2
-StCH,float,,sum of tCH
-SdsCH,float,,sum of dsCH
-SaaCH,float,,sum of aaCH
-SsssCH,float,,sum of sssCH
-SddC,float,,sum of ddC
-StsC,float,,sum of tsC
-SdssC,float,,sum of dssC
-SaasC,float,,sum of aasC
-SaaaC,float,,sum of aaaC
-SssssC,float,,sum of ssssC
-SsNH3,float,,sum of sNH3
-SsNH2,float,,sum of sNH2
-SssNH2,float,,sum of ssNH2
-SdNH,float,,sum of dNH
-SssNH,float,,sum of ssNH
-SaaNH,float,,sum of aaNH
-StN,float,,sum of tN
-SsssNH,float,,sum of sssNH
-SdsN,float,,sum of dsN
-SaaN,float,,sum of aaN
-SsssN,float,,sum of sssN
-SddsN,float,,sum of ddsN
-SaasN,float,,sum of aasN
-SssssN,float,,sum of ssssN
-SsOH,float,,sum of sOH
-SdO,float,,sum of dO
-SssO,float,,sum of ssO
-SaaO,float,,sum of aaO
-SsF,float,,sum of sF
-SsSiH3,float,,sum of sSiH3
-SssSiH2,float,,sum of ssSiH2
-SsssSiH,float,,sum of sssSiH
-SssssSi,float,,sum of ssssSi
-SsPH2,float,,sum of sPH2
-SssPH,float,,sum of ssPH
-SsssP,float,,sum of sssP
-SdsssP,float,,sum of dsssP
-SsssssP,float,,sum of sssssP
-SsSH,float,,sum of sSH
-SdS,float,,sum of dS
-SssS,float,,sum of ssS
-SaaS,float,,sum of aaS
-SdssS,float,,sum of dssS
-SddssS,float,,sum of ddssS
-SsCl,float,,sum of sCl
-SsGeH3,float,,sum of sGeH3
-SssGeH2,float,,sum of ssGeH2
-SsssGeH,float,,sum of sssGeH
-SssssGe,float,,sum of ssssGe
-SsAsH2,float,,sum of sAsH2
-SssAsH,float,,sum of ssAsH
-SsssAs,float,,sum of sssAs
-SsssdAs,float,,sum of sssdAs
-SsssssAs,float,,sum of sssssAs
-SsSeH,float,,sum of sSeH
-SdSe,float,,sum of dSe
-SssSe,float,,sum of ssSe
-SaaSe,float,,sum of aaSe
-SdssSe,float,,sum of dssSe
-SddssSe,float,,sum of ddssSe
-SsBr,float,,sum of sBr
-SsSnH3,float,,sum of sSnH3
-SssSnH2,float,,sum of ssSnH2
-SsssSnH,float,,sum of sssSnH
-SssssSn,float,,sum of ssssSn
-SsI,float,,sum of sI
-SsPbH3,float,,sum of sPbH3
-SssPbH2,float,,sum of ssPbH2
-SsssPbH,float,,sum of sssPbH
-SssssPb,float,,sum of ssssPb
-MAXsCH3,float,,max of sCH3
-MAXssCH2,float,,max of ssCH2
-MAXaaCH,float,,max of aaCH
-MAXsssCH,float,,max of sssCH
-MAXdssC,float,,max of dssC
-MAXaasC,float,,max of aasC
-MAXsOH,float,,max of sOH
-MAXdO,float,,max of dO
-MINsCH3,float,,min of sCH3
-MINssCH2,float,,min of ssCH2
-MINaaCH,float,,min of aaCH
-MINsssCH,float,,min of sssCH
-MINdssC,float,,min of dssC
-MINaasC,float,,min of aasC
-MINsOH,float,,min of sOH
-MINdO,float,,min of dO
-ETA_alpha,float,,ETA core count
-AETA_alpha,float,,averaged ETA core count
-ETA_shape_p,float,,ETA shape index (type: p)
-ETA_shape_y,float,,ETA shape index (type: y)
-ETA_shape_x,float,,ETA shape index (type: x)
-ETA_beta,float,,valence electron mobile count
-AETA_beta,float,,averaged valence electron mobile count
-ETA_beta_s,float,,sigma contribution to valence electron mobile count
-AETA_beta_s,float,,averaged sigma contribution to valence electron mobile count
-ETA_beta_ns,float,,nonsigma contribution to valence electron mobile count
-AETA_beta_ns,float,,averaged nonsigma contribution to valence electron mobile count
-ETA_beta_ns_d,float,,delta contribution to valence electron mobile count
-AETA_beta_ns_d,float,,averaged delta contribution to valence electron mobile count
-ETA_eta,float,,ETA composite index for reference graph
-AETA_eta,float,,averaged ETA composite index for reference graph
-ETA_eta_L,float,,local ETA composite index for reference graph
-AETA_eta_L,float,,averaged local ETA composite index for reference graph
-ETA_eta_R,float,,ETA composite index for reference graph
-AETA_eta_R,float,,averaged ETA composite index for reference graph
-ETA_eta_RL,float,,local ETA composite index for reference graph
-AETA_eta_RL,float,,averaged local ETA composite index for reference graph
-ETA_eta_F,float,,ETA functionality index
-AETA_eta_F,float,,averaged ETA functionality index
-ETA_eta_FL,float,,local ETA functionality index
-AETA_eta_FL,float,,averaged local ETA functionality index
-ETA_eta_B,float,,ETA branching index
-AETA_eta_B,float,,averaged ETA branching index
-ETA_eta_BR,float,,ETA branching index (use ring count)
-AETA_eta_BR,float,,averaged ETA branching index (use ring count)
-ETA_dAlpha_A,float,,ETA delta alpha (type: A)
-ETA_dAlpha_B,float,,ETA delta alpha (type: B)
-ETA_epsilon_1,float,,ETA epsilon (type: 1)
-ETA_epsilon_2,float,,ETA epsilon (type: 2)
-ETA_epsilon_3,float,,ETA epsilon (type: 3)
-ETA_epsilon_4,float,,ETA epsilon (type: 4)
-ETA_epsilon_5,float,,ETA epsilon (type: 5)
-ETA_dEpsilon_A,float,,ETA delta epsilon (type: A)
-ETA_dEpsilon_B,float,,ETA delta epsilon (type: B)
-ETA_dEpsilon_C,float,,ETA delta epsilon (type: C)
-ETA_dEpsilon_D,float,,ETA delta epsilon (type: D)
-ETA_dBeta,float,,ETA delta beta
-AETA_dBeta,float,,averaged ETA delta beta
-ETA_psi_1,float,,ETA psi
-ETA_dPsi_A,float,,ETA delta psi (type: A)
-ETA_dPsi_B,float,,ETA delta psi (type: B)
-fragCpx,float,,fragment complexity
-fMF,float,,molecular framework ratio
-nHBAcc,float,,number of hydrogen bond acceptor
-nHBDon,float,,number of hydrogen bond donor
-IC0,float,,0-ordered neighborhood information content
-IC1,float,,1-ordered neighborhood information content
-IC2,float,,2-ordered neighborhood information content
-IC3,float,,3-ordered neighborhood information content
-IC4,float,,4-ordered neighborhood information content
-IC5,float,,5-ordered neighborhood information content
-TIC0,float,,0-ordered neighborhood total information content
-TIC1,float,,1-ordered neighborhood total information content
-TIC2,float,,2-ordered neighborhood total information content
-TIC3,float,,3-ordered neighborhood total information content
-TIC4,float,,4-ordered neighborhood total information content
-TIC5,float,,5-ordered neighborhood total information content
-SIC0,float,,0-ordered structural information content
-SIC1,float,,1-ordered structural information content
-SIC2,float,,2-ordered structural information content
-SIC3,float,,3-ordered structural information content
-SIC4,float,,4-ordered structural information content
-SIC5,float,,5-ordered structural information content
-BIC0,float,,0-ordered bonding information content
-BIC1,float,,1-ordered bonding information content
-BIC2,float,,2-ordered bonding information content
-BIC3,float,,3-ordered bonding information content
-BIC4,float,,4-ordered bonding information content
-BIC5,float,,5-ordered bonding information content
-CIC0,float,,0-ordered complementary information content
-CIC1,float,,1-ordered complementary information content
-CIC2,float,,2-ordered complementary information content
-CIC3,float,,3-ordered complementary information content
-CIC4,float,,4-ordered complementary information content
-CIC5,float,,5-ordered complementary information content
-MIC0,float,,0-ordered modified information content
-MIC1,float,,1-ordered modified information content
-MIC2,float,,2-ordered modified information content
-MIC3,float,,3-ordered modified information content
-MIC4,float,,4-ordered modified information content
-MIC5,float,,5-ordered modified information content
-ZMIC0,float,,0-ordered Z-modified information content
-ZMIC1,float,,1-ordered Z-modified information content
-ZMIC2,float,,2-ordered Z-modified information content
-ZMIC3,float,,3-ordered Z-modified information content
-ZMIC4,float,,4-ordered Z-modified information content
-ZMIC5,float,,5-ordered Z-modified information content
-Kier1,float,,kappa shape index 1
-Kier2,float,,kappa shape index 2
-Kier3,float,,kappa shape index 3
-Lipinski,float,,Lipinski rule of five
-GhoseFilter,float,,Ghose filter
-VMcGowan,float,,McGowan volume
-LabuteASA,float,,Labute's Approximate Surface Area
-PEOE_VSA1,float,,MOE Charge VSA Descriptor 1 (-inf < x < -0.30)
-PEOE_VSA2,float,,MOE Charge VSA Descriptor 2 (-0.30 <= x < -0.25)
-PEOE_VSA3,float,,MOE Charge VSA Descriptor 3 (-0.25 <= x < -0.20)
-PEOE_VSA4,float,,MOE Charge VSA Descriptor 4 (-0.20 <= x < -0.15)
-PEOE_VSA5,float,,MOE Charge VSA Descriptor 5 (-0.15 <= x < -0.10)
-PEOE_VSA6,float,,MOE Charge VSA Descriptor 6 (-0.10 <= x < -0.05)
-PEOE_VSA7,float,,MOE Charge VSA Descriptor 7 (-0.05 <= x <  0.00)
-PEOE_VSA8,float,,MOE Charge VSA Descriptor 8 ( 0.00 <= x <  0.05)
-PEOE_VSA9,float,,MOE Charge VSA Descriptor 9 ( 0.05 <= x <  0.10)
-PEOE_VSA10,float,,MOE Charge VSA Descriptor 10 ( 0.10 <= x <  0.15)
-PEOE_VSA11,float,,MOE Charge VSA Descriptor 11 ( 0.15 <= x <  0.20)
-PEOE_VSA12,float,,MOE Charge VSA Descriptor 12 ( 0.20 <= x <  0.25)
-PEOE_VSA13,float,,MOE Charge VSA Descriptor 13 ( 0.25 <= x <  0.30)
-SMR_VSA1,float,,MOE MR VSA Descriptor 1 (-inf < x <  1.29)
-SMR_VSA2,float,,MOE MR VSA Descriptor 2 ( 1.29 <= x <  1.82)
-SMR_VSA3,float,,MOE MR VSA Descriptor 3 ( 1.82 <= x <  2.24)
-SMR_VSA4,float,,MOE MR VSA Descriptor 4 ( 2.24 <= x <  2.45)
-SMR_VSA5,float,,MOE MR VSA Descriptor 5 ( 2.45 <= x <  2.75)
-SMR_VSA6,float,,MOE MR VSA Descriptor 6 ( 2.75 <= x <  3.05)
-SMR_VSA7,float,,MOE MR VSA Descriptor 7 ( 3.05 <= x <  3.63)
-SMR_VSA8,float,,MOE MR VSA Descriptor 8 ( 3.63 <= x <  3.80)
-SMR_VSA9,float,,MOE MR VSA Descriptor 9 ( 3.80 <= x <  4.00)
-SlogP_VSA1,float,,MOE logP VSA Descriptor 1 (-inf < x < -0.40)
-SlogP_VSA2,float,,MOE logP VSA Descriptor 2 (-0.40 <= x < -0.20)
-SlogP_VSA3,float,,MOE logP VSA Descriptor 3 (-0.20 <= x <  0.00)
-SlogP_VSA4,float,,MOE logP VSA Descriptor 4 ( 0.00 <= x <  0.10)
-SlogP_VSA5,float,,MOE logP VSA Descriptor 5 ( 0.10 <= x <  0.15)
-SlogP_VSA6,float,,MOE logP VSA Descriptor 6 ( 0.15 <= x <  0.20)
-SlogP_VSA7,float,,MOE logP VSA Descriptor 7 ( 0.20 <= x <  0.25)
-SlogP_VSA8,float,,MOE logP VSA Descriptor 8 ( 0.25 <= x <  0.30)
-SlogP_VSA9,float,,MOE logP VSA Descriptor 9 ( 0.30 <= x <  0.40)
-SlogP_VSA10,float,,MOE logP VSA Descriptor 10 ( 0.40 <= x <  0.50)
-SlogP_VSA11,float,,MOE logP VSA Descriptor 11 ( 0.50 <= x <  0.60)
-EState_VSA1,float,,EState VSA Descriptor 1 (-inf < x <  -0.39)
-EState_VSA2,float,,EState VSA Descriptor 2 ( -0.39 <= x <  0.29)
-EState_VSA3,float,,EState VSA Descriptor 3 ( 0.29 <= x <  0.72)
-EState_VSA4,float,,EState VSA Descriptor 4 ( 0.72 <= x <  1.17)
-EState_VSA5,float,,EState VSA Descriptor 5 ( 1.17 <= x <  1.54)
-EState_VSA6,float,,EState VSA Descriptor 6 ( 1.54 <= x <  1.81)
-EState_VSA7,float,,EState VSA Descriptor 7 ( 1.81 <= x <  2.05)
-EState_VSA8,float,,EState VSA Descriptor 8 ( 2.05 <= x <  4.69)
-EState_VSA9,float,,EState VSA Descriptor 9 ( 4.69 <= x <  9.17)
-EState_VSA10,float,,EState VSA Descriptor 10 ( 9.17 <= x <  15.00)
-VSA_EState1,float,,VSA EState Descriptor 1 (-inf < x <  4.78)
-VSA_EState2,float,,VSA EState Descriptor 2 ( 4.78 <= x <  5.00)
-VSA_EState3,float,,VSA EState Descriptor 3 ( 5.00 <= x <  5.41)
-VSA_EState4,float,,VSA EState Descriptor 4 ( 5.41 <= x <  5.74)
-VSA_EState5,float,,VSA EState Descriptor 5 ( 5.74 <= x <  6.00)
-VSA_EState6,float,,VSA EState Descriptor 6 ( 6.00 <= x <  6.07)
-VSA_EState7,float,,VSA EState Descriptor 7 ( 6.07 <= x <  6.45)
-VSA_EState8,float,,VSA EState Descriptor 8 ( 6.45 <= x <  7.00)
-VSA_EState9,float,,VSA EState Descriptor 9 ( 7.00 <= x <  11.00)
-MDEC-12,float,,molecular distance edge between primary C and secondary C
-MDEC-13,float,,molecular distance edge between primary C and tertiary C
-MDEC-22,float,,molecular distance edge between secondary C and secondary C
-MDEC-23,float,,molecular distance edge between secondary C and tertiary C
-MDEC-33,float,,molecular distance edge between tertiary C and tertiary C
-MDEO-11,float,,molecular distance edge between primary O and primary O
-MID,float,,molecular ID
-AMID,float,,averaged molecular ID
-MID_h,float,,molecular ID on h atoms
-AMID_h,float,,averaged molecular ID on h atoms
-MID_C,float,,molecular ID on C atoms
-AMID_C,float,,averaged molecular ID on C atoms
-MID_N,float,,molecular ID on N atoms
-AMID_N,float,,averaged molecular ID on N atoms
-MID_O,float,,molecular ID on O atoms
-AMID_O,float,,averaged molecular ID on O atoms
-MID_X,float,,molecular ID on halogen atoms
-AMID_X,float,,averaged molecular ID on halogen atoms
-MPC2,float,,2-ordered path count
-MPC3,float,,3-ordered path count
-MPC4,float,,4-ordered path count
-MPC5,float,,5-ordered path count
-MPC6,float,,6-ordered path count
-MPC7,float,,7-ordered path count
-MPC8,float,,8-ordered path count
-MPC9,float,,9-ordered path count
-MPC10,float,,10-ordered path count
-TMPC10,float,,10-ordered total path count
-piPC1,float,,1-ordered pi-path count (log scale)
-piPC2,float,,2-ordered pi-path count (log scale)
-piPC3,float,,3-ordered pi-path count (log scale)
-piPC4,float,,4-ordered pi-path count (log scale)
-piPC5,float,,5-ordered pi-path count (log scale)
-piPC6,float,,6-ordered pi-path count (log scale)
-piPC7,float,,7-ordered pi-path count (log scale)
-piPC8,float,,8-ordered pi-path count (log scale)
-piPC9,float,,9-ordered pi-path count (log scale)
-piPC10,float,,10-ordered pi-path count (log scale)
-TpiPC10,float,,10-ordered total pi-path count (log scale)
-apol,float,,atomic polarizability
-bpol,float,,bond polarizability
-nRing,float,,ring count
-n3Ring,float,,3-membered ring count
-n4Ring,float,,4-membered ring count
-n5Ring,float,,5-membered ring count
-n6Ring,float,,6-membered ring count
-n7Ring,float,,7-membered ring count
-n8Ring,float,,8-membered ring count
-n9Ring,float,,9-membered ring count
-n10Ring,float,,10-membered ring count
-n11Ring,float,,11-membered ring count
-n12Ring,float,,12-membered ring count
-nG12Ring,float,,12-or-greater-membered ring count
-nHRing,float,,hetero ring count
-n3HRing,float,,3-membered hetero ring count
-n4HRing,float,,4-membered hetero ring count
-n5HRing,float,,5-membered hetero ring count
-n6HRing,float,,6-membered hetero ring count
-n7HRing,float,,7-membered hetero ring count
-n8HRing,float,,8-membered hetero ring count
-n9HRing,float,,9-membered hetero ring count
-n10HRing,float,,10-membered hetero ring count
-n11HRing,float,,11-membered hetero ring count
-n12HRing,float,,12-membered hetero ring count
-nG12HRing,float,,12-or-greater-membered hetero ring count
-naRing,float,,aromatic ring count
-n3aRing,float,,3-membered aromatic ring count
-n4aRing,float,,4-membered aromatic ring count
-n5aRing,float,,5-membered aromatic ring count
-n6aRing,float,,6-membered aromatic ring count
-n7aRing,float,,7-membered aromatic ring count
-n8aRing,float,,8-membered aromatic ring count
-n9aRing,float,,9-membered aromatic ring count
-n10aRing,float,,10-membered aromatic ring count
-n11aRing,float,,11-membered aromatic ring count
-n12aRing,float,,12-membered aromatic ring count
-nG12aRing,float,,12-or-greater-membered aromatic ring count
-naHRing,float,,aromatic hetero ring count
-n3aHRing,float,,3-membered aromatic hetero ring count
-n4aHRing,float,,4-membered aromatic hetero ring count
-n5aHRing,float,,5-membered aromatic hetero ring count
-n6aHRing,float,,6-membered aromatic hetero ring count
-n7aHRing,float,,7-membered aromatic hetero ring count
-n8aHRing,float,,8-membered aromatic hetero ring count
-n9aHRing,float,,9-membered aromatic hetero ring count
-n10aHRing,float,,10-membered aromatic hetero ring count
-n11aHRing,float,,11-membered aromatic hetero ring count
-n12aHRing,float,,12-membered aromatic hetero ring count
-nG12aHRing,float,,12-or-greater-membered aromatic hetero ring count
-nARing,float,,aliphatic ring count
-n3ARing,float,,3-membered aliphatic ring count
-n4ARing,float,,4-membered aliphatic ring count
-n5ARing,float,,5-membered aliphatic ring count
-n6ARing,float,,6-membered aliphatic ring count
-n7ARing,float,,7-membered aliphatic ring count
-n8ARing,float,,8-membered aliphatic ring count
-n9ARing,float,,9-membered aliphatic ring count
-n10ARing,float,,10-membered aliphatic ring count
-n11ARing,float,,11-membered aliphatic ring count
-n12ARing,float,,12-membered aliphatic ring count
-nG12ARing,float,,12-or-greater-membered aliphatic ring count
-nAHRing,float,,aliphatic hetero ring count
-n3AHRing,float,,3-membered aliphatic hetero ring count
-n4AHRing,float,,4-membered aliphatic hetero ring count
-n5AHRing,float,,5-membered aliphatic hetero ring count
-n6AHRing,float,,6-membered aliphatic hetero ring count
-n7AHRing,float,,7-membered aliphatic hetero ring count
-n8AHRing,float,,8-membered aliphatic hetero ring count
-n9AHRing,float,,9-membered aliphatic hetero ring count
-n10AHRing,float,,10-membered aliphatic hetero ring count
-n11AHRing,float,,11-membered aliphatic hetero ring count
-n12AHRing,float,,12-membered aliphatic hetero ring count
-nG12AHRing,float,,12-or-greater-membered aliphatic hetero ring count
-nFRing,float,,fused ring count
-n4FRing,float,,4-membered fused ring count
-n5FRing,float,,5-membered fused ring count
-n6FRing,float,,6-membered fused ring count
-n7FRing,float,,7-membered fused ring count
-n8FRing,float,,8-membered fused ring count
-n9FRing,float,,9-membered fused ring count
-n10FRing,float,,10-membered fused ring count
-n11FRing,float,,11-membered fused ring count
-n12FRing,float,,12-membered fused ring count
-nG12FRing,float,,12-or-greater-membered fused ring count
-nFHRing,float,,fused hetero ring count
-n4FHRing,float,,4-membered fused hetero ring count
-n5FHRing,float,,5-membered fused hetero ring count
-n6FHRing,float,,6-membered fused hetero ring count
-n7FHRing,float,,7-membered fused hetero ring count
-n8FHRing,float,,8-membered fused hetero ring count
-n9FHRing,float,,9-membered fused hetero ring count
-n10FHRing,float,,10-membered fused hetero ring count
-n11FHRing,float,,11-membered fused hetero ring count
-n12FHRing,float,,12-membered fused hetero ring count
-nG12FHRing,float,,12-or-greater-membered fused hetero ring count
-nFaRing,float,,aromatic fused ring count
-n4FaRing,float,,4-membered aromatic fused ring count
-n5FaRing,float,,5-membered aromatic fused ring count
-n6FaRing,float,,6-membered aromatic fused ring count
-n7FaRing,float,,7-membered aromatic fused ring count
-n8FaRing,float,,8-membered aromatic fused ring count
-n9FaRing,float,,9-membered aromatic fused ring count
-n10FaRing,float,,10-membered aromatic fused ring count
-n11FaRing,float,,11-membered aromatic fused ring count
-n12FaRing,float,,12-membered aromatic fused ring count
-nG12FaRing,float,,12-or-greater-membered aromatic fused ring count
-nFaHRing,float,,aromatic fused hetero ring count
-n4FaHRing,float,,4-membered aromatic fused hetero ring count
-n5FaHRing,float,,5-membered aromatic fused hetero ring count
-n6FaHRing,float,,6-membered aromatic fused hetero ring count
-n7FaHRing,float,,7-membered aromatic fused hetero ring count
-n8FaHRing,float,,8-membered aromatic fused hetero ring count
-n9FaHRing,float,,9-membered aromatic fused hetero ring count
-n10FaHRing,float,,10-membered aromatic fused hetero ring count
-n11FaHRing,float,,11-membered aromatic fused hetero ring count
-n12FaHRing,float,,12-membered aromatic fused hetero ring count
-nG12FaHRing,float,,12-or-greater-membered aromatic fused hetero ring count
-nFARing,float,,aliphatic fused ring count
-n4FARing,float,,4-membered aliphatic fused ring count
-n5FARing,float,,5-membered aliphatic fused ring count
-n6FARing,float,,6-membered aliphatic fused ring count
-n7FARing,float,,7-membered aliphatic fused ring count
-n8FARing,float,,8-membered aliphatic fused ring count
-n9FARing,float,,9-membered aliphatic fused ring count
-n10FARing,float,,10-membered aliphatic fused ring count
-n11FARing,float,,11-membered aliphatic fused ring count
-n12FARing,float,,12-membered aliphatic fused ring count
-nG12FARing,float,,12-or-greater-membered aliphatic fused ring count
-nFAHRing,float,,aliphatic fused hetero ring count
-n4FAHRing,float,,4-membered aliphatic fused hetero ring count
-n5FAHRing,float,,5-membered aliphatic fused hetero ring count
-n6FAHRing,float,,6-membered aliphatic fused hetero ring count
-n7FAHRing,float,,7-membered aliphatic fused hetero ring count
-n8FAHRing,float,,8-membered aliphatic fused hetero ring count
-n9FAHRing,float,,9-membered aliphatic fused hetero ring count
-n10FAHRing,float,,10-membered aliphatic fused hetero ring count
-n11FAHRing,float,,11-membered aliphatic fused hetero ring count
-n12FAHRing,float,,12-membered aliphatic fused hetero ring count
-nG12FAHRing,float,,12-or-greater-membered aliphatic fused hetero ring count
-nRot,float,,rotatable bonds count
-RotRatio,float,,rotatable bonds ratio
-SLogP,float,,Wildman-Crippen LogP
-SMR,float,,Wildman-Crippen MR
-GGI1,float,,1-ordered raw topological charge
-GGI2,float,,2-ordered raw topological charge
-GGI3,float,,3-ordered raw topological charge
-GGI4,float,,4-ordered raw topological charge
-GGI5,float,,5-ordered raw topological charge
-GGI6,float,,6-ordered raw topological charge
-GGI7,float,,7-ordered raw topological charge
-GGI8,float,,8-ordered raw topological charge
-GGI9,float,,9-ordered raw topological charge
-GGI10,float,,10-ordered raw topological charge
-JGI1,float,,1-ordered mean topological charge
-JGI2,float,,2-ordered mean topological charge
-JGI3,float,,3-ordered mean topological charge
-JGI4,float,,4-ordered mean topological charge
-JGI5,float,,5-ordered mean topological charge
-JGI6,float,,6-ordered mean topological charge
-JGI7,float,,7-ordered mean topological charge
-JGI8,float,,8-ordered mean topological charge
-JGI9,float,,9-ordered mean topological charge
-JGI10,float,,10-ordered mean topological charge
-JGT10,float,,10-ordered global topological charge
-Diameter,float,,topological diameter
-Radius,float,,topological radius
-TopoShapeIndex,float,,topological shape index
-PetitjeanIndex,float,,Petitjean index
-TopoPSA(NO),float,,topological polar surface area (use only nitrogen and oxygen)
-TopoPSA,float,,topological polar surface area
-Vabc,float,,ABC van der waals volume
-VAdjMat,float,,vertex adjacency information
-MWC01,float,,walk count (leg-1)
-MWC02,float,,walk count (leg-2)
-MWC03,float,,walk count (leg-3)
-MWC04,float,,walk count (leg-4)
-MWC05,float,,walk count (leg-5)
-MWC06,float,,walk count (leg-6)
-MWC07,float,,walk count (leg-7)
-MWC08,float,,walk count (leg-8)
-MWC09,float,,walk count (leg-9)
-MWC10,float,,walk count (leg-10)
-TMWC10,float,,total walk count (leg-10)
-SRW02,float,,"walk count (leg-2, only self returning walk)"
-SRW03,float,,"walk count (leg-3, only self returning walk)"
-SRW04,float,,"walk count (leg-4, only self returning walk)"
-SRW05,float,,"walk count (leg-5, only self returning walk)"
-SRW06,float,,"walk count (leg-6, only self returning walk)"
-SRW07,float,,"walk count (leg-7, only self returning walk)"
-SRW08,float,,"walk count (leg-8, only self returning walk)"
-SRW09,float,,"walk count (leg-9, only self returning walk)"
-SRW10,float,,"walk count (leg-10, only self returning walk)"
-TSRW10,float,,"total walk count (leg-10, only self returning walk)"
-MW,float,,molecular weight
-AMW,float,,averaged molecular weight
-WPath,float,,Wiener index
-WPol,float,,Wiener polarity index
-Zagreb1,float,,Zagreb index (version 1)
-Zagreb2,float,,Zagreb index (version 2)
-mZagreb1,float,,modified Zagreb index (version 1)
-mZagreb2,float,,modified Zagreb index (version 2)
+abc,float,high,atom-bond connectivity index
+abcgg,float,high,Graovac-Ghorbani atom-bond connectivity index
+nacid,float,high,acidic group count
+nbase,float,high,basic group count
+spabs_a,float,high,SpAbs of adjacency matrix
+spmax_a,float,high,SpMax of adjacency matrix
+spdiam_a,float,high,SpDiam of adjacency matrix
+spad_a,float,high,SpAD of adjacency matrix
+spmad_a,float,high,SpMAD of adjacency matrix
+logee_a,float,high,LogEE of adjacency matrix
+ve1_a,float,high,VE1 of adjacency matrix
+ve2_a,float,high,VE2 of adjacency matrix
+ve3_a,float,high,VE3 of adjacency matrix
+vr1_a,float,high,VR1 of adjacency matrix
+vr2_a,float,high,VR2 of adjacency matrix
+vr3_a,float,high,VR3 of adjacency matrix
+naromatom,float,high,aromatic atoms count
+narombond,float,high,aromatic bonds count
+natom,float,high,number of all atoms
+nheavyatom,float,high,number of heavy atoms
+nspiro,float,high,number of spiro atoms
+nbridgehead,float,high,number of bridgehead atoms
+nh,float,high,number of H atoms
+nb,float,high,number of B atoms
+nc,float,high,number of C atoms
+nn,float,high,number of N atoms
+no,float,high,number of O atoms
+ns,float,high,number of S atoms
+np,float,high,number of P atoms
+nf,float,high,number of F atoms
+ncl,float,high,number of Cl atoms
+nbr,float,high,number of Br atoms
+ni,float,high,number of I atoms
+nx,float,high,number of halogen atoms
+ats0dv,float,high,moreau-broto autocorrelation of lag 0 weighted by valence electrons
+ats1dv,float,high,moreau-broto autocorrelation of lag 1 weighted by valence electrons
+ats2dv,float,high,moreau-broto autocorrelation of lag 2 weighted by valence electrons
+ats3dv,float,high,moreau-broto autocorrelation of lag 3 weighted by valence electrons
+ats4dv,float,high,moreau-broto autocorrelation of lag 4 weighted by valence electrons
+ats5dv,float,high,moreau-broto autocorrelation of lag 5 weighted by valence electrons
+ats6dv,float,high,moreau-broto autocorrelation of lag 6 weighted by valence electrons
+ats7dv,float,high,moreau-broto autocorrelation of lag 7 weighted by valence electrons
+ats8dv,float,high,moreau-broto autocorrelation of lag 8 weighted by valence electrons
+ats0d,float,high,moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+ats1d,float,high,moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+ats2d,float,high,moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+ats3d,float,high,moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+ats4d,float,high,moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+ats5d,float,high,moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+ats6d,float,high,moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+ats7d,float,high,moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+ats8d,float,high,moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+ats0s,float,high,moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+ats1s,float,high,moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+ats2s,float,high,moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+ats3s,float,high,moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+ats4s,float,high,moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+ats5s,float,high,moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+ats6s,float,high,moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+ats7s,float,high,moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+ats8s,float,high,moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+ats0z,float,high,moreau-broto autocorrelation of lag 0 weighted by atomic number
+ats1z,float,high,moreau-broto autocorrelation of lag 1 weighted by atomic number
+ats2z,float,high,moreau-broto autocorrelation of lag 2 weighted by atomic number
+ats3z,float,high,moreau-broto autocorrelation of lag 3 weighted by atomic number
+ats4z,float,high,moreau-broto autocorrelation of lag 4 weighted by atomic number
+ats5z,float,high,moreau-broto autocorrelation of lag 5 weighted by atomic number
+ats6z,float,high,moreau-broto autocorrelation of lag 6 weighted by atomic number
+ats7z,float,high,moreau-broto autocorrelation of lag 7 weighted by atomic number
+ats8z,float,high,moreau-broto autocorrelation of lag 8 weighted by atomic number
+ats0m,float,high,moreau-broto autocorrelation of lag 0 weighted by mass
+ats1m,float,high,moreau-broto autocorrelation of lag 1 weighted by mass
+ats2m,float,high,moreau-broto autocorrelation of lag 2 weighted by mass
+ats3m,float,high,moreau-broto autocorrelation of lag 3 weighted by mass
+ats4m,float,high,moreau-broto autocorrelation of lag 4 weighted by mass
+ats5m,float,high,moreau-broto autocorrelation of lag 5 weighted by mass
+ats6m,float,high,moreau-broto autocorrelation of lag 6 weighted by mass
+ats7m,float,high,moreau-broto autocorrelation of lag 7 weighted by mass
+ats8m,float,high,moreau-broto autocorrelation of lag 8 weighted by mass
+ats0v,float,high,moreau-broto autocorrelation of lag 0 weighted by vdw volume
+ats1v,float,high,moreau-broto autocorrelation of lag 1 weighted by vdw volume
+ats2v,float,high,moreau-broto autocorrelation of lag 2 weighted by vdw volume
+ats3v,float,high,moreau-broto autocorrelation of lag 3 weighted by vdw volume
+ats4v,float,high,moreau-broto autocorrelation of lag 4 weighted by vdw volume
+ats5v,float,high,moreau-broto autocorrelation of lag 5 weighted by vdw volume
+ats6v,float,high,moreau-broto autocorrelation of lag 6 weighted by vdw volume
+ats7v,float,high,moreau-broto autocorrelation of lag 7 weighted by vdw volume
+ats8v,float,high,moreau-broto autocorrelation of lag 8 weighted by vdw volume
+ats0se,float,high,moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+ats1se,float,high,moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+ats2se,float,high,moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+ats3se,float,high,moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+ats4se,float,high,moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+ats5se,float,high,moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+ats6se,float,high,moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+ats7se,float,high,moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+ats8se,float,high,moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+ats0pe,float,high,moreau-broto autocorrelation of lag 0 weighted by pauling EN
+ats1pe,float,high,moreau-broto autocorrelation of lag 1 weighted by pauling EN
+ats2pe,float,high,moreau-broto autocorrelation of lag 2 weighted by pauling EN
+ats3pe,float,high,moreau-broto autocorrelation of lag 3 weighted by pauling EN
+ats4pe,float,high,moreau-broto autocorrelation of lag 4 weighted by pauling EN
+ats5pe,float,high,moreau-broto autocorrelation of lag 5 weighted by pauling EN
+ats6pe,float,high,moreau-broto autocorrelation of lag 6 weighted by pauling EN
+ats7pe,float,high,moreau-broto autocorrelation of lag 7 weighted by pauling EN
+ats8pe,float,high,moreau-broto autocorrelation of lag 8 weighted by pauling EN
+ats0are,float,high,moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+ats1are,float,high,moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+ats2are,float,high,moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+ats3are,float,high,moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+ats4are,float,high,moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+ats5are,float,high,moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+ats6are,float,high,moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+ats7are,float,high,moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+ats8are,float,high,moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+ats0p,float,high,moreau-broto autocorrelation of lag 0 weighted by polarizability
+ats1p,float,high,moreau-broto autocorrelation of lag 1 weighted by polarizability
+ats2p,float,high,moreau-broto autocorrelation of lag 2 weighted by polarizability
+ats3p,float,high,moreau-broto autocorrelation of lag 3 weighted by polarizability
+ats4p,float,high,moreau-broto autocorrelation of lag 4 weighted by polarizability
+ats5p,float,high,moreau-broto autocorrelation of lag 5 weighted by polarizability
+ats6p,float,high,moreau-broto autocorrelation of lag 6 weighted by polarizability
+ats7p,float,high,moreau-broto autocorrelation of lag 7 weighted by polarizability
+ats8p,float,high,moreau-broto autocorrelation of lag 8 weighted by polarizability
+ats0i,float,high,moreau-broto autocorrelation of lag 0 weighted by ionization potential
+ats1i,float,high,moreau-broto autocorrelation of lag 1 weighted by ionization potential
+ats2i,float,high,moreau-broto autocorrelation of lag 2 weighted by ionization potential
+ats3i,float,high,moreau-broto autocorrelation of lag 3 weighted by ionization potential
+ats4i,float,high,moreau-broto autocorrelation of lag 4 weighted by ionization potential
+ats5i,float,high,moreau-broto autocorrelation of lag 5 weighted by ionization potential
+ats6i,float,high,moreau-broto autocorrelation of lag 6 weighted by ionization potential
+ats7i,float,high,moreau-broto autocorrelation of lag 7 weighted by ionization potential
+ats8i,float,high,moreau-broto autocorrelation of lag 8 weighted by ionization potential
+aats0dv,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by valence electrons
+aats1dv,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by valence electrons
+aats2dv,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by valence electrons
+aats3dv,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by valence electrons
+aats4dv,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by valence electrons
+aats5dv,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by valence electrons
+aats6dv,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by valence electrons
+aats7dv,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by valence electrons
+aats8dv,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by valence electrons
+aats0d,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+aats1d,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+aats2d,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+aats3d,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+aats4d,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+aats5d,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+aats6d,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+aats7d,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+aats8d,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+aats0s,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+aats1s,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+aats2s,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+aats3s,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+aats4s,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+aats5s,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+aats6s,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+aats7s,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+aats8s,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+aats0z,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by atomic number
+aats1z,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by atomic number
+aats2z,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by atomic number
+aats3z,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by atomic number
+aats4z,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by atomic number
+aats5z,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by atomic number
+aats6z,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by atomic number
+aats7z,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by atomic number
+aats8z,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by atomic number
+aats0m,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by mass
+aats1m,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by mass
+aats2m,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by mass
+aats3m,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by mass
+aats4m,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by mass
+aats5m,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by mass
+aats6m,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by mass
+aats7m,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by mass
+aats8m,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by mass
+aats0v,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by vdw volume
+aats1v,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by vdw volume
+aats2v,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by vdw volume
+aats3v,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by vdw volume
+aats4v,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by vdw volume
+aats5v,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by vdw volume
+aats6v,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by vdw volume
+aats7v,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by vdw volume
+aats8v,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by vdw volume
+aats0se,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+aats1se,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+aats2se,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+aats3se,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+aats4se,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+aats5se,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+aats6se,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+aats7se,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+aats8se,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+aats0pe,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by pauling EN
+aats1pe,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by pauling EN
+aats2pe,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by pauling EN
+aats3pe,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by pauling EN
+aats4pe,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by pauling EN
+aats5pe,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by pauling EN
+aats6pe,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by pauling EN
+aats7pe,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by pauling EN
+aats8pe,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by pauling EN
+aats0are,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+aats1are,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+aats2are,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+aats3are,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+aats4are,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+aats5are,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+aats6are,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+aats7are,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+aats8are,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+aats0p,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by polarizability
+aats1p,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by polarizability
+aats2p,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by polarizability
+aats3p,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by polarizability
+aats4p,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by polarizability
+aats5p,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by polarizability
+aats6p,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by polarizability
+aats7p,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by polarizability
+aats8p,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by polarizability
+aats0i,float,high,averaged moreau-broto autocorrelation of lag 0 weighted by ionization potential
+aats1i,float,high,averaged moreau-broto autocorrelation of lag 1 weighted by ionization potential
+aats2i,float,high,averaged moreau-broto autocorrelation of lag 2 weighted by ionization potential
+aats3i,float,high,averaged moreau-broto autocorrelation of lag 3 weighted by ionization potential
+aats4i,float,high,averaged moreau-broto autocorrelation of lag 4 weighted by ionization potential
+aats5i,float,high,averaged moreau-broto autocorrelation of lag 5 weighted by ionization potential
+aats6i,float,high,averaged moreau-broto autocorrelation of lag 6 weighted by ionization potential
+aats7i,float,high,averaged moreau-broto autocorrelation of lag 7 weighted by ionization potential
+aats8i,float,high,averaged moreau-broto autocorrelation of lag 8 weighted by ionization potential
+atsc0c,float,high,centered moreau-broto autocorrelation of lag 0 weighted by gasteiger charge
+atsc1c,float,high,centered moreau-broto autocorrelation of lag 1 weighted by gasteiger charge
+atsc2c,float,high,centered moreau-broto autocorrelation of lag 2 weighted by gasteiger charge
+atsc3c,float,high,centered moreau-broto autocorrelation of lag 3 weighted by gasteiger charge
+atsc4c,float,high,centered moreau-broto autocorrelation of lag 4 weighted by gasteiger charge
+atsc5c,float,high,centered moreau-broto autocorrelation of lag 5 weighted by gasteiger charge
+atsc6c,float,high,centered moreau-broto autocorrelation of lag 6 weighted by gasteiger charge
+atsc7c,float,high,centered moreau-broto autocorrelation of lag 7 weighted by gasteiger charge
+atsc8c,float,high,centered moreau-broto autocorrelation of lag 8 weighted by gasteiger charge
+atsc0dv,float,high,centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
+atsc1dv,float,high,centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
+atsc2dv,float,high,centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
+atsc3dv,float,high,centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
+atsc4dv,float,high,centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
+atsc5dv,float,high,centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
+atsc6dv,float,high,centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
+atsc7dv,float,high,centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
+atsc8dv,float,high,centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
+atsc0d,float,high,centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+atsc1d,float,high,centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+atsc2d,float,high,centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+atsc3d,float,high,centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+atsc4d,float,high,centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+atsc5d,float,high,centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+atsc6d,float,high,centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+atsc7d,float,high,centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+atsc8d,float,high,centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+atsc0s,float,high,centered moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+atsc1s,float,high,centered moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+atsc2s,float,high,centered moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+atsc3s,float,high,centered moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+atsc4s,float,high,centered moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+atsc5s,float,high,centered moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+atsc6s,float,high,centered moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+atsc7s,float,high,centered moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+atsc8s,float,high,centered moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+atsc0z,float,high,centered moreau-broto autocorrelation of lag 0 weighted by atomic number
+atsc1z,float,high,centered moreau-broto autocorrelation of lag 1 weighted by atomic number
+atsc2z,float,high,centered moreau-broto autocorrelation of lag 2 weighted by atomic number
+atsc3z,float,high,centered moreau-broto autocorrelation of lag 3 weighted by atomic number
+atsc4z,float,high,centered moreau-broto autocorrelation of lag 4 weighted by atomic number
+atsc5z,float,high,centered moreau-broto autocorrelation of lag 5 weighted by atomic number
+atsc6z,float,high,centered moreau-broto autocorrelation of lag 6 weighted by atomic number
+atsc7z,float,high,centered moreau-broto autocorrelation of lag 7 weighted by atomic number
+atsc8z,float,high,centered moreau-broto autocorrelation of lag 8 weighted by atomic number
+atsc0m,float,high,centered moreau-broto autocorrelation of lag 0 weighted by mass
+atsc1m,float,high,centered moreau-broto autocorrelation of lag 1 weighted by mass
+atsc2m,float,high,centered moreau-broto autocorrelation of lag 2 weighted by mass
+atsc3m,float,high,centered moreau-broto autocorrelation of lag 3 weighted by mass
+atsc4m,float,high,centered moreau-broto autocorrelation of lag 4 weighted by mass
+atsc5m,float,high,centered moreau-broto autocorrelation of lag 5 weighted by mass
+atsc6m,float,high,centered moreau-broto autocorrelation of lag 6 weighted by mass
+atsc7m,float,high,centered moreau-broto autocorrelation of lag 7 weighted by mass
+atsc8m,float,high,centered moreau-broto autocorrelation of lag 8 weighted by mass
+atsc0v,float,high,centered moreau-broto autocorrelation of lag 0 weighted by vdw volume
+atsc1v,float,high,centered moreau-broto autocorrelation of lag 1 weighted by vdw volume
+atsc2v,float,high,centered moreau-broto autocorrelation of lag 2 weighted by vdw volume
+atsc3v,float,high,centered moreau-broto autocorrelation of lag 3 weighted by vdw volume
+atsc4v,float,high,centered moreau-broto autocorrelation of lag 4 weighted by vdw volume
+atsc5v,float,high,centered moreau-broto autocorrelation of lag 5 weighted by vdw volume
+atsc6v,float,high,centered moreau-broto autocorrelation of lag 6 weighted by vdw volume
+atsc7v,float,high,centered moreau-broto autocorrelation of lag 7 weighted by vdw volume
+atsc8v,float,high,centered moreau-broto autocorrelation of lag 8 weighted by vdw volume
+atsc0se,float,high,centered moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+atsc1se,float,high,centered moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+atsc2se,float,high,centered moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+atsc3se,float,high,centered moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+atsc4se,float,high,centered moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+atsc5se,float,high,centered moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+atsc6se,float,high,centered moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+atsc7se,float,high,centered moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+atsc8se,float,high,centered moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+atsc0pe,float,high,centered moreau-broto autocorrelation of lag 0 weighted by pauling EN
+atsc1pe,float,high,centered moreau-broto autocorrelation of lag 1 weighted by pauling EN
+atsc2pe,float,high,centered moreau-broto autocorrelation of lag 2 weighted by pauling EN
+atsc3pe,float,high,centered moreau-broto autocorrelation of lag 3 weighted by pauling EN
+atsc4pe,float,high,centered moreau-broto autocorrelation of lag 4 weighted by pauling EN
+atsc5pe,float,high,centered moreau-broto autocorrelation of lag 5 weighted by pauling EN
+atsc6pe,float,high,centered moreau-broto autocorrelation of lag 6 weighted by pauling EN
+atsc7pe,float,high,centered moreau-broto autocorrelation of lag 7 weighted by pauling EN
+atsc8pe,float,high,centered moreau-broto autocorrelation of lag 8 weighted by pauling EN
+atsc0are,float,high,centered moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+atsc1are,float,high,centered moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+atsc2are,float,high,centered moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+atsc3are,float,high,centered moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+atsc4are,float,high,centered moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+atsc5are,float,high,centered moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+atsc6are,float,high,centered moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+atsc7are,float,high,centered moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+atsc8are,float,high,centered moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+atsc0p,float,high,centered moreau-broto autocorrelation of lag 0 weighted by polarizability
+atsc1p,float,high,centered moreau-broto autocorrelation of lag 1 weighted by polarizability
+atsc2p,float,high,centered moreau-broto autocorrelation of lag 2 weighted by polarizability
+atsc3p,float,high,centered moreau-broto autocorrelation of lag 3 weighted by polarizability
+atsc4p,float,high,centered moreau-broto autocorrelation of lag 4 weighted by polarizability
+atsc5p,float,high,centered moreau-broto autocorrelation of lag 5 weighted by polarizability
+atsc6p,float,high,centered moreau-broto autocorrelation of lag 6 weighted by polarizability
+atsc7p,float,high,centered moreau-broto autocorrelation of lag 7 weighted by polarizability
+atsc8p,float,high,centered moreau-broto autocorrelation of lag 8 weighted by polarizability
+atsc0i,float,high,centered moreau-broto autocorrelation of lag 0 weighted by ionization potential
+atsc1i,float,high,centered moreau-broto autocorrelation of lag 1 weighted by ionization potential
+atsc2i,float,high,centered moreau-broto autocorrelation of lag 2 weighted by ionization potential
+atsc3i,float,high,centered moreau-broto autocorrelation of lag 3 weighted by ionization potential
+atsc4i,float,high,centered moreau-broto autocorrelation of lag 4 weighted by ionization potential
+atsc5i,float,high,centered moreau-broto autocorrelation of lag 5 weighted by ionization potential
+atsc6i,float,high,centered moreau-broto autocorrelation of lag 6 weighted by ionization potential
+atsc7i,float,high,centered moreau-broto autocorrelation of lag 7 weighted by ionization potential
+atsc8i,float,high,centered moreau-broto autocorrelation of lag 8 weighted by ionization potential
+aatsc0c,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by gasteiger charge
+aatsc1c,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by gasteiger charge
+aatsc2c,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by gasteiger charge
+aatsc3c,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by gasteiger charge
+aatsc4c,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by gasteiger charge
+aatsc5c,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by gasteiger charge
+aatsc6c,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by gasteiger charge
+aatsc7c,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by gasteiger charge
+aatsc8c,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by gasteiger charge
+aatsc0dv,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
+aatsc1dv,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
+aatsc2dv,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
+aatsc3dv,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
+aatsc4dv,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
+aatsc5dv,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
+aatsc6dv,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
+aatsc7dv,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
+aatsc8dv,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
+aatsc0d,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+aatsc1d,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+aatsc2d,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+aatsc3d,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+aatsc4d,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+aatsc5d,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+aatsc6d,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+aatsc7d,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+aatsc8d,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+aatsc0s,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+aatsc1s,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+aatsc2s,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+aatsc3s,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+aatsc4s,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+aatsc5s,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+aatsc6s,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+aatsc7s,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+aatsc8s,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+aatsc0z,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by atomic number
+aatsc1z,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by atomic number
+aatsc2z,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by atomic number
+aatsc3z,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by atomic number
+aatsc4z,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by atomic number
+aatsc5z,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by atomic number
+aatsc6z,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by atomic number
+aatsc7z,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by atomic number
+aatsc8z,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by atomic number
+aatsc0m,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by mass
+aatsc1m,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by mass
+aatsc2m,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by mass
+aatsc3m,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by mass
+aatsc4m,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by mass
+aatsc5m,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by mass
+aatsc6m,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by mass
+aatsc7m,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by mass
+aatsc8m,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by mass
+aatsc0v,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by vdw volume
+aatsc1v,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by vdw volume
+aatsc2v,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by vdw volume
+aatsc3v,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by vdw volume
+aatsc4v,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by vdw volume
+aatsc5v,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by vdw volume
+aatsc6v,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by vdw volume
+aatsc7v,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by vdw volume
+aatsc8v,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by vdw volume
+aatsc0se,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+aatsc1se,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+aatsc2se,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+aatsc3se,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+aatsc4se,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+aatsc5se,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+aatsc6se,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+aatsc7se,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+aatsc8se,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+aatsc0pe,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by pauling EN
+aatsc1pe,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by pauling EN
+aatsc2pe,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by pauling EN
+aatsc3pe,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by pauling EN
+aatsc4pe,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by pauling EN
+aatsc5pe,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by pauling EN
+aatsc6pe,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by pauling EN
+aatsc7pe,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by pauling EN
+aatsc8pe,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by pauling EN
+aatsc0are,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+aatsc1are,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+aatsc2are,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+aatsc3are,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+aatsc4are,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+aatsc5are,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+aatsc6are,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+aatsc7are,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+aatsc8are,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+aatsc0p,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by polarizability
+aatsc1p,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by polarizability
+aatsc2p,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by polarizability
+aatsc3p,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by polarizability
+aatsc4p,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by polarizability
+aatsc5p,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by polarizability
+aatsc6p,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by polarizability
+aatsc7p,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by polarizability
+aatsc8p,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by polarizability
+aatsc0i,float,high,averaged and centered moreau-broto autocorrelation of lag 0 weighted by ionization potential
+aatsc1i,float,high,averaged and centered moreau-broto autocorrelation of lag 1 weighted by ionization potential
+aatsc2i,float,high,averaged and centered moreau-broto autocorrelation of lag 2 weighted by ionization potential
+aatsc3i,float,high,averaged and centered moreau-broto autocorrelation of lag 3 weighted by ionization potential
+aatsc4i,float,high,averaged and centered moreau-broto autocorrelation of lag 4 weighted by ionization potential
+aatsc5i,float,high,averaged and centered moreau-broto autocorrelation of lag 5 weighted by ionization potential
+aatsc6i,float,high,averaged and centered moreau-broto autocorrelation of lag 6 weighted by ionization potential
+aatsc7i,float,high,averaged and centered moreau-broto autocorrelation of lag 7 weighted by ionization potential
+aatsc8i,float,high,averaged and centered moreau-broto autocorrelation of lag 8 weighted by ionization potential
+mats1c,float,high,moran coefficient of lag 1 weighted by gasteiger charge
+mats2c,float,high,moran coefficient of lag 2 weighted by gasteiger charge
+mats3c,float,high,moran coefficient of lag 3 weighted by gasteiger charge
+mats4c,float,high,moran coefficient of lag 4 weighted by gasteiger charge
+mats5c,float,high,moran coefficient of lag 5 weighted by gasteiger charge
+mats6c,float,high,moran coefficient of lag 6 weighted by gasteiger charge
+mats7c,float,high,moran coefficient of lag 7 weighted by gasteiger charge
+mats8c,float,high,moran coefficient of lag 8 weighted by gasteiger charge
+mats1dv,float,high,moran coefficient of lag 1 weighted by valence electrons
+mats2dv,float,high,moran coefficient of lag 2 weighted by valence electrons
+mats3dv,float,high,moran coefficient of lag 3 weighted by valence electrons
+mats4dv,float,high,moran coefficient of lag 4 weighted by valence electrons
+mats5dv,float,high,moran coefficient of lag 5 weighted by valence electrons
+mats6dv,float,high,moran coefficient of lag 6 weighted by valence electrons
+mats7dv,float,high,moran coefficient of lag 7 weighted by valence electrons
+mats8dv,float,high,moran coefficient of lag 8 weighted by valence electrons
+mats1d,float,high,moran coefficient of lag 1 weighted by sigma electrons
+mats2d,float,high,moran coefficient of lag 2 weighted by sigma electrons
+mats3d,float,high,moran coefficient of lag 3 weighted by sigma electrons
+mats4d,float,high,moran coefficient of lag 4 weighted by sigma electrons
+mats5d,float,high,moran coefficient of lag 5 weighted by sigma electrons
+mats6d,float,high,moran coefficient of lag 6 weighted by sigma electrons
+mats7d,float,high,moran coefficient of lag 7 weighted by sigma electrons
+mats8d,float,high,moran coefficient of lag 8 weighted by sigma electrons
+mats1s,float,high,moran coefficient of lag 1 weighted by intrinsic state
+mats2s,float,high,moran coefficient of lag 2 weighted by intrinsic state
+mats3s,float,high,moran coefficient of lag 3 weighted by intrinsic state
+mats4s,float,high,moran coefficient of lag 4 weighted by intrinsic state
+mats5s,float,high,moran coefficient of lag 5 weighted by intrinsic state
+mats6s,float,high,moran coefficient of lag 6 weighted by intrinsic state
+mats7s,float,high,moran coefficient of lag 7 weighted by intrinsic state
+mats8s,float,high,moran coefficient of lag 8 weighted by intrinsic state
+mats1z,float,high,moran coefficient of lag 1 weighted by atomic number
+mats2z,float,high,moran coefficient of lag 2 weighted by atomic number
+mats3z,float,high,moran coefficient of lag 3 weighted by atomic number
+mats4z,float,high,moran coefficient of lag 4 weighted by atomic number
+mats5z,float,high,moran coefficient of lag 5 weighted by atomic number
+mats6z,float,high,moran coefficient of lag 6 weighted by atomic number
+mats7z,float,high,moran coefficient of lag 7 weighted by atomic number
+mats8z,float,high,moran coefficient of lag 8 weighted by atomic number
+mats1m,float,high,moran coefficient of lag 1 weighted by mass
+mats2m,float,high,moran coefficient of lag 2 weighted by mass
+mats3m,float,high,moran coefficient of lag 3 weighted by mass
+mats4m,float,high,moran coefficient of lag 4 weighted by mass
+mats5m,float,high,moran coefficient of lag 5 weighted by mass
+mats6m,float,high,moran coefficient of lag 6 weighted by mass
+mats7m,float,high,moran coefficient of lag 7 weighted by mass
+mats8m,float,high,moran coefficient of lag 8 weighted by mass
+mats1v,float,high,moran coefficient of lag 1 weighted by vdw volume
+mats2v,float,high,moran coefficient of lag 2 weighted by vdw volume
+mats3v,float,high,moran coefficient of lag 3 weighted by vdw volume
+mats4v,float,high,moran coefficient of lag 4 weighted by vdw volume
+mats5v,float,high,moran coefficient of lag 5 weighted by vdw volume
+mats6v,float,high,moran coefficient of lag 6 weighted by vdw volume
+mats7v,float,high,moran coefficient of lag 7 weighted by vdw volume
+mats8v,float,high,moran coefficient of lag 8 weighted by vdw volume
+mats1se,float,high,moran coefficient of lag 1 weighted by sanderson EN
+mats2se,float,high,moran coefficient of lag 2 weighted by sanderson EN
+mats3se,float,high,moran coefficient of lag 3 weighted by sanderson EN
+mats4se,float,high,moran coefficient of lag 4 weighted by sanderson EN
+mats5se,float,high,moran coefficient of lag 5 weighted by sanderson EN
+mats6se,float,high,moran coefficient of lag 6 weighted by sanderson EN
+mats7se,float,high,moran coefficient of lag 7 weighted by sanderson EN
+mats8se,float,high,moran coefficient of lag 8 weighted by sanderson EN
+mats1pe,float,high,moran coefficient of lag 1 weighted by pauling EN
+mats2pe,float,high,moran coefficient of lag 2 weighted by pauling EN
+mats3pe,float,high,moran coefficient of lag 3 weighted by pauling EN
+mats4pe,float,high,moran coefficient of lag 4 weighted by pauling EN
+mats5pe,float,high,moran coefficient of lag 5 weighted by pauling EN
+mats6pe,float,high,moran coefficient of lag 6 weighted by pauling EN
+mats7pe,float,high,moran coefficient of lag 7 weighted by pauling EN
+mats8pe,float,high,moran coefficient of lag 8 weighted by pauling EN
+mats1are,float,high,moran coefficient of lag 1 weighted by allred-rocow EN
+mats2are,float,high,moran coefficient of lag 2 weighted by allred-rocow EN
+mats3are,float,high,moran coefficient of lag 3 weighted by allred-rocow EN
+mats4are,float,high,moran coefficient of lag 4 weighted by allred-rocow EN
+mats5are,float,high,moran coefficient of lag 5 weighted by allred-rocow EN
+mats6are,float,high,moran coefficient of lag 6 weighted by allred-rocow EN
+mats7are,float,high,moran coefficient of lag 7 weighted by allred-rocow EN
+mats8are,float,high,moran coefficient of lag 8 weighted by allred-rocow EN
+mats1p,float,high,moran coefficient of lag 1 weighted by polarizability
+mats2p,float,high,moran coefficient of lag 2 weighted by polarizability
+mats3p,float,high,moran coefficient of lag 3 weighted by polarizability
+mats4p,float,high,moran coefficient of lag 4 weighted by polarizability
+mats5p,float,high,moran coefficient of lag 5 weighted by polarizability
+mats6p,float,high,moran coefficient of lag 6 weighted by polarizability
+mats7p,float,high,moran coefficient of lag 7 weighted by polarizability
+mats8p,float,high,moran coefficient of lag 8 weighted by polarizability
+mats1i,float,high,moran coefficient of lag 1 weighted by ionization potential
+mats2i,float,high,moran coefficient of lag 2 weighted by ionization potential
+mats3i,float,high,moran coefficient of lag 3 weighted by ionization potential
+mats4i,float,high,moran coefficient of lag 4 weighted by ionization potential
+mats5i,float,high,moran coefficient of lag 5 weighted by ionization potential
+mats6i,float,high,moran coefficient of lag 6 weighted by ionization potential
+mats7i,float,high,moran coefficient of lag 7 weighted by ionization potential
+mats8i,float,high,moran coefficient of lag 8 weighted by ionization potential
+gats1c,float,high,geary coefficient of lag 1 weighted by gasteiger charge
+gats2c,float,high,geary coefficient of lag 2 weighted by gasteiger charge
+gats3c,float,high,geary coefficient of lag 3 weighted by gasteiger charge
+gats4c,float,high,geary coefficient of lag 4 weighted by gasteiger charge
+gats5c,float,high,geary coefficient of lag 5 weighted by gasteiger charge
+gats6c,float,high,geary coefficient of lag 6 weighted by gasteiger charge
+gats7c,float,high,geary coefficient of lag 7 weighted by gasteiger charge
+gats8c,float,high,geary coefficient of lag 8 weighted by gasteiger charge
+gats1dv,float,high,geary coefficient of lag 1 weighted by valence electrons
+gats2dv,float,high,geary coefficient of lag 2 weighted by valence electrons
+gats3dv,float,high,geary coefficient of lag 3 weighted by valence electrons
+gats4dv,float,high,geary coefficient of lag 4 weighted by valence electrons
+gats5dv,float,high,geary coefficient of lag 5 weighted by valence electrons
+gats6dv,float,high,geary coefficient of lag 6 weighted by valence electrons
+gats7dv,float,high,geary coefficient of lag 7 weighted by valence electrons
+gats8dv,float,high,geary coefficient of lag 8 weighted by valence electrons
+gats1d,float,high,geary coefficient of lag 1 weighted by sigma electrons
+gats2d,float,high,geary coefficient of lag 2 weighted by sigma electrons
+gats3d,float,high,geary coefficient of lag 3 weighted by sigma electrons
+gats4d,float,high,geary coefficient of lag 4 weighted by sigma electrons
+gats5d,float,high,geary coefficient of lag 5 weighted by sigma electrons
+gats6d,float,high,geary coefficient of lag 6 weighted by sigma electrons
+gats7d,float,high,geary coefficient of lag 7 weighted by sigma electrons
+gats8d,float,high,geary coefficient of lag 8 weighted by sigma electrons
+gats1s,float,high,geary coefficient of lag 1 weighted by intrinsic state
+gats2s,float,high,geary coefficient of lag 2 weighted by intrinsic state
+gats3s,float,high,geary coefficient of lag 3 weighted by intrinsic state
+gats4s,float,high,geary coefficient of lag 4 weighted by intrinsic state
+gats5s,float,high,geary coefficient of lag 5 weighted by intrinsic state
+gats6s,float,high,geary coefficient of lag 6 weighted by intrinsic state
+gats7s,float,high,geary coefficient of lag 7 weighted by intrinsic state
+gats8s,float,high,geary coefficient of lag 8 weighted by intrinsic state
+gats1z,float,high,geary coefficient of lag 1 weighted by atomic number
+gats2z,float,high,geary coefficient of lag 2 weighted by atomic number
+gats3z,float,high,geary coefficient of lag 3 weighted by atomic number
+gats4z,float,high,geary coefficient of lag 4 weighted by atomic number
+gats5z,float,high,geary coefficient of lag 5 weighted by atomic number
+gats6z,float,high,geary coefficient of lag 6 weighted by atomic number
+gats7z,float,high,geary coefficient of lag 7 weighted by atomic number
+gats8z,float,high,geary coefficient of lag 8 weighted by atomic number
+gats1m,float,high,geary coefficient of lag 1 weighted by mass
+gats2m,float,high,geary coefficient of lag 2 weighted by mass
+gats3m,float,high,geary coefficient of lag 3 weighted by mass
+gats4m,float,high,geary coefficient of lag 4 weighted by mass
+gats5m,float,high,geary coefficient of lag 5 weighted by mass
+gats6m,float,high,geary coefficient of lag 6 weighted by mass
+gats7m,float,high,geary coefficient of lag 7 weighted by mass
+gats8m,float,high,geary coefficient of lag 8 weighted by mass
+gats1v,float,high,geary coefficient of lag 1 weighted by vdw volume
+gats2v,float,high,geary coefficient of lag 2 weighted by vdw volume
+gats3v,float,high,geary coefficient of lag 3 weighted by vdw volume
+gats4v,float,high,geary coefficient of lag 4 weighted by vdw volume
+gats5v,float,high,geary coefficient of lag 5 weighted by vdw volume
+gats6v,float,high,geary coefficient of lag 6 weighted by vdw volume
+gats7v,float,high,geary coefficient of lag 7 weighted by vdw volume
+gats8v,float,high,geary coefficient of lag 8 weighted by vdw volume
+gats1se,float,high,geary coefficient of lag 1 weighted by sanderson EN
+gats2se,float,high,geary coefficient of lag 2 weighted by sanderson EN
+gats3se,float,high,geary coefficient of lag 3 weighted by sanderson EN
+gats4se,float,high,geary coefficient of lag 4 weighted by sanderson EN
+gats5se,float,high,geary coefficient of lag 5 weighted by sanderson EN
+gats6se,float,high,geary coefficient of lag 6 weighted by sanderson EN
+gats7se,float,high,geary coefficient of lag 7 weighted by sanderson EN
+gats8se,float,high,geary coefficient of lag 8 weighted by sanderson EN
+gats1pe,float,high,geary coefficient of lag 1 weighted by pauling EN
+gats2pe,float,high,geary coefficient of lag 2 weighted by pauling EN
+gats3pe,float,high,geary coefficient of lag 3 weighted by pauling EN
+gats4pe,float,high,geary coefficient of lag 4 weighted by pauling EN
+gats5pe,float,high,geary coefficient of lag 5 weighted by pauling EN
+gats6pe,float,high,geary coefficient of lag 6 weighted by pauling EN
+gats7pe,float,high,geary coefficient of lag 7 weighted by pauling EN
+gats8pe,float,high,geary coefficient of lag 8 weighted by pauling EN
+gats1are,float,high,geary coefficient of lag 1 weighted by allred-rocow EN
+gats2are,float,high,geary coefficient of lag 2 weighted by allred-rocow EN
+gats3are,float,high,geary coefficient of lag 3 weighted by allred-rocow EN
+gats4are,float,high,geary coefficient of lag 4 weighted by allred-rocow EN
+gats5are,float,high,geary coefficient of lag 5 weighted by allred-rocow EN
+gats6are,float,high,geary coefficient of lag 6 weighted by allred-rocow EN
+gats7are,float,high,geary coefficient of lag 7 weighted by allred-rocow EN
+gats8are,float,high,geary coefficient of lag 8 weighted by allred-rocow EN
+gats1p,float,high,geary coefficient of lag 1 weighted by polarizability
+gats2p,float,high,geary coefficient of lag 2 weighted by polarizability
+gats3p,float,high,geary coefficient of lag 3 weighted by polarizability
+gats4p,float,high,geary coefficient of lag 4 weighted by polarizability
+gats5p,float,high,geary coefficient of lag 5 weighted by polarizability
+gats6p,float,high,geary coefficient of lag 6 weighted by polarizability
+gats7p,float,high,geary coefficient of lag 7 weighted by polarizability
+gats8p,float,high,geary coefficient of lag 8 weighted by polarizability
+gats1i,float,high,geary coefficient of lag 1 weighted by ionization potential
+gats2i,float,high,geary coefficient of lag 2 weighted by ionization potential
+gats3i,float,high,geary coefficient of lag 3 weighted by ionization potential
+gats4i,float,high,geary coefficient of lag 4 weighted by ionization potential
+gats5i,float,high,geary coefficient of lag 5 weighted by ionization potential
+gats6i,float,high,geary coefficient of lag 6 weighted by ionization potential
+gats7i,float,high,geary coefficient of lag 7 weighted by ionization potential
+gats8i,float,high,geary coefficient of lag 8 weighted by ionization potential
+balabanj,float,high,Balaban's J index
+spabs_dzz,float,high,graph energy from Barysz matrix weighted by atomic number
+spmax_dzz,float,high,leading eigenvalue from Barysz matrix weighted by atomic number
+spdiam_dzz,float,high,spectral diamiter from Barysz matrix weighted by atomic number
+spad_dzz,float,high,spectral absolute diviation from Barysz matrix weighted by atomic number
+spmad_dzz,float,high,spectral mean absolute diviation from Barysz matrix weighted by atomic number
+logee_dzz,float,high,Estrada-like index from Barysz matrix weighted by atomic number
+sm1_dzz,float,high,spectral moment from Barysz matrix weighted by atomic number
+ve1_dzz,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by atomic number
+ve2_dzz,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by atomic number
+ve3_dzz,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by atomic number
+vr1_dzz,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
+vr2_dzz,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
+vr3_dzz,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
+spabs_dzm,float,high,graph energy from Barysz matrix weighted by mass
+spmax_dzm,float,high,leading eigenvalue from Barysz matrix weighted by mass
+spdiam_dzm,float,high,spectral diamiter from Barysz matrix weighted by mass
+spad_dzm,float,high,spectral absolute diviation from Barysz matrix weighted by mass
+spmad_dzm,float,high,spectral mean absolute diviation from Barysz matrix weighted by mass
+logee_dzm,float,high,Estrada-like index from Barysz matrix weighted by mass
+sm1_dzm,float,high,spectral moment from Barysz matrix weighted by mass
+ve1_dzm,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by mass
+ve2_dzm,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by mass
+ve3_dzm,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by mass
+vr1_dzm,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by mass
+vr2_dzm,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by mass
+vr3_dzm,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by mass
+spabs_dzv,float,high,graph energy from Barysz matrix weighted by vdw volume
+spmax_dzv,float,high,leading eigenvalue from Barysz matrix weighted by vdw volume
+spdiam_dzv,float,high,spectral diamiter from Barysz matrix weighted by vdw volume
+spad_dzv,float,high,spectral absolute diviation from Barysz matrix weighted by vdw volume
+spmad_dzv,float,high,spectral mean absolute diviation from Barysz matrix weighted by vdw volume
+logee_dzv,float,high,Estrada-like index from Barysz matrix weighted by vdw volume
+sm1_dzv,float,high,spectral moment from Barysz matrix weighted by vdw volume
+ve1_dzv,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by vdw volume
+ve2_dzv,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by vdw volume
+ve3_dzv,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by vdw volume
+vr1_dzv,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
+vr2_dzv,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
+vr3_dzv,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
+spabs_dzse,float,high,graph energy from Barysz matrix weighted by sanderson EN
+spmax_dzse,float,high,leading eigenvalue from Barysz matrix weighted by sanderson EN
+spdiam_dzse,float,high,spectral diamiter from Barysz matrix weighted by sanderson EN
+spad_dzse,float,high,spectral absolute diviation from Barysz matrix weighted by sanderson EN
+spmad_dzse,float,high,spectral mean absolute diviation from Barysz matrix weighted by sanderson EN
+logee_dzse,float,high,Estrada-like index from Barysz matrix weighted by sanderson EN
+sm1_dzse,float,high,spectral moment from Barysz matrix weighted by sanderson EN
+ve1_dzse,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by sanderson EN
+ve2_dzse,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by sanderson EN
+ve3_dzse,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by sanderson EN
+vr1_dzse,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
+vr2_dzse,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
+vr3_dzse,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
+spabs_dzpe,float,high,graph energy from Barysz matrix weighted by pauling EN
+spmax_dzpe,float,high,leading eigenvalue from Barysz matrix weighted by pauling EN
+spdiam_dzpe,float,high,spectral diamiter from Barysz matrix weighted by pauling EN
+spad_dzpe,float,high,spectral absolute diviation from Barysz matrix weighted by pauling EN
+spmad_dzpe,float,high,spectral mean absolute diviation from Barysz matrix weighted by pauling EN
+logee_dzpe,float,high,Estrada-like index from Barysz matrix weighted by pauling EN
+sm1_dzpe,float,high,spectral moment from Barysz matrix weighted by pauling EN
+ve1_dzpe,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by pauling EN
+ve2_dzpe,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by pauling EN
+ve3_dzpe,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by pauling EN
+vr1_dzpe,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
+vr2_dzpe,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
+vr3_dzpe,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
+spabs_dzare,float,high,graph energy from Barysz matrix weighted by allred-rocow EN
+spmax_dzare,float,high,leading eigenvalue from Barysz matrix weighted by allred-rocow EN
+spdiam_dzare,float,high,spectral diamiter from Barysz matrix weighted by allred-rocow EN
+spad_dzare,float,high,spectral absolute diviation from Barysz matrix weighted by allred-rocow EN
+spmad_dzare,float,high,spectral mean absolute diviation from Barysz matrix weighted by allred-rocow EN
+logee_dzare,float,high,Estrada-like index from Barysz matrix weighted by allred-rocow EN
+sm1_dzare,float,high,spectral moment from Barysz matrix weighted by allred-rocow EN
+ve1_dzare,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by allred-rocow EN
+ve2_dzare,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by allred-rocow EN
+ve3_dzare,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by allred-rocow EN
+vr1_dzare,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
+vr2_dzare,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
+vr3_dzare,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
+spabs_dzp,float,high,graph energy from Barysz matrix weighted by polarizability
+spmax_dzp,float,high,leading eigenvalue from Barysz matrix weighted by polarizability
+spdiam_dzp,float,high,spectral diamiter from Barysz matrix weighted by polarizability
+spad_dzp,float,high,spectral absolute diviation from Barysz matrix weighted by polarizability
+spmad_dzp,float,high,spectral mean absolute diviation from Barysz matrix weighted by polarizability
+logee_dzp,float,high,Estrada-like index from Barysz matrix weighted by polarizability
+sm1_dzp,float,high,spectral moment from Barysz matrix weighted by polarizability
+ve1_dzp,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by polarizability
+ve2_dzp,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by polarizability
+ve3_dzp,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by polarizability
+vr1_dzp,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
+vr2_dzp,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
+vr3_dzp,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
+spabs_dzi,float,high,graph energy from Barysz matrix weighted by ionization potential
+spmax_dzi,float,high,leading eigenvalue from Barysz matrix weighted by ionization potential
+spdiam_dzi,float,high,spectral diamiter from Barysz matrix weighted by ionization potential
+spad_dzi,float,high,spectral absolute diviation from Barysz matrix weighted by ionization potential
+spmad_dzi,float,high,spectral mean absolute diviation from Barysz matrix weighted by ionization potential
+logee_dzi,float,high,Estrada-like index from Barysz matrix weighted by ionization potential
+sm1_dzi,float,high,spectral moment from Barysz matrix weighted by ionization potential
+ve1_dzi,float,high,coefficient sum of the last eigenvector from Barysz matrix weighted by ionization potential
+ve2_dzi,float,high,average coefficient of the last eigenvector from Barysz matrix weighted by ionization potential
+ve3_dzi,float,high,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by ionization potential
+vr1_dzi,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
+vr2_dzi,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
+vr3_dzi,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
+bcutc-1h,float,high,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
+bcutc-1l,float,high,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
+bcutdv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by valence electrons
+bcutdv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by valence electrons
+bcutd-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sigma electrons
+bcutd-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sigma electrons
+bcuts-1h,float,high,first heighest eigenvalue of Burden matrix weighted by intrinsic state
+bcuts-1l,float,high,first lowest eigenvalue of Burden matrix weighted by intrinsic state
+bcutz-1h,float,high,first heighest eigenvalue of Burden matrix weighted by atomic number
+bcutz-1l,float,high,first lowest eigenvalue of Burden matrix weighted by atomic number
+bcutm-1h,float,high,first heighest eigenvalue of Burden matrix weighted by mass
+bcutm-1l,float,high,first lowest eigenvalue of Burden matrix weighted by mass
+bcutv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by vdw volume
+bcutv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by vdw volume
+bcutse-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sanderson EN
+bcutse-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sanderson EN
+bcutpe-1h,float,high,first heighest eigenvalue of Burden matrix weighted by pauling EN
+bcutpe-1l,float,high,first lowest eigenvalue of Burden matrix weighted by pauling EN
+bcutare-1h,float,high,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
+bcutare-1l,float,high,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
+bcutp-1h,float,high,first heighest eigenvalue of Burden matrix weighted by polarizability
+bcutp-1l,float,high,first lowest eigenvalue of Burden matrix weighted by polarizability
+bcuti-1h,float,high,first heighest eigenvalue of Burden matrix weighted by ionization potential
+bcuti-1l,float,high,first lowest eigenvalue of Burden matrix weighted by ionization potential
+bertzct,float,high,Bertz CT
+nbonds,float,high,number of all bonds in non-kekulized structure
+nbondso,float,high,number of bonds connecting to heavy atom in non-kekulized structure
+nbondss,float,high,number of single bonds in non-kekulized structure
+nbondsd,float,high,number of double bonds in non-kekulized structure
+nbondst,float,high,number of triple bonds in non-kekulized structure
+nbondsa,float,high,number of aromatic bonds in non-kekulized structure
+nbondsm,float,high,number of multiple bonds in non-kekulized structure
+nbondsks,float,high,number of single bonds in kekulized structure
+nbondskd,float,high,number of double bonds in kekulized structure
+c1sp1,float,high,SP carbon bound to 1 other carbon
+c2sp1,float,high,SP carbon bound to 2 other carbons
+c1sp2,float,high,SP2 carbon bound to 1 other carbon
+c2sp2,float,high,SP2 carbon bound to 2 other carbons
+c3sp2,float,high,SP2 carbon bound to 3 other carbons
+c1sp3,float,high,SP3 carbon bound to 1 other carbon
+c2sp3,float,high,SP3 carbon bound to 2 other carbons
+c3sp3,float,high,SP3 carbon bound to 3 other carbons
+c4sp3,float,high,SP3 carbon bound to 4 other carbons
+hybratio,float,high,hybridization ratio
+xch-3d,float,high,3-ordered Chi chain weighted by sigma electrons
+xch-4d,float,high,4-ordered Chi chain weighted by sigma electrons
+xch-5d,float,high,5-ordered Chi chain weighted by sigma electrons
+xch-6d,float,high,6-ordered Chi chain weighted by sigma electrons
+xch-7d,float,high,7-ordered Chi chain weighted by sigma electrons
+xch-3dv,float,high,3-ordered Chi chain weighted by valence electrons
+xch-4dv,float,high,4-ordered Chi chain weighted by valence electrons
+xch-5dv,float,high,5-ordered Chi chain weighted by valence electrons
+xch-6dv,float,high,6-ordered Chi chain weighted by valence electrons
+xch-7dv,float,high,7-ordered Chi chain weighted by valence electrons
+xc-3d,float,high,3-ordered Chi cluster weighted by sigma electrons
+xc-4d,float,high,4-ordered Chi cluster weighted by sigma electrons
+xc-5d,float,high,5-ordered Chi cluster weighted by sigma electrons
+xc-6d,float,high,6-ordered Chi cluster weighted by sigma electrons
+xc-3dv,float,high,3-ordered Chi cluster weighted by valence electrons
+xc-4dv,float,high,4-ordered Chi cluster weighted by valence electrons
+xc-5dv,float,high,5-ordered Chi cluster weighted by valence electrons
+xc-6dv,float,high,6-ordered Chi cluster weighted by valence electrons
+xpc-4d,float,high,4-ordered Chi path-cluster weighted by sigma electrons
+xpc-5d,float,high,5-ordered Chi path-cluster weighted by sigma electrons
+xpc-6d,float,high,6-ordered Chi path-cluster weighted by sigma electrons
+xpc-4dv,float,high,4-ordered Chi path-cluster weighted by valence electrons
+xpc-5dv,float,high,5-ordered Chi path-cluster weighted by valence electrons
+xpc-6dv,float,high,6-ordered Chi path-cluster weighted by valence electrons
+xp-0d,float,high,0-ordered Chi path weighted by sigma electrons
+xp-1d,float,high,1-ordered Chi path weighted by sigma electrons
+xp-2d,float,high,2-ordered Chi path weighted by sigma electrons
+xp-3d,float,high,3-ordered Chi path weighted by sigma electrons
+xp-4d,float,high,4-ordered Chi path weighted by sigma electrons
+xp-5d,float,high,5-ordered Chi path weighted by sigma electrons
+xp-6d,float,high,6-ordered Chi path weighted by sigma electrons
+xp-7d,float,high,7-ordered Chi path weighted by sigma electrons
+axp-0d,float,high,0-ordered averaged Chi path weighted by sigma electrons
+axp-1d,float,high,1-ordered averaged Chi path weighted by sigma electrons
+axp-2d,float,high,2-ordered averaged Chi path weighted by sigma electrons
+axp-3d,float,high,3-ordered averaged Chi path weighted by sigma electrons
+axp-4d,float,high,4-ordered averaged Chi path weighted by sigma electrons
+axp-5d,float,high,5-ordered averaged Chi path weighted by sigma electrons
+axp-6d,float,high,6-ordered averaged Chi path weighted by sigma electrons
+axp-7d,float,high,7-ordered averaged Chi path weighted by sigma electrons
+xp-0dv,float,high,0-ordered Chi path weighted by valence electrons
+xp-1dv,float,high,1-ordered Chi path weighted by valence electrons
+xp-2dv,float,high,2-ordered Chi path weighted by valence electrons
+xp-3dv,float,high,3-ordered Chi path weighted by valence electrons
+xp-4dv,float,high,4-ordered Chi path weighted by valence electrons
+xp-5dv,float,high,5-ordered Chi path weighted by valence electrons
+xp-6dv,float,high,6-ordered Chi path weighted by valence electrons
+xp-7dv,float,high,7-ordered Chi path weighted by valence electrons
+axp-0dv,float,high,0-ordered averaged Chi path weighted by valence electrons
+axp-1dv,float,high,1-ordered averaged Chi path weighted by valence electrons
+axp-2dv,float,high,2-ordered averaged Chi path weighted by valence electrons
+axp-3dv,float,high,3-ordered averaged Chi path weighted by valence electrons
+axp-4dv,float,high,4-ordered averaged Chi path weighted by valence electrons
+axp-5dv,float,high,5-ordered averaged Chi path weighted by valence electrons
+axp-6dv,float,high,6-ordered averaged Chi path weighted by valence electrons
+axp-7dv,float,high,7-ordered averaged Chi path weighted by valence electrons
+sz,float,high,sum of constitutional weighted by atomic number
+sm,float,high,sum of constitutional weighted by mass
+sv,float,high,sum of constitutional weighted by vdw volume
+sse,float,high,sum of constitutional weighted by sanderson EN
+spe,float,high,sum of constitutional weighted by pauling EN
+sare,float,high,sum of constitutional weighted by allred-rocow EN
+sp,float,high,sum of constitutional weighted by polarizability
+si,float,high,sum of constitutional weighted by ionization potential
+mz,float,high,mean of constitutional weighted by atomic number
+mm,float,high,mean of constitutional weighted by mass
+mv,float,high,mean of constitutional weighted by vdw volume
+mse,float,high,mean of constitutional weighted by sanderson EN
+mpe,float,high,mean of constitutional weighted by pauling EN
+mare,float,high,mean of constitutional weighted by allred-rocow EN
+mp,float,high,mean of constitutional weighted by polarizability
+mi,float,high,mean of constitutional weighted by ionization potential
+rncg,float,high,relative negative charge
+rpcg,float,high,relative positive charge
+spabs_dt,float,high,graph energy from detourn matrix
+spmax_dt,float,high,leading eigenvalue from detourn matrix
+spdiam_dt,float,high,spectral diamiter from detourn matrix
+spad_dt,float,high,spectral absolute diviation from detourn matrix
+spmad_dt,float,high,spectral mean absolute diviation from detourn matrix
+logee_dt,float,high,Estrada-like index from detourn matrix
+sm1_dt,float,high,spectral moment from detourn matrix
+ve1_dt,float,high,coefficient sum of the last eigenvector from detourn matrix
+ve2_dt,float,high,average coefficient of the last eigenvector from detourn matrix
+ve3_dt,float,high,logarithmic coefficient sum of the last eigenvector from detourn matrix
+vr1_dt,float,high,Randic-like eigenvector-based index from detourn matrix
+vr2_dt,float,high,normalized Randic-like eigenvector-based index from detourn matrix
+vr3_dt,float,high,logarithmic Randic-like eigenvector-based index from detourn matrix
+detourindex,float,high,detour index
+spabs_d,float,high,graph energy from distance matrix
+spmax_d,float,high,leading eigenvalue from distance matrix
+spdiam_d,float,high,spectral diamiter from distance matrix
+spad_d,float,high,spectral absolute diviation from distance matrix
+spmad_d,float,high,spectral mean absolute diviation from distance matrix
+logee_d,float,high,Estrada-like index from distance matrix
+ve1_d,float,high,coefficient sum of the last eigenvector from distance matrix
+ve2_d,float,high,average coefficient of the last eigenvector from distance matrix
+ve3_d,float,high,logarithmic coefficient sum of the last eigenvector from distance matrix
+vr1_d,float,high,Randic-like eigenvector-based index from distance matrix
+vr2_d,float,high,normalized Randic-like eigenvector-based index from distance matrix
+vr3_d,float,high,logarithmic Randic-like eigenvector-based index from distance matrix
+ecindex,float,high,eccentric connectivity index
+nsli,float,high,number of sLi
+nssbe,float,high,number of ssBe
+nssssbe,float,high,number of ssssBe
+nssbh,float,high,number of ssBH
+nsssb,float,high,number of sssB
+nssssb,float,high,number of ssssB
+nsch3,float,high,number of sCH3
+ndch2,float,high,number of dCH2
+nssch2,float,high,number of ssCH2
+ntch,float,high,number of tCH
+ndsch,float,high,number of dsCH
+naach,float,high,number of aaCH
+nsssch,float,high,number of sssCH
+nddc,float,high,number of ddC
+ntsc,float,high,number of tsC
+ndssc,float,high,number of dssC
+naasc,float,high,number of aasC
+naaac,float,high,number of aaaC
+nssssc,float,high,number of ssssC
+nsnh3,float,high,number of sNH3
+nsnh2,float,high,number of sNH2
+nssnh2,float,high,number of ssNH2
+ndnh,float,high,number of dNH
+nssnh,float,high,number of ssNH
+naanh,float,high,number of aaNH
+ntn,float,high,number of tN
+nsssnh,float,high,number of sssNH
+ndsn,float,high,number of dsN
+naan,float,high,number of aaN
+nsssn,float,high,number of sssN
+nddsn,float,high,number of ddsN
+naasn,float,high,number of aasN
+nssssn,float,high,number of ssssN
+nsoh,float,high,number of sOH
+ndo,float,high,number of dO
+nsso,float,high,number of ssO
+naao,float,high,number of aaO
+nsf,float,high,number of sF
+nssih3,float,high,number of sSiH3
+nsssih2,float,high,number of ssSiH2
+nssssih,float,high,number of sssSiH
+nsssssi,float,high,number of ssssSi
+nsph2,float,high,number of sPH2
+nssph,float,high,number of ssPH
+nsssp,float,high,number of sssP
+ndsssp,float,high,number of dsssP
+nsssssp,float,high,number of sssssP
+nssh,float,high,number of sSH
+nds,float,high,number of dS
+nsss,float,high,number of ssS
+naas,float,high,number of aaS
+ndsss,float,high,number of dssS
+nddsss,float,high,number of ddssS
+nscl,float,high,number of sCl
+nsgeh3,float,high,number of sGeH3
+nssgeh2,float,high,number of ssGeH2
+nsssgeh,float,high,number of sssGeH
+nssssge,float,high,number of ssssGe
+nsash2,float,high,number of sAsH2
+nssash,float,high,number of ssAsH
+nsssas,float,high,number of sssAs
+nsssdas,float,high,number of sssdAs
+nsssssas,float,high,number of sssssAs
+nsseh,float,high,number of sSeH
+ndse,float,high,number of dSe
+nssse,float,high,number of ssSe
+naase,float,high,number of aaSe
+ndssse,float,high,number of dssSe
+nddssse,float,high,number of ddssSe
+nsbr,float,high,number of sBr
+nssnh3,float,high,number of sSnH3
+nsssnh2,float,high,number of ssSnH2
+nssssnh,float,high,number of sssSnH
+nsssssn,float,high,number of ssssSn
+nsi,float,high,number of sI
+nspbh3,float,high,number of sPbH3
+nsspbh2,float,high,number of ssPbH2
+nssspbh,float,high,number of sssPbH
+nsssspb,float,high,number of ssssPb
+ssli,float,high,sum of sLi
+sssbe,float,high,sum of ssBe
+sssssbe,float,high,sum of ssssBe
+sssbh,float,high,sum of ssBH
+ssssb,float,high,sum of sssB
+sssssb,float,high,sum of ssssB
+ssch3,float,high,sum of sCH3
+sdch2,float,high,sum of dCH2
+sssch2,float,high,sum of ssCH2
+stch,float,high,sum of tCH
+sdsch,float,high,sum of dsCH
+saach,float,high,sum of aaCH
+ssssch,float,high,sum of sssCH
+sddc,float,high,sum of ddC
+stsc,float,high,sum of tsC
+sdssc,float,high,sum of dssC
+saasc,float,high,sum of aasC
+saaac,float,high,sum of aaaC
+sssssc,float,high,sum of ssssC
+ssnh3,float,high,sum of sNH3
+ssnh2,float,high,sum of sNH2
+sssnh2,float,high,sum of ssNH2
+sdnh,float,high,sum of dNH
+sssnh,float,high,sum of ssNH
+saanh,float,high,sum of aaNH
+stn,float,high,sum of tN
+ssssnh,float,high,sum of sssNH
+sdsn,float,high,sum of dsN
+saan,float,high,sum of aaN
+ssssn,float,high,sum of sssN
+sddsn,float,high,sum of ddsN
+saasn,float,high,sum of aasN
+sssssn,float,high,sum of ssssN
+ssoh,float,high,sum of sOH
+sdo,float,high,sum of dO
+ssso,float,high,sum of ssO
+saao,float,high,sum of aaO
+ssf,float,high,sum of sF
+sssih3,float,high,sum of sSiH3
+ssssih2,float,high,sum of ssSiH2
+sssssih,float,high,sum of sssSiH
+ssssssi,float,high,sum of ssssSi
+ssph2,float,high,sum of sPH2
+sssph,float,high,sum of ssPH
+ssssp,float,high,sum of sssP
+sdsssp,float,high,sum of dsssP
+ssssssp,float,high,sum of sssssP
+sssh,float,high,sum of sSH
+sds,float,high,sum of dS
+ssss,float,high,sum of ssS
+saas,float,high,sum of aaS
+sdsss,float,high,sum of dssS
+sddsss,float,high,sum of ddssS
+sscl,float,high,sum of sCl
+ssgeh3,float,high,sum of sGeH3
+sssgeh2,float,high,sum of ssGeH2
+ssssgeh,float,high,sum of sssGeH
+sssssge,float,high,sum of ssssGe
+ssash2,float,high,sum of sAsH2
+sssash,float,high,sum of ssAsH
+ssssas,float,high,sum of sssAs
+ssssdas,float,high,sum of sssdAs
+ssssssas,float,high,sum of sssssAs
+ssseh,float,high,sum of sSeH
+sdse,float,high,sum of dSe
+sssse,float,high,sum of ssSe
+saase,float,high,sum of aaSe
+sdssse,float,high,sum of dssSe
+sddssse,float,high,sum of ddssSe
+ssbr,float,high,sum of sBr
+sssnh3,float,high,sum of sSnH3
+ssssnh2,float,high,sum of ssSnH2
+sssssnh,float,high,sum of sssSnH
+ssssssn,float,high,sum of ssssSn
+ssi,float,high,sum of sI
+sspbh3,float,high,sum of sPbH3
+ssspbh2,float,high,sum of ssPbH2
+sssspbh,float,high,sum of sssPbH
+ssssspb,float,high,sum of ssssPb
+maxsch3,float,high,max of sCH3
+maxssch2,float,high,max of ssCH2
+maxaach,float,high,max of aaCH
+maxsssch,float,high,max of sssCH
+maxdssc,float,high,max of dssC
+maxaasc,float,high,max of aasC
+maxsoh,float,high,max of sOH
+maxdo,float,high,max of dO
+minsch3,float,high,min of sCH3
+minssch2,float,high,min of ssCH2
+minaach,float,high,min of aaCH
+minsssch,float,high,min of sssCH
+mindssc,float,high,min of dssC
+minaasc,float,high,min of aasC
+minsoh,float,high,min of sOH
+mindo,float,high,min of dO
+eta_alpha,float,high,ETA core count
+aeta_alpha,float,high,averaged ETA core count
+eta_shape_p,float,high,ETA shape index (type: p)
+eta_shape_y,float,high,ETA shape index (type: y)
+eta_shape_x,float,high,ETA shape index (type: x)
+eta_beta,float,high,valence electron mobile count
+aeta_beta,float,high,averaged valence electron mobile count
+eta_beta_s,float,high,sigma contribution to valence electron mobile count
+aeta_beta_s,float,high,averaged sigma contribution to valence electron mobile count
+eta_beta_ns,float,high,nonsigma contribution to valence electron mobile count
+aeta_beta_ns,float,high,averaged nonsigma contribution to valence electron mobile count
+eta_beta_ns_d,float,high,delta contribution to valence electron mobile count
+aeta_beta_ns_d,float,high,averaged delta contribution to valence electron mobile count
+eta_eta,float,high,ETA composite index for reference graph
+aeta_eta,float,high,averaged ETA composite index for reference graph
+eta_eta_l,float,high,local ETA composite index for reference graph
+aeta_eta_l,float,high,averaged local ETA composite index for reference graph
+eta_eta_r,float,high,ETA composite index for reference graph
+aeta_eta_r,float,high,averaged ETA composite index for reference graph
+eta_eta_rl,float,high,local ETA composite index for reference graph
+aeta_eta_rl,float,high,averaged local ETA composite index for reference graph
+eta_eta_f,float,high,ETA functionality index
+aeta_eta_f,float,high,averaged ETA functionality index
+eta_eta_fl,float,high,local ETA functionality index
+aeta_eta_fl,float,high,averaged local ETA functionality index
+eta_eta_b,float,high,ETA branching index
+aeta_eta_b,float,high,averaged ETA branching index
+eta_eta_br,float,high,ETA branching index (use ring count)
+aeta_eta_br,float,high,averaged ETA branching index (use ring count)
+eta_dalpha_a,float,high,ETA delta alpha (type: A)
+eta_dalpha_b,float,high,ETA delta alpha (type: B)
+eta_epsilon_1,float,high,ETA epsilon (type: 1)
+eta_epsilon_2,float,high,ETA epsilon (type: 2)
+eta_epsilon_3,float,high,ETA epsilon (type: 3)
+eta_epsilon_4,float,high,ETA epsilon (type: 4)
+eta_epsilon_5,float,high,ETA epsilon (type: 5)
+eta_depsilon_a,float,high,ETA delta epsilon (type: A)
+eta_depsilon_b,float,high,ETA delta epsilon (type: B)
+eta_depsilon_c,float,high,ETA delta epsilon (type: C)
+eta_depsilon_d,float,high,ETA delta epsilon (type: D)
+eta_dbeta,float,high,ETA delta beta
+aeta_dbeta,float,high,averaged ETA delta beta
+eta_psi_1,float,high,ETA psi
+eta_dpsi_a,float,high,ETA delta psi (type: A)
+eta_dpsi_b,float,high,ETA delta psi (type: B)
+fragcpx,float,high,fragment complexity
+fmf,float,high,molecular framework ratio
+nhbacc,float,high,number of hydrogen bond acceptor
+nhbdon,float,high,number of hydrogen bond donor
+ic0,float,high,0-ordered neighborhood information content
+ic1,float,high,1-ordered neighborhood information content
+ic2,float,high,2-ordered neighborhood information content
+ic3,float,high,3-ordered neighborhood information content
+ic4,float,high,4-ordered neighborhood information content
+ic5,float,high,5-ordered neighborhood information content
+tic0,float,high,0-ordered neighborhood total information content
+tic1,float,high,1-ordered neighborhood total information content
+tic2,float,high,2-ordered neighborhood total information content
+tic3,float,high,3-ordered neighborhood total information content
+tic4,float,high,4-ordered neighborhood total information content
+tic5,float,high,5-ordered neighborhood total information content
+sic0,float,high,0-ordered structural information content
+sic1,float,high,1-ordered structural information content
+sic2,float,high,2-ordered structural information content
+sic3,float,high,3-ordered structural information content
+sic4,float,high,4-ordered structural information content
+sic5,float,high,5-ordered structural information content
+bic0,float,high,0-ordered bonding information content
+bic1,float,high,1-ordered bonding information content
+bic2,float,high,2-ordered bonding information content
+bic3,float,high,3-ordered bonding information content
+bic4,float,high,4-ordered bonding information content
+bic5,float,high,5-ordered bonding information content
+cic0,float,high,0-ordered complementary information content
+cic1,float,high,1-ordered complementary information content
+cic2,float,high,2-ordered complementary information content
+cic3,float,high,3-ordered complementary information content
+cic4,float,high,4-ordered complementary information content
+cic5,float,high,5-ordered complementary information content
+mic0,float,high,0-ordered modified information content
+mic1,float,high,1-ordered modified information content
+mic2,float,high,2-ordered modified information content
+mic3,float,high,3-ordered modified information content
+mic4,float,high,4-ordered modified information content
+mic5,float,high,5-ordered modified information content
+zmic0,float,high,0-ordered Z-modified information content
+zmic1,float,high,1-ordered Z-modified information content
+zmic2,float,high,2-ordered Z-modified information content
+zmic3,float,high,3-ordered Z-modified information content
+zmic4,float,high,4-ordered Z-modified information content
+zmic5,float,high,5-ordered Z-modified information content
+kier1,float,high,kappa shape index 1
+kier2,float,high,kappa shape index 2
+kier3,float,high,kappa shape index 3
+lipinski,float,high,Lipinski rule of five
+ghosefilter,float,high,Ghose filter
+vmcgowan,float,high,McGowan volume
+labuteasa,float,high,Labute's Approximate Surface Area
+peoe_vsa1,float,high,MOE Charge VSA Descriptor 1 (-inf < x < -0.30)
+peoe_vsa2,float,high,MOE Charge VSA Descriptor 2 (-0.30 <= x < -0.25)
+peoe_vsa3,float,high,MOE Charge VSA Descriptor 3 (-0.25 <= x < -0.20)
+peoe_vsa4,float,high,MOE Charge VSA Descriptor 4 (-0.20 <= x < -0.15)
+peoe_vsa5,float,high,MOE Charge VSA Descriptor 5 (-0.15 <= x < -0.10)
+peoe_vsa6,float,high,MOE Charge VSA Descriptor 6 (-0.10 <= x < -0.05)
+peoe_vsa7,float,high,MOE Charge VSA Descriptor 7 (-0.05 <= x <  0.00)
+peoe_vsa8,float,high,MOE Charge VSA Descriptor 8 ( 0.00 <= x <  0.05)
+peoe_vsa9,float,high,MOE Charge VSA Descriptor 9 ( 0.05 <= x <  0.10)
+peoe_vsa10,float,high,MOE Charge VSA Descriptor 10 ( 0.10 <= x <  0.15)
+peoe_vsa11,float,high,MOE Charge VSA Descriptor 11 ( 0.15 <= x <  0.20)
+peoe_vsa12,float,high,MOE Charge VSA Descriptor 12 ( 0.20 <= x <  0.25)
+peoe_vsa13,float,high,MOE Charge VSA Descriptor 13 ( 0.25 <= x <  0.30)
+smr_vsa1,float,high,MOE MR VSA Descriptor 1 (-inf < x <  1.29)
+smr_vsa2,float,high,MOE MR VSA Descriptor 2 ( 1.29 <= x <  1.82)
+smr_vsa3,float,high,MOE MR VSA Descriptor 3 ( 1.82 <= x <  2.24)
+smr_vsa4,float,high,MOE MR VSA Descriptor 4 ( 2.24 <= x <  2.45)
+smr_vsa5,float,high,MOE MR VSA Descriptor 5 ( 2.45 <= x <  2.75)
+smr_vsa6,float,high,MOE MR VSA Descriptor 6 ( 2.75 <= x <  3.05)
+smr_vsa7,float,high,MOE MR VSA Descriptor 7 ( 3.05 <= x <  3.63)
+smr_vsa8,float,high,MOE MR VSA Descriptor 8 ( 3.63 <= x <  3.80)
+smr_vsa9,float,high,MOE MR VSA Descriptor 9 ( 3.80 <= x <  4.00)
+slogp_vsa1,float,high,MOE logP VSA Descriptor 1 (-inf < x < -0.40)
+slogp_vsa2,float,high,MOE logP VSA Descriptor 2 (-0.40 <= x < -0.20)
+slogp_vsa3,float,high,MOE logP VSA Descriptor 3 (-0.20 <= x <  0.00)
+slogp_vsa4,float,high,MOE logP VSA Descriptor 4 ( 0.00 <= x <  0.10)
+slogp_vsa5,float,high,MOE logP VSA Descriptor 5 ( 0.10 <= x <  0.15)
+slogp_vsa6,float,high,MOE logP VSA Descriptor 6 ( 0.15 <= x <  0.20)
+slogp_vsa7,float,high,MOE logP VSA Descriptor 7 ( 0.20 <= x <  0.25)
+slogp_vsa8,float,high,MOE logP VSA Descriptor 8 ( 0.25 <= x <  0.30)
+slogp_vsa9,float,high,MOE logP VSA Descriptor 9 ( 0.30 <= x <  0.40)
+slogp_vsa10,float,high,MOE logP VSA Descriptor 10 ( 0.40 <= x <  0.50)
+slogp_vsa11,float,high,MOE logP VSA Descriptor 11 ( 0.50 <= x <  0.60)
+estate_vsa1,float,high,EState VSA Descriptor 1 (-inf < x <  -0.39)
+estate_vsa2,float,high,EState VSA Descriptor 2 ( -0.39 <= x <  0.29)
+estate_vsa3,float,high,EState VSA Descriptor 3 ( 0.29 <= x <  0.72)
+estate_vsa4,float,high,EState VSA Descriptor 4 ( 0.72 <= x <  1.17)
+estate_vsa5,float,high,EState VSA Descriptor 5 ( 1.17 <= x <  1.54)
+estate_vsa6,float,high,EState VSA Descriptor 6 ( 1.54 <= x <  1.81)
+estate_vsa7,float,high,EState VSA Descriptor 7 ( 1.81 <= x <  2.05)
+estate_vsa8,float,high,EState VSA Descriptor 8 ( 2.05 <= x <  4.69)
+estate_vsa9,float,high,EState VSA Descriptor 9 ( 4.69 <= x <  9.17)
+estate_vsa10,float,high,EState VSA Descriptor 10 ( 9.17 <= x <  15.00)
+vsa_estate1,float,high,VSA EState Descriptor 1 (-inf < x <  4.78)
+vsa_estate2,float,high,VSA EState Descriptor 2 ( 4.78 <= x <  5.00)
+vsa_estate3,float,high,VSA EState Descriptor 3 ( 5.00 <= x <  5.41)
+vsa_estate4,float,high,VSA EState Descriptor 4 ( 5.41 <= x <  5.74)
+vsa_estate5,float,high,VSA EState Descriptor 5 ( 5.74 <= x <  6.00)
+vsa_estate6,float,high,VSA EState Descriptor 6 ( 6.00 <= x <  6.07)
+vsa_estate7,float,high,VSA EState Descriptor 7 ( 6.07 <= x <  6.45)
+vsa_estate8,float,high,VSA EState Descriptor 8 ( 6.45 <= x <  7.00)
+vsa_estate9,float,high,VSA EState Descriptor 9 ( 7.00 <= x <  11.00)
+mdec-12,float,high,molecular distance edge between primary C and secondary C
+mdec-13,float,high,molecular distance edge between primary C and tertiary C
+mdec-22,float,high,molecular distance edge between secondary C and secondary C
+mdec-23,float,high,molecular distance edge between secondary C and tertiary C
+mdec-33,float,high,molecular distance edge between tertiary C and tertiary C
+mdeo-11,float,high,molecular distance edge between primary O and primary O
+mid,float,high,molecular ID
+amid,float,high,averaged molecular ID
+mid_h,float,high,molecular ID on h atoms
+amid_h,float,high,averaged molecular ID on h atoms
+mid_c,float,high,molecular ID on C atoms
+amid_c,float,high,averaged molecular ID on C atoms
+mid_n,float,high,molecular ID on N atoms
+amid_n,float,high,averaged molecular ID on N atoms
+mid_o,float,high,molecular ID on O atoms
+amid_o,float,high,averaged molecular ID on O atoms
+mid_x,float,high,molecular ID on halogen atoms
+amid_x,float,high,averaged molecular ID on halogen atoms
+mpc2,float,high,2-ordered path count
+mpc3,float,high,3-ordered path count
+mpc4,float,high,4-ordered path count
+mpc5,float,high,5-ordered path count
+mpc6,float,high,6-ordered path count
+mpc7,float,high,7-ordered path count
+mpc8,float,high,8-ordered path count
+mpc9,float,high,9-ordered path count
+mpc10,float,high,10-ordered path count
+tmpc10,float,high,10-ordered total path count
+pipc1,float,high,1-ordered pi-path count (log scale)
+pipc2,float,high,2-ordered pi-path count (log scale)
+pipc3,float,high,3-ordered pi-path count (log scale)
+pipc4,float,high,4-ordered pi-path count (log scale)
+pipc5,float,high,5-ordered pi-path count (log scale)
+pipc6,float,high,6-ordered pi-path count (log scale)
+pipc7,float,high,7-ordered pi-path count (log scale)
+pipc8,float,high,8-ordered pi-path count (log scale)
+pipc9,float,high,9-ordered pi-path count (log scale)
+pipc10,float,high,10-ordered pi-path count (log scale)
+tpipc10,float,high,10-ordered total pi-path count (log scale)
+apol,float,high,atomic polarizability
+bpol,float,high,bond polarizability
+nring,float,high,ring count
+n3ring,float,high,3-membered ring count
+n4ring,float,high,4-membered ring count
+n5ring,float,high,5-membered ring count
+n6ring,float,high,6-membered ring count
+n7ring,float,high,7-membered ring count
+n8ring,float,high,8-membered ring count
+n9ring,float,high,9-membered ring count
+n10ring,float,high,10-membered ring count
+n11ring,float,high,11-membered ring count
+n12ring,float,high,12-membered ring count
+ng12ring,float,high,12-or-greater-membered ring count
+nhring,float,high,hetero ring count
+n3hring,float,high,3-membered hetero ring count
+n4hring,float,high,4-membered hetero ring count
+n5hring,float,high,5-membered hetero ring count
+n6hring,float,high,6-membered hetero ring count
+n7hring,float,high,7-membered hetero ring count
+n8hring,float,high,8-membered hetero ring count
+n9hring,float,high,9-membered hetero ring count
+n10hring,float,high,10-membered hetero ring count
+n11hring,float,high,11-membered hetero ring count
+n12hring,float,high,12-membered hetero ring count
+ng12hring,float,high,12-or-greater-membered hetero ring count
+naring,float,high,aromatic ring count
+n3aring,float,high,3-membered aromatic ring count
+n4aring,float,high,4-membered aromatic ring count
+n5aring,float,high,5-membered aromatic ring count
+n6aring,float,high,6-membered aromatic ring count
+n7aring,float,high,7-membered aromatic ring count
+n8aring,float,high,8-membered aromatic ring count
+n9aring,float,high,9-membered aromatic ring count
+n10aring,float,high,10-membered aromatic ring count
+n11aring,float,high,11-membered aromatic ring count
+n12aring,float,high,12-membered aromatic ring count
+ng12aring,float,high,12-or-greater-membered aromatic ring count
+nahring,float,high,aromatic hetero ring count
+n3ahring,float,high,3-membered aromatic hetero ring count
+n4ahring,float,high,4-membered aromatic hetero ring count
+n5ahring,float,high,5-membered aromatic hetero ring count
+n6ahring,float,high,6-membered aromatic hetero ring count
+n7ahring,float,high,7-membered aromatic hetero ring count
+n8ahring,float,high,8-membered aromatic hetero ring count
+n9ahring,float,high,9-membered aromatic hetero ring count
+n10ahring,float,high,10-membered aromatic hetero ring count
+n11ahring,float,high,11-membered aromatic hetero ring count
+n12ahring,float,high,12-membered aromatic hetero ring count
+ng12ahring,float,high,12-or-greater-membered aromatic hetero ring count
+naring,float,high,aliphatic ring count
+n3aring,float,high,3-membered aliphatic ring count
+n4aring,float,high,4-membered aliphatic ring count
+n5aring,float,high,5-membered aliphatic ring count
+n6aring,float,high,6-membered aliphatic ring count
+n7aring,float,high,7-membered aliphatic ring count
+n8aring,float,high,8-membered aliphatic ring count
+n9aring,float,high,9-membered aliphatic ring count
+n10aring,float,high,10-membered aliphatic ring count
+n11aring,float,high,11-membered aliphatic ring count
+n12aring,float,high,12-membered aliphatic ring count
+ng12aring,float,high,12-or-greater-membered aliphatic ring count
+nahring,float,high,aliphatic hetero ring count
+n3ahring,float,high,3-membered aliphatic hetero ring count
+n4ahring,float,high,4-membered aliphatic hetero ring count
+n5ahring,float,high,5-membered aliphatic hetero ring count
+n6ahring,float,high,6-membered aliphatic hetero ring count
+n7ahring,float,high,7-membered aliphatic hetero ring count
+n8ahring,float,high,8-membered aliphatic hetero ring count
+n9ahring,float,high,9-membered aliphatic hetero ring count
+n10ahring,float,high,10-membered aliphatic hetero ring count
+n11ahring,float,high,11-membered aliphatic hetero ring count
+n12ahring,float,high,12-membered aliphatic hetero ring count
+ng12ahring,float,high,12-or-greater-membered aliphatic hetero ring count
+nfring,float,high,fused ring count
+n4fring,float,high,4-membered fused ring count
+n5fring,float,high,5-membered fused ring count
+n6fring,float,high,6-membered fused ring count
+n7fring,float,high,7-membered fused ring count
+n8fring,float,high,8-membered fused ring count
+n9fring,float,high,9-membered fused ring count
+n10fring,float,high,10-membered fused ring count
+n11fring,float,high,11-membered fused ring count
+n12fring,float,high,12-membered fused ring count
+ng12fring,float,high,12-or-greater-membered fused ring count
+nfhring,float,high,fused hetero ring count
+n4fhring,float,high,4-membered fused hetero ring count
+n5fhring,float,high,5-membered fused hetero ring count
+n6fhring,float,high,6-membered fused hetero ring count
+n7fhring,float,high,7-membered fused hetero ring count
+n8fhring,float,high,8-membered fused hetero ring count
+n9fhring,float,high,9-membered fused hetero ring count
+n10fhring,float,high,10-membered fused hetero ring count
+n11fhring,float,high,11-membered fused hetero ring count
+n12fhring,float,high,12-membered fused hetero ring count
+ng12fhring,float,high,12-or-greater-membered fused hetero ring count
+nfaring,float,high,aromatic fused ring count
+n4faring,float,high,4-membered aromatic fused ring count
+n5faring,float,high,5-membered aromatic fused ring count
+n6faring,float,high,6-membered aromatic fused ring count
+n7faring,float,high,7-membered aromatic fused ring count
+n8faring,float,high,8-membered aromatic fused ring count
+n9faring,float,high,9-membered aromatic fused ring count
+n10faring,float,high,10-membered aromatic fused ring count
+n11faring,float,high,11-membered aromatic fused ring count
+n12faring,float,high,12-membered aromatic fused ring count
+ng12faring,float,high,12-or-greater-membered aromatic fused ring count
+nfahring,float,high,aromatic fused hetero ring count
+n4fahring,float,high,4-membered aromatic fused hetero ring count
+n5fahring,float,high,5-membered aromatic fused hetero ring count
+n6fahring,float,high,6-membered aromatic fused hetero ring count
+n7fahring,float,high,7-membered aromatic fused hetero ring count
+n8fahring,float,high,8-membered aromatic fused hetero ring count
+n9fahring,float,high,9-membered aromatic fused hetero ring count
+n10fahring,float,high,10-membered aromatic fused hetero ring count
+n11fahring,float,high,11-membered aromatic fused hetero ring count
+n12fahring,float,high,12-membered aromatic fused hetero ring count
+ng12fahring,float,high,12-or-greater-membered aromatic fused hetero ring count
+nfaring,float,high,aliphatic fused ring count
+n4faring,float,high,4-membered aliphatic fused ring count
+n5faring,float,high,5-membered aliphatic fused ring count
+n6faring,float,high,6-membered aliphatic fused ring count
+n7faring,float,high,7-membered aliphatic fused ring count
+n8faring,float,high,8-membered aliphatic fused ring count
+n9faring,float,high,9-membered aliphatic fused ring count
+n10faring,float,high,10-membered aliphatic fused ring count
+n11faring,float,high,11-membered aliphatic fused ring count
+n12faring,float,high,12-membered aliphatic fused ring count
+ng12faring,float,high,12-or-greater-membered aliphatic fused ring count
+nfahring,float,high,aliphatic fused hetero ring count
+n4fahring,float,high,4-membered aliphatic fused hetero ring count
+n5fahring,float,high,5-membered aliphatic fused hetero ring count
+n6fahring,float,high,6-membered aliphatic fused hetero ring count
+n7fahring,float,high,7-membered aliphatic fused hetero ring count
+n8fahring,float,high,8-membered aliphatic fused hetero ring count
+n9fahring,float,high,9-membered aliphatic fused hetero ring count
+n10fahring,float,high,10-membered aliphatic fused hetero ring count
+n11fahring,float,high,11-membered aliphatic fused hetero ring count
+n12fahring,float,high,12-membered aliphatic fused hetero ring count
+ng12fahring,float,high,12-or-greater-membered aliphatic fused hetero ring count
+nrot,float,high,rotatable bonds count
+rotratio,float,high,rotatable bonds ratio
+slogp,float,high,Wildman-Crippen LogP
+smr,float,high,Wildman-Crippen MR
+ggi1,float,high,1-ordered raw topological charge
+ggi2,float,high,2-ordered raw topological charge
+ggi3,float,high,3-ordered raw topological charge
+ggi4,float,high,4-ordered raw topological charge
+ggi5,float,high,5-ordered raw topological charge
+ggi6,float,high,6-ordered raw topological charge
+ggi7,float,high,7-ordered raw topological charge
+ggi8,float,high,8-ordered raw topological charge
+ggi9,float,high,9-ordered raw topological charge
+ggi10,float,high,10-ordered raw topological charge
+jgi1,float,high,1-ordered mean topological charge
+jgi2,float,high,2-ordered mean topological charge
+jgi3,float,high,3-ordered mean topological charge
+jgi4,float,high,4-ordered mean topological charge
+jgi5,float,high,5-ordered mean topological charge
+jgi6,float,high,6-ordered mean topological charge
+jgi7,float,high,7-ordered mean topological charge
+jgi8,float,high,8-ordered mean topological charge
+jgi9,float,high,9-ordered mean topological charge
+jgi10,float,high,10-ordered mean topological charge
+jgt10,float,high,10-ordered global topological charge
+diameter,float,high,topological diameter
+radius,float,high,topological radius
+toposhapeindex,float,high,topological shape index
+petitjeanindex,float,high,Petitjean index
+topopsa(no),float,high,topological polar surface area (use only nitrogen and oxygen)
+topopsa,float,high,topological polar surface area
+vabc,float,high,ABC van der waals volume
+vadjmat,float,high,vertex adjacency information
+mwc01,float,high,walk count (leg-1)
+mwc02,float,high,walk count (leg-2)
+mwc03,float,high,walk count (leg-3)
+mwc04,float,high,walk count (leg-4)
+mwc05,float,high,walk count (leg-5)
+mwc06,float,high,walk count (leg-6)
+mwc07,float,high,walk count (leg-7)
+mwc08,float,high,walk count (leg-8)
+mwc09,float,high,walk count (leg-9)
+mwc10,float,high,walk count (leg-10)
+tmwc10,float,high,total walk count (leg-10)
+srw02,float,high,"walk count (leg-2, only self returning walk)"
+srw03,float,high,"walk count (leg-3, only self returning walk)"
+srw04,float,high,"walk count (leg-4, only self returning walk)"
+srw05,float,high,"walk count (leg-5, only self returning walk)"
+srw06,float,high,"walk count (leg-6, only self returning walk)"
+srw07,float,high,"walk count (leg-7, only self returning walk)"
+srw08,float,high,"walk count (leg-8, only self returning walk)"
+srw09,float,high,"walk count (leg-9, only self returning walk)"
+srw10,float,high,"walk count (leg-10, only self returning walk)"
+tsrw10,float,high,"total walk count (leg-10, only self returning walk)"
+mw,float,high,molecular weight
+amw,float,high,averaged molecular weight
+wpath,float,high,Wiener index
+wpol,float,high,Wiener polarity index
+zagreb1,float,high,Zagreb index (version 1)
+zagreb2,float,high,Zagreb index (version 2)
+mzagreb1,float,high,modified Zagreb index (version 1)
+mzagreb2,float,high,modified Zagreb index (version 2)

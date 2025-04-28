@@ -7,4 +7,4 @@ RUN pip install scikit-learn==1.6.1
 RUN pip install joblib==1.4.2
 
 WORKDIR /repo
-COPY ./repo
+COPY . /repo

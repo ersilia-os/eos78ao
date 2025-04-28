@@ -38,10 +38,10 @@ def impute(df):
     imputer.fit(df)
     return imputer
 
-df = pd.read_csv("drugbank_mordred.csv")
+df = pd.read_csv("../data/drugbank_mordred.csv")
 print(df.shape)
 cols_to_drop = remove_cols(df)
-joblib.dump(cols_to_drop, "cols_to_drop.pkl")
+joblib.dump(cols_to_drop, "../../checkpoints/cols_to_drop.pkl")
 print(len(cols_to_drop))
 df = df.drop(columns=cols_to_drop)
 print(df.shape)
@@ -50,7 +50,7 @@ df = clean_up(df)
 print(df.shape)
 
 imputer = impute(df)
-joblib.dump(imputer, 'imputer.pkl')
+joblib.dump(imputer, '../../chekcpoints/imputer.pkl')
 df_imputed = imputer.transform(df)
 df_imputed = pd.DataFrame(df_imputed, columns=df.columns)
-df_imputed.to_csv("drugbank_mordred_imputed.csv", index=False)
+#df_imputed.to_csv("drugbank_mordred_imputed.csv", index=False)
