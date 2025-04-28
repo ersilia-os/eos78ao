@@ -3,21 +3,18 @@
     "Slug": "mordred",
     "Status": "Ready",
     "Title": "Mordred chemical descriptors",
-    "Description": "A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1455 features\n",
+    "Description": "A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1455 features",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Descriptor"
     ],
@@ -27,20 +24,23 @@
     "Tag": [
         "Descriptor"
     ],
-    "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2018,
+    "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y",
     "Source Code": "https://github.com/mordred-descriptor/mordred",
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
-    "Incorporation Date": "2021-09-17",
+    "Incorporation Date": "2021-09-28",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos78ao",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip",
-    "Deployment": [
-        "Local"
     ]
 }
