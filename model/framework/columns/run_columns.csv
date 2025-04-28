@@ -21,6 +21,7 @@ natom,float,high,number of all atoms
 nheavyatom,float,high,number of heavy atoms
 nspiro,float,high,number of spiro atoms
 nbridgehead,float,high,number of bridgehead atoms
+nhetero,float,high,number of heteroatoms
 nh,float,high,number of H atoms
 nb,float,high,number of B atoms
 nc,float,high,number of C atoms
@@ -639,6 +640,30 @@ gats5i,float,high,geary coefficient of lag 5 weighted by ionization potential
 gats6i,float,high,geary coefficient of lag 6 weighted by ionization potential
 gats7i,float,high,geary coefficient of lag 7 weighted by ionization potential
 gats8i,float,high,geary coefficient of lag 8 weighted by ionization potential
+bcutc-1h,float,high,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
+bcutc-1l,float,high,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
+bcutdv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by valence electrons
+bcutdv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by valence electrons
+bcutd-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sigma electrons
+bcutd-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sigma electrons
+bcuts-1h,float,high,first heighest eigenvalue of Burden matrix weighted by intrinsic state
+bcuts-1l,float,high,first lowest eigenvalue of Burden matrix weighted by intrinsic state
+bcutz-1h,float,high,first heighest eigenvalue of Burden matrix weighted by atomic number
+bcutz-1l,float,high,first lowest eigenvalue of Burden matrix weighted by atomic number
+bcutm-1h,float,high,first heighest eigenvalue of Burden matrix weighted by mass
+bcutm-1l,float,high,first lowest eigenvalue of Burden matrix weighted by mass
+bcutv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by vdw volume
+bcutv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by vdw volume
+bcutse-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sanderson EN
+bcutse-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sanderson EN
+bcutpe-1h,float,high,first heighest eigenvalue of Burden matrix weighted by pauling EN
+bcutpe-1l,float,high,first lowest eigenvalue of Burden matrix weighted by pauling EN
+bcutare-1h,float,high,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
+bcutare-1l,float,high,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
+bcutp-1h,float,high,first heighest eigenvalue of Burden matrix weighted by polarizability
+bcutp-1l,float,high,first lowest eigenvalue of Burden matrix weighted by polarizability
+bcuti-1h,float,high,first heighest eigenvalue of Burden matrix weighted by ionization potential
+bcuti-1l,float,high,first lowest eigenvalue of Burden matrix weighted by ionization potential
 balabanj,float,high,Balaban's J index
 spabs_dzz,float,high,graph energy from Barysz matrix weighted by atomic number
 spmax_dzz,float,high,leading eigenvalue from Barysz matrix weighted by atomic number
@@ -744,30 +769,6 @@ ve3_dzi,float,high,logarithmic coefficient sum of the last eigenvector from Bary
 vr1_dzi,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
 vr2_dzi,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
 vr3_dzi,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
-bcutc-1h,float,high,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
-bcutc-1l,float,high,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
-bcutdv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by valence electrons
-bcutdv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by valence electrons
-bcutd-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sigma electrons
-bcutd-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sigma electrons
-bcuts-1h,float,high,first heighest eigenvalue of Burden matrix weighted by intrinsic state
-bcuts-1l,float,high,first lowest eigenvalue of Burden matrix weighted by intrinsic state
-bcutz-1h,float,high,first heighest eigenvalue of Burden matrix weighted by atomic number
-bcutz-1l,float,high,first lowest eigenvalue of Burden matrix weighted by atomic number
-bcutm-1h,float,high,first heighest eigenvalue of Burden matrix weighted by mass
-bcutm-1l,float,high,first lowest eigenvalue of Burden matrix weighted by mass
-bcutv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by vdw volume
-bcutv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by vdw volume
-bcutse-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sanderson EN
-bcutse-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sanderson EN
-bcutpe-1h,float,high,first heighest eigenvalue of Burden matrix weighted by pauling EN
-bcutpe-1l,float,high,first lowest eigenvalue of Burden matrix weighted by pauling EN
-bcutare-1h,float,high,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
-bcutare-1l,float,high,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
-bcutp-1h,float,high,first heighest eigenvalue of Burden matrix weighted by polarizability
-bcutp-1l,float,high,first lowest eigenvalue of Burden matrix weighted by polarizability
-bcuti-1h,float,high,first heighest eigenvalue of Burden matrix weighted by ionization potential
-bcuti-1l,float,high,first lowest eigenvalue of Burden matrix weighted by ionization potential
 bertzct,float,high,Bertz CT
 nbonds,float,high,number of all bonds in non-kekulized structure
 nbondso,float,high,number of bonds connecting to heavy atom in non-kekulized structure
@@ -778,6 +779,8 @@ nbondsa,float,high,number of aromatic bonds in non-kekulized structure
 nbondsm,float,high,number of multiple bonds in non-kekulized structure
 nbondsks,float,high,number of single bonds in kekulized structure
 nbondskd,float,high,number of double bonds in kekulized structure
+rncg,float,high,relative negative charge
+rpcg,float,high,relative positive charge
 c1sp1,float,high,SP carbon bound to 1 other carbon
 c2sp1,float,high,SP carbon bound to 2 other carbons
 c1sp2,float,high,SP2 carbon bound to 1 other carbon
@@ -788,6 +791,7 @@ c2sp3,float,high,SP3 carbon bound to 2 other carbons
 c3sp3,float,high,SP3 carbon bound to 3 other carbons
 c4sp3,float,high,SP3 carbon bound to 4 other carbons
 hybratio,float,high,hybridization ratio
+fcsp3,float,high,fraction of sp3 hybridized carbon
 xch-3d,float,high,3-ordered Chi chain weighted by sigma electrons
 xch-4d,float,high,4-ordered Chi chain weighted by sigma electrons
 xch-5d,float,high,5-ordered Chi chain weighted by sigma electrons
@@ -860,8 +864,6 @@ mpe,float,high,mean of constitutional weighted by pauling EN
 mare,float,high,mean of constitutional weighted by allred-rocow EN
 mp,float,high,mean of constitutional weighted by polarizability
 mi,float,high,mean of constitutional weighted by ionization potential
-rncg,float,high,relative negative charge
-rpcg,float,high,relative positive charge
 spabs_dt,float,high,graph energy from detourn matrix
 spmax_dt,float,high,leading eigenvalue from detourn matrix
 spdiam_dt,float,high,spectral diamiter from detourn matrix
@@ -888,7 +890,6 @@ ve3_d,float,high,logarithmic coefficient sum of the last eigenvector from distan
 vr1_d,float,high,Randic-like eigenvector-based index from distance matrix
 vr2_d,float,high,normalized Randic-like eigenvector-based index from distance matrix
 vr3_d,float,high,logarithmic Randic-like eigenvector-based index from distance matrix
-ecindex,float,high,eccentric connectivity index
 nsli,float,high,number of sLi
 nssbe,float,high,number of ssBe
 nssssbe,float,high,number of ssssBe
@@ -1063,6 +1064,7 @@ mindssc,float,high,min of dssC
 minaasc,float,high,min of aasC
 minsoh,float,high,min of sOH
 mindo,float,high,min of dO
+ecindex,float,high,eccentric connectivity index
 eta_alpha,float,high,ETA core count
 aeta_alpha,float,high,averaged ETA core count
 eta_shape_p,float,high,ETA shape index (type: p)
@@ -1159,6 +1161,7 @@ kier2,float,high,kappa shape index 2
 kier3,float,high,kappa shape index 3
 lipinski,float,high,Lipinski rule of five
 ghosefilter,float,high,Ghose filter
+filteritlogs,float,high,LogS measured by Filterit
 vmcgowan,float,high,McGowan volume
 labuteasa,float,high,Labute's Approximate Surface Area
 peoe_vsa1,float,high,MOE Charge VSA Descriptor 1 (-inf < x < -0.30)
@@ -1302,30 +1305,30 @@ n10ahring,float,high,10-membered aromatic hetero ring count
 n11ahring,float,high,11-membered aromatic hetero ring count
 n12ahring,float,high,12-membered aromatic hetero ring count
 ng12ahring,float,high,12-or-greater-membered aromatic hetero ring count
-naring,float,high,aliphatic ring count
-n3aring,float,high,3-membered aliphatic ring count
-n4aring,float,high,4-membered aliphatic ring count
-n5aring,float,high,5-membered aliphatic ring count
-n6aring,float,high,6-membered aliphatic ring count
-n7aring,float,high,7-membered aliphatic ring count
-n8aring,float,high,8-membered aliphatic ring count
-n9aring,float,high,9-membered aliphatic ring count
-n10aring,float,high,10-membered aliphatic ring count
-n11aring,float,high,11-membered aliphatic ring count
-n12aring,float,high,12-membered aliphatic ring count
-ng12aring,float,high,12-or-greater-membered aliphatic ring count
-nahring,float,high,aliphatic hetero ring count
-n3ahring,float,high,3-membered aliphatic hetero ring count
-n4ahring,float,high,4-membered aliphatic hetero ring count
-n5ahring,float,high,5-membered aliphatic hetero ring count
-n6ahring,float,high,6-membered aliphatic hetero ring count
-n7ahring,float,high,7-membered aliphatic hetero ring count
-n8ahring,float,high,8-membered aliphatic hetero ring count
-n9ahring,float,high,9-membered aliphatic hetero ring count
-n10ahring,float,high,10-membered aliphatic hetero ring count
-n11ahring,float,high,11-membered aliphatic hetero ring count
-n12ahring,float,high,12-membered aliphatic hetero ring count
-ng12ahring,float,high,12-or-greater-membered aliphatic hetero ring count
+naring.1,float,high,aromatic ring count
+n3aring.1,float,high,aromatic ring count
+n4aring.1,float,high,aromatic ring count
+n5aring.1,float,high,aromatic ring count
+n6aring.1,float,high,aromatic ring count
+n7aring.1,float,high,aromatic ring count
+n8aring.1,float,high,aromatic ring count
+n9aring.1,float,high,aromatic ring count
+n10aring.1,float,high,aromatic ring count
+n11aring.1,float,high,aromatic ring count
+n12aring.1,float,high,aromatic ring count
+ng12aring.1,float,high,aromatic ring count
+nahring.1,float,high,aromatic hetero ring count
+n3ahring.1,float,high,aromatic hetero ring count
+n4ahring.1,float,high,aromatic hetero ring count
+n5ahring.1,float,high,aromatic hetero ring count
+n6ahring.1,float,high,aromatic hetero ring count
+n7ahring.1,float,high,aromatic hetero ring count
+n8ahring.1,float,high,aromatic hetero ring count
+n9ahring.1,float,high,aromatic hetero ring count
+n10ahring.1,float,high,aromatic hetero ring count
+n11ahring.1,float,high,aromatic hetero ring count
+n12ahring.1,float,high,aromatic hetero ring count
+ng12ahring.1,float,high,aromatic hetero ring count
 nfring,float,high,fused ring count
 n4fring,float,high,4-membered fused ring count
 n5fring,float,high,5-membered fused ring count
@@ -1370,32 +1373,34 @@ n10fahring,float,high,10-membered aromatic fused hetero ring count
 n11fahring,float,high,11-membered aromatic fused hetero ring count
 n12fahring,float,high,12-membered aromatic fused hetero ring count
 ng12fahring,float,high,12-or-greater-membered aromatic fused hetero ring count
-nfaring,float,high,aliphatic fused ring count
-n4faring,float,high,4-membered aliphatic fused ring count
-n5faring,float,high,5-membered aliphatic fused ring count
-n6faring,float,high,6-membered aliphatic fused ring count
-n7faring,float,high,7-membered aliphatic fused ring count
-n8faring,float,high,8-membered aliphatic fused ring count
-n9faring,float,high,9-membered aliphatic fused ring count
-n10faring,float,high,10-membered aliphatic fused ring count
-n11faring,float,high,11-membered aliphatic fused ring count
-n12faring,float,high,12-membered aliphatic fused ring count
-ng12faring,float,high,12-or-greater-membered aliphatic fused ring count
-nfahring,float,high,aliphatic fused hetero ring count
-n4fahring,float,high,4-membered aliphatic fused hetero ring count
-n5fahring,float,high,5-membered aliphatic fused hetero ring count
-n6fahring,float,high,6-membered aliphatic fused hetero ring count
-n7fahring,float,high,7-membered aliphatic fused hetero ring count
-n8fahring,float,high,8-membered aliphatic fused hetero ring count
-n9fahring,float,high,9-membered aliphatic fused hetero ring count
-n10fahring,float,high,10-membered aliphatic fused hetero ring count
-n11fahring,float,high,11-membered aliphatic fused hetero ring count
-n12fahring,float,high,12-membered aliphatic fused hetero ring count
-ng12fahring,float,high,12-or-greater-membered aliphatic fused hetero ring count
+nfaring.1,float,high,fused ring count
+n4faring.1,float,high,fused ring count
+n5faring.1,float,high,fused ring count
+n6faring.1,float,high,fused ring count
+n7faring.1,float,high,fused ring count
+n8faring.1,float,high,fused ring count
+n9faring.1,float,high,fused ring count
+n10faring.1,float,high,fused ring count
+n11faring.1,float,high,fused ring count
+n12faring.1,float,high,fused ring count
+ng12faring.1,float,high,fused ring count
+nfahring.1,float,high,fused hetero ring count
+n4fahring.1,float,high,fused hetero ring count
+n5fahring.1,float,high,fused hetero ring count
+n6fahring.1,float,high,fused hetero ring count
+n7fahring.1,float,high,fused hetero ring count
+n8fahring.1,float,high,fused hetero ring count
+n9fahring.1,float,high,fused hetero ring count
+n10fahring.1,float,high,fused hetero ring count
+n11fahring.1,float,high,fused hetero ring count
+n12fahring.1,float,high,fused hetero ring count
+ng12fahring.1,float,high,fused hetero ring count
 nrot,float,high,rotatable bonds count
 rotratio,float,high,rotatable bonds ratio
 slogp,float,high,Wildman-Crippen LogP
 smr,float,high,Wildman-Crippen MR
+topopsa(no),float,high,topological polar surface area (use only nitrogen and oxygen)
+topopsa,float,high,topological polar surface area
 ggi1,float,high,1-ordered raw topological charge
 ggi2,float,high,2-ordered raw topological charge
 ggi3,float,high,3-ordered raw topological charge
@@ -1421,8 +1426,6 @@ diameter,float,high,topological diameter
 radius,float,high,topological radius
 toposhapeindex,float,high,topological shape index
 petitjeanindex,float,high,Petitjean index
-topopsa(no),float,high,topological polar surface area (use only nitrogen and oxygen)
-topopsa,float,high,topological polar surface area
 vabc,float,high,ABC van der waals volume
 vadjmat,float,high,vertex adjacency information
 mwc01,float,high,walk count (leg-1)
