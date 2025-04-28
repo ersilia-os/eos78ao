@@ -39,7 +39,7 @@ Below are the **Output Columns** of the model:
 | spmad_a | float | high | SpMAD of adjacency matrix |
 | logee_a | float | high | LogEE of adjacency matrix |
 
-_10 of 1455 columns are shown_
+_10 of 1458 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
