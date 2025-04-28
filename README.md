@@ -1,45 +1,88 @@
 # Mordred chemical descriptors
 
-A set of ca 1,800 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules.
+A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1455 features
 
-## Identifiers
+This model was incorporated on 2021-09-17.
 
-* EOS model ID: `eos78ao`
-* Slug: `mordred`
+## Information
+### Identifiers
+- **Ersilia Identifier:** `eos78ao`
+- **Slug:** `mordred`
 
-## Characteristics
+### Domain
+- **Task:** `Representation`
+- **Subtask:** `Featurization`
+- **Biomedical Area:** `Any`
+- **Target Organism:** `Not Applicable`
+- **Tags:** `Descriptor`
 
-* Input: `Compound`
-* Input Shape: `Single`
-* Task: `Representation`
-* Output: `Descriptor`
-* Output Type: `Float`
-* Output Shape: `List`
-* Interpretation: Vector representation of a molecule
+### Input
+- **Input:** `Compound`
+- **Input Dimension:** `1`
 
-## References
+### Output
+- **Output Dimension:** `1455`
+- **Output Consistency:** `Fixed`
+- **Interpretation:** Vector representation of a molecule
 
-* [Publication](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y)
-* [Source Code](https://github.com/mordred-descriptor/mordred)
-* Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
+Below are the **Output Columns** of the model:
+| Name | Type | Direction | Description |
+|------|------|-----------|-------------|
+| abc | float | high | atom-bond connectivity index |
+| abcgg | float | high | Graovac-Ghorbani atom-bond connectivity index |
+| nacid | float | high | acidic group count |
+| nbase | float | high | basic group count |
+| spabs_a | float | high | SpAbs of adjacency matrix |
+| spmax_a | float | high | SpMax of adjacency matrix |
+| spdiam_a | float | high | SpDiam of adjacency matrix |
+| spad_a | float | high | SpAD of adjacency matrix |
+| spmad_a | float | high | SpMAD of adjacency matrix |
+| logee_a | float | high | LogEE of adjacency matrix |
 
-## Ersilia model URLs
-* [GitHub](https://github.com/ersilia-os/eos78ao)
-* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos78ao) (AMD64, ARM64)
+_10 of 1455 columns are shown_
+### Source and Deployment
+- **Source:** `Local`
+- **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos78ao](https://hub.docker.com/r/ersiliaos/eos78ao)
+- **Docker Architecture:** `AMD64`, `ARM64`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip)
 
-## Citation
+### Resource Consumption
 
-If you use this model, please cite the [original authors](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
-## License
+### References
+- **Source Code**: [https://github.com/mordred-descriptor/mordred](https://github.com/mordred-descriptor/mordred)
+- **Publication**: [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y)
+- **Publication Type:** `Peer reviewed`
+- **Publication Year:** `2018`
+- **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
-This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a BSD-3.0 license.
+### License
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [BSD-3-Clause](LICENSE) license.
 
-Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+**Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
-## About Us
 
-The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
+## Use
+To use this model locally, you need to have the [Ersilia CLI](https://github.com/ersilia-os/ersilia) installed.
+The model can be **fetched** using the following command:
+```bash
+# fetch model from the Ersilia Model Hub
+ersilia fetch eos78ao
+```
+Then, you can **serve**, **run** and **close** the model as follows:
+```bash
+# serve the model
+ersilia serve eos78ao
+# generate an example file
+ersilia example -n 3 -f my_input.csv
+# run the model
+ersilia run -i my_input.csv -o my_output.csv
+# close the model
+ersilia close
+```
 
-[Help us](https://www.ersilia.io/donate) achieve our mission!
+## About Ersilia
+The [Ersilia Open Source Initiative](https://ersilia.io) is a tech non-profit organization fueling sustainable research in the Global South.
+Please [cite](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff) the Ersilia Model Hub if you've found this model to be useful. Always [let us know](https://github.com/ersilia-os/ersilia/issues) if you experience any issues while trying to run it.
+If you want to contribute to our mission, consider [donating](https://www.ersilia.io/donate) to Ersilia!
