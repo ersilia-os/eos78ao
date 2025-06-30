@@ -63,17 +63,28 @@ R = R.drop(columns=cols_to_drop)
 R = convert_to_float(R)
 R = imputer.transform(R)
 
-cols = [c.lower() for c in columns if c not in cols_to_drop]
+cols = [c for c in columns if c not in cols_to_drop]
+cols = [c.lower() for c in cols]
 cols = [c.replace("-", "_") for c in cols]
 cols = [c.replace(" ", "_") for c in cols]
 cols = [c.replace("(", "_") for c in cols]
 cols = [c.replace(")", "") for c in cols]
 
+cols_ = []
+for c in cols:
+    if c in cols_:
+        cols_ += [c+"_1"]
+    else:
+        cols_ += [c]
+
+print(len(cols_), "columns after processing")
+print(len(set(cols_)), "unique columns after processing")
+
 with open(outfile, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(cols)
+    writer.writerow(cols_)
     for i, r in enumerate(R):
         if i in invalid_idxs:
-            writer.writerow([None for _ in range(len(cols))])
+            writer.writerow([None for _ in range(len(cols_))])
         else:
             writer.writerow(r)

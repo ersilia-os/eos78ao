@@ -8,7 +8,6 @@ from bentoml.service import BentoServiceArtifact
 import pickle
 import os
 import shutil
-import collections
 import tempfile
 import subprocess
 import csv

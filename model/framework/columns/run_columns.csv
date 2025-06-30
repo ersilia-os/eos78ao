@@ -1305,30 +1305,30 @@ n10ahring,float,high,10-membered aromatic hetero ring count
 n11ahring,float,high,11-membered aromatic hetero ring count
 n12ahring,float,high,12-membered aromatic hetero ring count
 ng12ahring,float,high,12-or-greater-membered aromatic hetero ring count
-naring,float,high,aromatic ring count
-n3aring,float,high,aromatic ring count
-n4aring,float,high,aromatic ring count
-n5aring,float,high,aromatic ring count
-n6aring,float,high,aromatic ring count
-n7aring,float,high,aromatic ring count
-n8aring,float,high,aromatic ring count
-n9aring,float,high,aromatic ring count
-n10aring,float,high,aromatic ring count
-n11aring,float,high,aromatic ring count
-n12aring,float,high,aromatic ring count
-ng12aring,float,high,aromatic ring count
-nahring,float,high,aromatic hetero ring count
-n3ahring,float,high,aromatic hetero ring count
-n4ahring,float,high,aromatic hetero ring count
-n5ahring,float,high,aromatic hetero ring count
-n6ahring,float,high,aromatic hetero ring count
-n7ahring,float,high,aromatic hetero ring count
-n8ahring,float,high,aromatic hetero ring count
-n9ahring,float,high,aromatic hetero ring count
-n10ahring,float,high,aromatic hetero ring count
-n11ahring,float,high,aromatic hetero ring count
-n12ahring,float,high,aromatic hetero ring count
-ng12ahring,float,high,aromatic hetero ring count
+naring_1,float,high,aromatic ring count
+n3aring_1,float,high,aromatic ring count
+n4aring_1,float,high,aromatic ring count
+n5aring_1,float,high,aromatic ring count
+n6aring_1,float,high,aromatic ring count
+n7aring_1,float,high,aromatic ring count
+n8aring_1,float,high,aromatic ring count
+n9aring_1,float,high,aromatic ring count
+n10aring_1,float,high,aromatic ring count
+n11aring_1,float,high,aromatic ring count
+n12aring_1,float,high,aromatic ring count
+ng12aring_1,float,high,aromatic ring count
+nahring_1,float,high,aromatic hetero ring count
+n3ahring_1,float,high,aromatic hetero ring count
+n4ahring_1,float,high,aromatic hetero ring count
+n5ahring_1,float,high,aromatic hetero ring count
+n6ahring_1,float,high,aromatic hetero ring count
+n7ahring_1,float,high,aromatic hetero ring count
+n8ahring_1,float,high,aromatic hetero ring count
+n9ahring_1,float,high,aromatic hetero ring count
+n10ahring_1,float,high,aromatic hetero ring count
+n11ahring_1,float,high,aromatic hetero ring count
+n12ahring_1,float,high,aromatic hetero ring count
+ng12ahring_1,float,high,aromatic hetero ring count
 nfring,float,high,fused ring count
 n4fring,float,high,4-membered fused ring count
 n5fring,float,high,5-membered fused ring count
@@ -1373,28 +1373,28 @@ n10fahring,float,high,10-membered aromatic fused hetero ring count
 n11fahring,float,high,11-membered aromatic fused hetero ring count
 n12fahring,float,high,12-membered aromatic fused hetero ring count
 ng12fahring,float,high,12-or-greater-membered aromatic fused hetero ring count
-nfaring,float,high,fused ring count
-n4faring,float,high,fused ring count
-n5faring,float,high,fused ring count
-n6faring,float,high,fused ring count
-n7faring,float,high,fused ring count
-n8faring,float,high,fused ring count
-n9faring,float,high,fused ring count
-n10faring,float,high,fused ring count
-n11faring,float,high,fused ring count
-n12faring,float,high,fused ring count
-ng12faring,float,high,fused ring count
-nfahring,float,high,fused hetero ring count
-n4fahring,float,high,fused hetero ring count
-n5fahring,float,high,fused hetero ring count
-n6fahring,float,high,fused hetero ring count
-n7fahring,float,high,fused hetero ring count
-n8fahring,float,high,fused hetero ring count
-n9fahring,float,high,fused hetero ring count
-n10fahring,float,high,fused hetero ring count
-n11fahring,float,high,fused hetero ring count
-n12fahring,float,high,fused hetero ring count
-ng12fahring,float,high,fused hetero ring count
+nfaring_1,float,high,fused ring count
+n4faring_1,float,high,fused ring count
+n5faring_1,float,high,fused ring count
+n6faring_1,float,high,fused ring count
+n7faring_1,float,high,fused ring count
+n8faring_1,float,high,fused ring count
+n9faring_1,float,high,fused ring count
+n10faring_1,float,high,fused ring count
+n11faring_1,float,high,fused ring count
+n12faring_1,float,high,fused ring count
+ng12faring_1,float,high,fused ring count
+nfahring_1,float,high,fused hetero ring count
+n4fahring_1,float,high,fused hetero ring count
+n5fahring_1,float,high,fused hetero ring count
+n6fahring_1,float,high,fused hetero ring count
+n7fahring_1,float,high,fused hetero ring count
+n8fahring_1,float,high,fused hetero ring count
+n9fahring_1,float,high,fused hetero ring count
+n10fahring_1,float,high,fused hetero ring count
+n11fahring_1,float,high,fused hetero ring count
+n12fahring_1,float,high,fused hetero ring count
+ng12fahring_1,float,high,fused hetero ring count
 nrot,float,high,rotatable bonds count
 rotratio,float,high,rotatable bonds ratio
 slogp,float,high,Wildman-Crippen LogP
