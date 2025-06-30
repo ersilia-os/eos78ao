@@ -1,6 +1,6 @@
 # Mordred chemical descriptors
 
-A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1455 features
+A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1458 features
 
 This model was incorporated on 2021-09-28.
 
@@ -21,7 +21,7 @@ This model was incorporated on 2021-09-28.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `1455`
+- **Output Dimension:** `1458`
 - **Output Consistency:** `Fixed`
 - **Interpretation:** Vector representation of a molecule
 
