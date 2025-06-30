@@ -50,7 +50,12 @@ _10 of 1458 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `319`
 - **Environment Size (Mb):** `810`
+- **Image Size (Mb):** `1645.45`
 
+**Computational Performance (seconds):**
+- 10 inputs: `27.96`
+- 100 inputs: `34.52`
+- 10000 inputs: `963.71`
 
 ### References
 - **Source Code**: [https://github.com/mordred-descriptor/mordred](https://github.com/mordred-descriptor/mordred)
