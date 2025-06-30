@@ -640,30 +640,30 @@ gats5i,float,high,geary coefficient of lag 5 weighted by ionization potential
 gats6i,float,high,geary coefficient of lag 6 weighted by ionization potential
 gats7i,float,high,geary coefficient of lag 7 weighted by ionization potential
 gats8i,float,high,geary coefficient of lag 8 weighted by ionization potential
-bcutc-1h,float,high,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
-bcutc-1l,float,high,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
-bcutdv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by valence electrons
-bcutdv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by valence electrons
-bcutd-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sigma electrons
-bcutd-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sigma electrons
-bcuts-1h,float,high,first heighest eigenvalue of Burden matrix weighted by intrinsic state
-bcuts-1l,float,high,first lowest eigenvalue of Burden matrix weighted by intrinsic state
-bcutz-1h,float,high,first heighest eigenvalue of Burden matrix weighted by atomic number
-bcutz-1l,float,high,first lowest eigenvalue of Burden matrix weighted by atomic number
-bcutm-1h,float,high,first heighest eigenvalue of Burden matrix weighted by mass
-bcutm-1l,float,high,first lowest eigenvalue of Burden matrix weighted by mass
-bcutv-1h,float,high,first heighest eigenvalue of Burden matrix weighted by vdw volume
-bcutv-1l,float,high,first lowest eigenvalue of Burden matrix weighted by vdw volume
-bcutse-1h,float,high,first heighest eigenvalue of Burden matrix weighted by sanderson EN
-bcutse-1l,float,high,first lowest eigenvalue of Burden matrix weighted by sanderson EN
-bcutpe-1h,float,high,first heighest eigenvalue of Burden matrix weighted by pauling EN
-bcutpe-1l,float,high,first lowest eigenvalue of Burden matrix weighted by pauling EN
-bcutare-1h,float,high,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
-bcutare-1l,float,high,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
-bcutp-1h,float,high,first heighest eigenvalue of Burden matrix weighted by polarizability
-bcutp-1l,float,high,first lowest eigenvalue of Burden matrix weighted by polarizability
-bcuti-1h,float,high,first heighest eigenvalue of Burden matrix weighted by ionization potential
-bcuti-1l,float,high,first lowest eigenvalue of Burden matrix weighted by ionization potential
+bcutc_1h,float,high,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
+bcutc_1l,float,high,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
+bcutdv_1h,float,high,first heighest eigenvalue of Burden matrix weighted by valence electrons
+bcutdv_1l,float,high,first lowest eigenvalue of Burden matrix weighted by valence electrons
+bcutd_1h,float,high,first heighest eigenvalue of Burden matrix weighted by sigma electrons
+bcutd_1l,float,high,first lowest eigenvalue of Burden matrix weighted by sigma electrons
+bcuts_1h,float,high,first heighest eigenvalue of Burden matrix weighted by intrinsic state
+bcuts_1l,float,high,first lowest eigenvalue of Burden matrix weighted by intrinsic state
+bcutz_1h,float,high,first heighest eigenvalue of Burden matrix weighted by atomic number
+bcutz_1l,float,high,first lowest eigenvalue of Burden matrix weighted by atomic number
+bcutm_1h,float,high,first heighest eigenvalue of Burden matrix weighted by mass
+bcutm_1l,float,high,first lowest eigenvalue of Burden matrix weighted by mass
+bcutv_1h,float,high,first heighest eigenvalue of Burden matrix weighted by vdw volume
+bcutv_1l,float,high,first lowest eigenvalue of Burden matrix weighted by vdw volume
+bcutse_1h,float,high,first heighest eigenvalue of Burden matrix weighted by sanderson EN
+bcutse_1l,float,high,first lowest eigenvalue of Burden matrix weighted by sanderson EN
+bcutpe_1h,float,high,first heighest eigenvalue of Burden matrix weighted by pauling EN
+bcutpe_1l,float,high,first lowest eigenvalue of Burden matrix weighted by pauling EN
+bcutare_1h,float,high,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
+bcutare_1l,float,high,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
+bcutp_1h,float,high,first heighest eigenvalue of Burden matrix weighted by polarizability
+bcutp_1l,float,high,first lowest eigenvalue of Burden matrix weighted by polarizability
+bcuti_1h,float,high,first heighest eigenvalue of Burden matrix weighted by ionization potential
+bcuti_1l,float,high,first lowest eigenvalue of Burden matrix weighted by ionization potential
 balabanj,float,high,Balaban's J index
 spabs_dzz,float,high,graph energy from Barysz matrix weighted by atomic number
 spmax_dzz,float,high,leading eigenvalue from Barysz matrix weighted by atomic number
@@ -769,7 +769,7 @@ ve3_dzi,float,high,logarithmic coefficient sum of the last eigenvector from Bary
 vr1_dzi,float,high,Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
 vr2_dzi,float,high,normalized Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
 vr3_dzi,float,high,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
-bertzct,float,high,Bertz CT
+bertzct,float,high,Bertz CT value
 nbonds,float,high,number of all bonds in non-kekulized structure
 nbondso,float,high,number of bonds connecting to heavy atom in non-kekulized structure
 nbondss,float,high,number of single bonds in non-kekulized structure
@@ -792,62 +792,62 @@ c3sp3,float,high,SP3 carbon bound to 3 other carbons
 c4sp3,float,high,SP3 carbon bound to 4 other carbons
 hybratio,float,high,hybridization ratio
 fcsp3,float,high,fraction of sp3 hybridized carbon
-xch-3d,float,high,3-ordered Chi chain weighted by sigma electrons
-xch-4d,float,high,4-ordered Chi chain weighted by sigma electrons
-xch-5d,float,high,5-ordered Chi chain weighted by sigma electrons
-xch-6d,float,high,6-ordered Chi chain weighted by sigma electrons
-xch-7d,float,high,7-ordered Chi chain weighted by sigma electrons
-xch-3dv,float,high,3-ordered Chi chain weighted by valence electrons
-xch-4dv,float,high,4-ordered Chi chain weighted by valence electrons
-xch-5dv,float,high,5-ordered Chi chain weighted by valence electrons
-xch-6dv,float,high,6-ordered Chi chain weighted by valence electrons
-xch-7dv,float,high,7-ordered Chi chain weighted by valence electrons
-xc-3d,float,high,3-ordered Chi cluster weighted by sigma electrons
-xc-4d,float,high,4-ordered Chi cluster weighted by sigma electrons
-xc-5d,float,high,5-ordered Chi cluster weighted by sigma electrons
-xc-6d,float,high,6-ordered Chi cluster weighted by sigma electrons
-xc-3dv,float,high,3-ordered Chi cluster weighted by valence electrons
-xc-4dv,float,high,4-ordered Chi cluster weighted by valence electrons
-xc-5dv,float,high,5-ordered Chi cluster weighted by valence electrons
-xc-6dv,float,high,6-ordered Chi cluster weighted by valence electrons
-xpc-4d,float,high,4-ordered Chi path-cluster weighted by sigma electrons
-xpc-5d,float,high,5-ordered Chi path-cluster weighted by sigma electrons
-xpc-6d,float,high,6-ordered Chi path-cluster weighted by sigma electrons
-xpc-4dv,float,high,4-ordered Chi path-cluster weighted by valence electrons
-xpc-5dv,float,high,5-ordered Chi path-cluster weighted by valence electrons
-xpc-6dv,float,high,6-ordered Chi path-cluster weighted by valence electrons
-xp-0d,float,high,0-ordered Chi path weighted by sigma electrons
-xp-1d,float,high,1-ordered Chi path weighted by sigma electrons
-xp-2d,float,high,2-ordered Chi path weighted by sigma electrons
-xp-3d,float,high,3-ordered Chi path weighted by sigma electrons
-xp-4d,float,high,4-ordered Chi path weighted by sigma electrons
-xp-5d,float,high,5-ordered Chi path weighted by sigma electrons
-xp-6d,float,high,6-ordered Chi path weighted by sigma electrons
-xp-7d,float,high,7-ordered Chi path weighted by sigma electrons
-axp-0d,float,high,0-ordered averaged Chi path weighted by sigma electrons
-axp-1d,float,high,1-ordered averaged Chi path weighted by sigma electrons
-axp-2d,float,high,2-ordered averaged Chi path weighted by sigma electrons
-axp-3d,float,high,3-ordered averaged Chi path weighted by sigma electrons
-axp-4d,float,high,4-ordered averaged Chi path weighted by sigma electrons
-axp-5d,float,high,5-ordered averaged Chi path weighted by sigma electrons
-axp-6d,float,high,6-ordered averaged Chi path weighted by sigma electrons
-axp-7d,float,high,7-ordered averaged Chi path weighted by sigma electrons
-xp-0dv,float,high,0-ordered Chi path weighted by valence electrons
-xp-1dv,float,high,1-ordered Chi path weighted by valence electrons
-xp-2dv,float,high,2-ordered Chi path weighted by valence electrons
-xp-3dv,float,high,3-ordered Chi path weighted by valence electrons
-xp-4dv,float,high,4-ordered Chi path weighted by valence electrons
-xp-5dv,float,high,5-ordered Chi path weighted by valence electrons
-xp-6dv,float,high,6-ordered Chi path weighted by valence electrons
-xp-7dv,float,high,7-ordered Chi path weighted by valence electrons
-axp-0dv,float,high,0-ordered averaged Chi path weighted by valence electrons
-axp-1dv,float,high,1-ordered averaged Chi path weighted by valence electrons
-axp-2dv,float,high,2-ordered averaged Chi path weighted by valence electrons
-axp-3dv,float,high,3-ordered averaged Chi path weighted by valence electrons
-axp-4dv,float,high,4-ordered averaged Chi path weighted by valence electrons
-axp-5dv,float,high,5-ordered averaged Chi path weighted by valence electrons
-axp-6dv,float,high,6-ordered averaged Chi path weighted by valence electrons
-axp-7dv,float,high,7-ordered averaged Chi path weighted by valence electrons
+xch_3d,float,high,3-ordered Chi chain weighted by sigma electrons
+xch_4d,float,high,4-ordered Chi chain weighted by sigma electrons
+xch_5d,float,high,5-ordered Chi chain weighted by sigma electrons
+xch_6d,float,high,6-ordered Chi chain weighted by sigma electrons
+xch_7d,float,high,7-ordered Chi chain weighted by sigma electrons
+xch_3dv,float,high,3-ordered Chi chain weighted by valence electrons
+xch_4dv,float,high,4-ordered Chi chain weighted by valence electrons
+xch_5dv,float,high,5-ordered Chi chain weighted by valence electrons
+xch_6dv,float,high,6-ordered Chi chain weighted by valence electrons
+xch_7dv,float,high,7-ordered Chi chain weighted by valence electrons
+xc_3d,float,high,3-ordered Chi cluster weighted by sigma electrons
+xc_4d,float,high,4-ordered Chi cluster weighted by sigma electrons
+xc_5d,float,high,5-ordered Chi cluster weighted by sigma electrons
+xc_6d,float,high,6-ordered Chi cluster weighted by sigma electrons
+xc_3dv,float,high,3-ordered Chi cluster weighted by valence electrons
+xc_4dv,float,high,4-ordered Chi cluster weighted by valence electrons
+xc_5dv,float,high,5-ordered Chi cluster weighted by valence electrons
+xc_6dv,float,high,6-ordered Chi cluster weighted by valence electrons
+xpc_4d,float,high,4-ordered Chi path-cluster weighted by sigma electrons
+xpc_5d,float,high,5-ordered Chi path-cluster weighted by sigma electrons
+xpc_6d,float,high,6-ordered Chi path-cluster weighted by sigma electrons
+xpc_4dv,float,high,4-ordered Chi path-cluster weighted by valence electrons
+xpc_5dv,float,high,5-ordered Chi path-cluster weighted by valence electrons
+xpc_6dv,float,high,6-ordered Chi path-cluster weighted by valence electrons
+xp_0d,float,high,0-ordered Chi path weighted by sigma electrons
+xp_1d,float,high,1-ordered Chi path weighted by sigma electrons
+xp_2d,float,high,2-ordered Chi path weighted by sigma electrons
+xp_3d,float,high,3-ordered Chi path weighted by sigma electrons
+xp_4d,float,high,4-ordered Chi path weighted by sigma electrons
+xp_5d,float,high,5-ordered Chi path weighted by sigma electrons
+xp_6d,float,high,6-ordered Chi path weighted by sigma electrons
+xp_7d,float,high,7-ordered Chi path weighted by sigma electrons
+axp_0d,float,high,0-ordered averaged Chi path weighted by sigma electrons
+axp_1d,float,high,1-ordered averaged Chi path weighted by sigma electrons
+axp_2d,float,high,2-ordered averaged Chi path weighted by sigma electrons
+axp_3d,float,high,3-ordered averaged Chi path weighted by sigma electrons
+axp_4d,float,high,4-ordered averaged Chi path weighted by sigma electrons
+axp_5d,float,high,5-ordered averaged Chi path weighted by sigma electrons
+axp_6d,float,high,6-ordered averaged Chi path weighted by sigma electrons
+axp_7d,float,high,7-ordered averaged Chi path weighted by sigma electrons
+xp_0dv,float,high,0-ordered Chi path weighted by valence electrons
+xp_1dv,float,high,1-ordered Chi path weighted by valence electrons
+xp_2dv,float,high,2-ordered Chi path weighted by valence electrons
+xp_3dv,float,high,3-ordered Chi path weighted by valence electrons
+xp_4dv,float,high,4-ordered Chi path weighted by valence electrons
+xp_5dv,float,high,5-ordered Chi path weighted by valence electrons
+xp_6dv,float,high,6-ordered Chi path weighted by valence electrons
+xp_7dv,float,high,7-ordered Chi path weighted by valence electrons
+axp_0dv,float,high,0-ordered averaged Chi path weighted by valence electrons
+axp_1dv,float,high,1-ordered averaged Chi path weighted by valence electrons
+axp_2dv,float,high,2-ordered averaged Chi path weighted by valence electrons
+axp_3dv,float,high,3-ordered averaged Chi path weighted by valence electrons
+axp_4dv,float,high,4-ordered averaged Chi path weighted by valence electrons
+axp_5dv,float,high,5-ordered averaged Chi path weighted by valence electrons
+axp_6dv,float,high,6-ordered averaged Chi path weighted by valence electrons
+axp_7dv,float,high,7-ordered averaged Chi path weighted by valence electrons
 sz,float,high,sum of constitutional weighted by atomic number
 sm,float,high,sum of constitutional weighted by mass
 sv,float,high,sum of constitutional weighted by vdw volume
@@ -969,101 +969,101 @@ nspbh3,float,high,number of sPbH3
 nsspbh2,float,high,number of ssPbH2
 nssspbh,float,high,number of sssPbH
 nsssspb,float,high,number of ssssPb
-ssli,float,high,sum of sLi
-sssbe,float,high,sum of ssBe
-sssssbe,float,high,sum of ssssBe
-sssbh,float,high,sum of ssBH
-ssssb,float,high,sum of sssB
-sssssb,float,high,sum of ssssB
-ssch3,float,high,sum of sCH3
-sdch2,float,high,sum of dCH2
-sssch2,float,high,sum of ssCH2
-stch,float,high,sum of tCH
-sdsch,float,high,sum of dsCH
-saach,float,high,sum of aaCH
-ssssch,float,high,sum of sssCH
-sddc,float,high,sum of ddC
-stsc,float,high,sum of tsC
-sdssc,float,high,sum of dssC
-saasc,float,high,sum of aasC
-saaac,float,high,sum of aaaC
-sssssc,float,high,sum of ssssC
-ssnh3,float,high,sum of sNH3
-ssnh2,float,high,sum of sNH2
-sssnh2,float,high,sum of ssNH2
-sdnh,float,high,sum of dNH
-sssnh,float,high,sum of ssNH
-saanh,float,high,sum of aaNH
-stn,float,high,sum of tN
-ssssnh,float,high,sum of sssNH
-sdsn,float,high,sum of dsN
-saan,float,high,sum of aaN
-ssssn,float,high,sum of sssN
-sddsn,float,high,sum of ddsN
-saasn,float,high,sum of aasN
-sssssn,float,high,sum of ssssN
-ssoh,float,high,sum of sOH
-sdo,float,high,sum of dO
-ssso,float,high,sum of ssO
-saao,float,high,sum of aaO
-ssf,float,high,sum of sF
-sssih3,float,high,sum of sSiH3
-ssssih2,float,high,sum of ssSiH2
-sssssih,float,high,sum of sssSiH
-ssssssi,float,high,sum of ssssSi
-ssph2,float,high,sum of sPH2
-sssph,float,high,sum of ssPH
-ssssp,float,high,sum of sssP
-sdsssp,float,high,sum of dsssP
-ssssssp,float,high,sum of sssssP
-sssh,float,high,sum of sSH
-sds,float,high,sum of dS
-ssss,float,high,sum of ssS
-saas,float,high,sum of aaS
-sdsss,float,high,sum of dssS
-sddsss,float,high,sum of ddssS
-sscl,float,high,sum of sCl
-ssgeh3,float,high,sum of sGeH3
-sssgeh2,float,high,sum of ssGeH2
-ssssgeh,float,high,sum of sssGeH
-sssssge,float,high,sum of ssssGe
-ssash2,float,high,sum of sAsH2
-sssash,float,high,sum of ssAsH
-ssssas,float,high,sum of sssAs
-ssssdas,float,high,sum of sssdAs
-ssssssas,float,high,sum of sssssAs
-ssseh,float,high,sum of sSeH
-sdse,float,high,sum of dSe
-sssse,float,high,sum of ssSe
-saase,float,high,sum of aaSe
-sdssse,float,high,sum of dssSe
-sddssse,float,high,sum of ddssSe
-ssbr,float,high,sum of sBr
-sssnh3,float,high,sum of sSnH3
-ssssnh2,float,high,sum of ssSnH2
-sssssnh,float,high,sum of sssSnH
-ssssssn,float,high,sum of ssssSn
-ssi,float,high,sum of sI
-sspbh3,float,high,sum of sPbH3
-ssspbh2,float,high,sum of ssPbH2
-sssspbh,float,high,sum of sssPbH
-ssssspb,float,high,sum of ssssPb
-maxsch3,float,high,max of sCH3
-maxssch2,float,high,max of ssCH2
-maxaach,float,high,max of aaCH
-maxsssch,float,high,max of sssCH
-maxdssc,float,high,max of dssC
-maxaasc,float,high,max of aasC
-maxsoh,float,high,max of sOH
-maxdo,float,high,max of dO
-minsch3,float,high,min of sCH3
-minssch2,float,high,min of ssCH2
-minaach,float,high,min of aaCH
-minsssch,float,high,min of sssCH
-mindssc,float,high,min of dssC
-minaasc,float,high,min of aasC
-minsoh,float,high,min of sOH
-mindo,float,high,min of dO
+ssli,float,high,sum of sLi atoms
+sssbe,float,high,sum of ssBe atoms
+sssssbe,float,high,sum of ssssBe atoms 
+sssbh,float,high,sum of ssBH atoms
+ssssb,float,high,sum of sssB atoms
+sssssb,float,high,sum of ssssB atoms
+ssch3,float,high,sum of sCH3 atoms
+sdch2,float,high,sum of dCH2 atoms
+sssch2,float,high,sum of ssCH2 atoms
+stch,float,high,sum of tCH atoms
+sdsch,float,high,sum of dsCH atoms
+saach,float,high,sum of aaCH atoms
+ssssch,float,high,sum of sssCH atoms
+sddc,float,high,sum of ddC atoms
+stsc,float,high,sum of tsC atoms
+sdssc,float,high,sum of dssC atoms
+saasc,float,high,sum of aasC atoms
+saaac,float,high,sum of aaaC atoms
+sssssc,float,high,sum of ssssC atoms
+ssnh3,float,high,sum of sNH3 atoms
+ssnh2,float,high,sum of sNH2 atoms
+sssnh2,float,high,sum of ssNH2 atoms
+sdnh,float,high,sum of dNH atoms
+sssnh,float,high,sum of ssNH atoms
+saanh,float,high,sum of aaNH atoms
+stn,float,high,sum of tN atoms
+ssssnh,float,high,sum of sssNH atoms
+sdsn,float,high,sum of dsN atoms
+saan,float,high,sum of aaN atoms
+ssssn,float,high,sum of sssN atoms
+sddsn,float,high,sum of ddsN atoms
+saasn,float,high,sum of aasN atoms
+sssssn,float,high,sum of ssssN atoms
+ssoh,float,high,sum of sOH atoms
+sdo,float,high,sum of dO atoms
+ssso,float,high,sum of ssO atoms
+saao,float,high,sum of aaO atoms
+ssf,float,high,sum of sF atoms
+sssih3,float,high,sum of sSiH3 atoms
+ssssih2,float,high,sum of ssSiH2 atoms
+sssssih,float,high,sum of sssSiH atoms
+ssssssi,float,high,sum of ssssSi atoms
+ssph2,float,high,sum of sPH2 atoms
+sssph,float,high,sum of ssPH atoms
+ssssp,float,high,sum of sssP atoms
+sdsssp,float,high,sum of dsssP atoms
+ssssssp,float,high,sum of sssssP atoms
+sssh,float,high,sum of sSH atoms
+sds,float,high,sum of dS atoms
+ssss,float,high,sum of ssS atoms
+saas,float,high,sum of aaS atoms
+sdsss,float,high,sum of dssS atoms
+sddsss,float,high,sum of ddssS atoms
+sscl,float,high,sum of sCl atoms
+ssgeh3,float,high,sum of sGeH3 atoms
+sssgeh2,float,high,sum of ssGeH2 atoms
+ssssgeh,float,high,sum of sssGeH atoms
+sssssge,float,high,sum of ssssGe atoms
+ssash2,float,high,sum of sAsH2 atoms
+sssash,float,high,sum of ssAsH atoms
+ssssas,float,high,sum of sssAs atoms
+ssssdas,float,high,sum of sssdAs atoms
+ssssssas,float,high,sum of sssssAs atoms
+ssseh,float,high,sum of sSeH atoms
+sdse,float,high,sum of dSe atoms
+sssse,float,high,sum of ssSe atoms
+saase,float,high,sum of aaSe atoms
+sdssse,float,high,sum of dssSe atoms
+sddssse,float,high,sum of ddssSe atoms
+ssbr,float,high,sum of sBr atoms
+sssnh3,float,high,sum of sSnH3 atoms
+ssssnh2,float,high,sum of ssSnH2 atoms
+sssssnh,float,high,sum of sssSnH atoms
+ssssssn,float,high,sum of ssssSn atoms
+ssi,float,high,sum of sI atoms
+sspbh3,float,high,sum of sPbH3 atoms
+ssspbh2,float,high,sum of ssPbH2 atoms
+sssspbh,float,high,sum of sssPbH atoms
+ssssspb,float,high,sum of ssssPb atoms
+maxsch3,float,high,max of sCH3 atoms
+maxssch2,float,high,max of ssCH2 atoms
+maxaach,float,high,max of aaCH atoms
+maxsssch,float,high,max of sssCH atoms
+maxdssc,float,high,max of dssC atoms
+maxaasc,float,high,max of aasC atoms
+maxsoh,float,high,max of sOH atoms
+maxdo,float,high,max of dO atoms
+minsch3,float,high,min of sCH3 atoms
+minssch2,float,high,min of ssCH2 atoms
+minaach,float,high,min of aaCH atoms
+minsssch,float,high,min of sssCH atoms
+mindssc,float,high,min of dssC atoms
+minaasc,float,high,min of aasC atoms
+minsoh,float,high,min of sOH atoms
+mindo,float,high,min of dO atoms
 ecindex,float,high,eccentric connectivity index
 eta_alpha,float,high,ETA core count
 aeta_alpha,float,high,averaged ETA core count
@@ -1107,7 +1107,7 @@ eta_depsilon_c,float,high,ETA delta epsilon (type: C)
 eta_depsilon_d,float,high,ETA delta epsilon (type: D)
 eta_dbeta,float,high,ETA delta beta
 aeta_dbeta,float,high,averaged ETA delta beta
-eta_psi_1,float,high,ETA psi
+eta_psi_1,float,high,ETA psi value
 eta_dpsi_a,float,high,ETA delta psi (type: A)
 eta_dpsi_b,float,high,ETA delta psi (type: B)
 fragcpx,float,high,fragment complexity
@@ -1216,12 +1216,12 @@ vsa_estate6,float,high,VSA EState Descriptor 6 ( 6.00 <= x <  6.07)
 vsa_estate7,float,high,VSA EState Descriptor 7 ( 6.07 <= x <  6.45)
 vsa_estate8,float,high,VSA EState Descriptor 8 ( 6.45 <= x <  7.00)
 vsa_estate9,float,high,VSA EState Descriptor 9 ( 7.00 <= x <  11.00)
-mdec-12,float,high,molecular distance edge between primary C and secondary C
-mdec-13,float,high,molecular distance edge between primary C and tertiary C
-mdec-22,float,high,molecular distance edge between secondary C and secondary C
-mdec-23,float,high,molecular distance edge between secondary C and tertiary C
-mdec-33,float,high,molecular distance edge between tertiary C and tertiary C
-mdeo-11,float,high,molecular distance edge between primary O and primary O
+mdec_12,float,high,molecular distance edge between primary C and secondary C
+mdec_13,float,high,molecular distance edge between primary C and tertiary C
+mdec_22,float,high,molecular distance edge between secondary C and secondary C
+mdec_23,float,high,molecular distance edge between secondary C and tertiary C
+mdec_33,float,high,molecular distance edge between tertiary C and tertiary C
+mdeo_11,float,high,molecular distance edge between primary O and primary O
 mid,float,high,molecular ID
 amid,float,high,averaged molecular ID
 mid_h,float,high,molecular ID on h atoms
@@ -1257,7 +1257,7 @@ pipc10,float,high,10-ordered pi-path count (log scale)
 tpipc10,float,high,10-ordered total pi-path count (log scale)
 apol,float,high,atomic polarizability
 bpol,float,high,bond polarizability
-nring,float,high,ring count
+nring,float,high, molecule ring count
 n3ring,float,high,3-membered ring count
 n4ring,float,high,4-membered ring count
 n5ring,float,high,5-membered ring count
@@ -1305,30 +1305,30 @@ n10ahring,float,high,10-membered aromatic hetero ring count
 n11ahring,float,high,11-membered aromatic hetero ring count
 n12ahring,float,high,12-membered aromatic hetero ring count
 ng12ahring,float,high,12-or-greater-membered aromatic hetero ring count
-naring.1,float,high,aromatic ring count
-n3aring.1,float,high,aromatic ring count
-n4aring.1,float,high,aromatic ring count
-n5aring.1,float,high,aromatic ring count
-n6aring.1,float,high,aromatic ring count
-n7aring.1,float,high,aromatic ring count
-n8aring.1,float,high,aromatic ring count
-n9aring.1,float,high,aromatic ring count
-n10aring.1,float,high,aromatic ring count
-n11aring.1,float,high,aromatic ring count
-n12aring.1,float,high,aromatic ring count
-ng12aring.1,float,high,aromatic ring count
-nahring.1,float,high,aromatic hetero ring count
-n3ahring.1,float,high,aromatic hetero ring count
-n4ahring.1,float,high,aromatic hetero ring count
-n5ahring.1,float,high,aromatic hetero ring count
-n6ahring.1,float,high,aromatic hetero ring count
-n7ahring.1,float,high,aromatic hetero ring count
-n8ahring.1,float,high,aromatic hetero ring count
-n9ahring.1,float,high,aromatic hetero ring count
-n10ahring.1,float,high,aromatic hetero ring count
-n11ahring.1,float,high,aromatic hetero ring count
-n12ahring.1,float,high,aromatic hetero ring count
-ng12ahring.1,float,high,aromatic hetero ring count
+naring,float,high,aromatic ring count
+n3aring,float,high,aromatic ring count
+n4aring,float,high,aromatic ring count
+n5aring,float,high,aromatic ring count
+n6aring,float,high,aromatic ring count
+n7aring,float,high,aromatic ring count
+n8aring,float,high,aromatic ring count
+n9aring,float,high,aromatic ring count
+n10aring,float,high,aromatic ring count
+n11aring,float,high,aromatic ring count
+n12aring,float,high,aromatic ring count
+ng12aring,float,high,aromatic ring count
+nahring,float,high,aromatic hetero ring count
+n3ahring,float,high,aromatic hetero ring count
+n4ahring,float,high,aromatic hetero ring count
+n5ahring,float,high,aromatic hetero ring count
+n6ahring,float,high,aromatic hetero ring count
+n7ahring,float,high,aromatic hetero ring count
+n8ahring,float,high,aromatic hetero ring count
+n9ahring,float,high,aromatic hetero ring count
+n10ahring,float,high,aromatic hetero ring count
+n11ahring,float,high,aromatic hetero ring count
+n12ahring,float,high,aromatic hetero ring count
+ng12ahring,float,high,aromatic hetero ring count
 nfring,float,high,fused ring count
 n4fring,float,high,4-membered fused ring count
 n5fring,float,high,5-membered fused ring count
@@ -1373,33 +1373,33 @@ n10fahring,float,high,10-membered aromatic fused hetero ring count
 n11fahring,float,high,11-membered aromatic fused hetero ring count
 n12fahring,float,high,12-membered aromatic fused hetero ring count
 ng12fahring,float,high,12-or-greater-membered aromatic fused hetero ring count
-nfaring.1,float,high,fused ring count
-n4faring.1,float,high,fused ring count
-n5faring.1,float,high,fused ring count
-n6faring.1,float,high,fused ring count
-n7faring.1,float,high,fused ring count
-n8faring.1,float,high,fused ring count
-n9faring.1,float,high,fused ring count
-n10faring.1,float,high,fused ring count
-n11faring.1,float,high,fused ring count
-n12faring.1,float,high,fused ring count
-ng12faring.1,float,high,fused ring count
-nfahring.1,float,high,fused hetero ring count
-n4fahring.1,float,high,fused hetero ring count
-n5fahring.1,float,high,fused hetero ring count
-n6fahring.1,float,high,fused hetero ring count
-n7fahring.1,float,high,fused hetero ring count
-n8fahring.1,float,high,fused hetero ring count
-n9fahring.1,float,high,fused hetero ring count
-n10fahring.1,float,high,fused hetero ring count
-n11fahring.1,float,high,fused hetero ring count
-n12fahring.1,float,high,fused hetero ring count
-ng12fahring.1,float,high,fused hetero ring count
+nfaring,float,high,fused ring count
+n4faring,float,high,fused ring count
+n5faring,float,high,fused ring count
+n6faring,float,high,fused ring count
+n7faring,float,high,fused ring count
+n8faring,float,high,fused ring count
+n9faring,float,high,fused ring count
+n10faring,float,high,fused ring count
+n11faring,float,high,fused ring count
+n12faring,float,high,fused ring count
+ng12faring,float,high,fused ring count
+nfahring,float,high,fused hetero ring count
+n4fahring,float,high,fused hetero ring count
+n5fahring,float,high,fused hetero ring count
+n6fahring,float,high,fused hetero ring count
+n7fahring,float,high,fused hetero ring count
+n8fahring,float,high,fused hetero ring count
+n9fahring,float,high,fused hetero ring count
+n10fahring,float,high,fused hetero ring count
+n11fahring,float,high,fused hetero ring count
+n12fahring,float,high,fused hetero ring count
+ng12fahring,float,high,fused hetero ring count
 nrot,float,high,rotatable bonds count
 rotratio,float,high,rotatable bonds ratio
 slogp,float,high,Wildman-Crippen LogP
 smr,float,high,Wildman-Crippen MR
-topopsa(no),float,high,topological polar surface area (use only nitrogen and oxygen)
+topopsa_no,float,high,topological polar surface area (use only nitrogen and oxygen)
 topopsa,float,high,topological polar surface area
 ggi1,float,high,1-ordered raw topological charge
 ggi2,float,high,2-ordered raw topological charge

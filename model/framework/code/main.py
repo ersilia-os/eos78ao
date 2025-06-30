@@ -64,7 +64,10 @@ R = convert_to_float(R)
 R = imputer.transform(R)
 
 cols = [c.lower() for c in columns if c not in cols_to_drop]
-
+cols = [c.replace("-", "_") for c in cols]
+cols = [c.replace(" ", "_") for c in cols]
+cols = [c.replace("(", "_") for c in cols]
+cols = [c.replace(")", "") for c in cols]
 
 with open(outfile, "w") as f:
     writer = csv.writer(f)
