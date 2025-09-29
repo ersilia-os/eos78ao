@@ -4,6 +4,7 @@ A set of ca 1613 chemical descriptors, including both RDKit and original modules
 
 This model was incorporated on 2021-09-28.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos78ao`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-09-28.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`
 
 ### Input
