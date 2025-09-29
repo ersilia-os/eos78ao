@@ -13,17 +13,39 @@ outfile = sys.argv[2]
 
 ROOT = os.path.abspath(os.path.dirname(__file__))
 checkpoints_dir = os.path.join(ROOT, "..","..","checkpoints")
-
-with open(infile, "r") as f:
-    reader = csv.reader(f)
-    next(reader)
-    smiles = []
-    for r in reader:
-        smiles += [r[0]]
-
 TIMEOUT_SEC=60
 
-calc = Calculator(descriptors, ignore_3D=True)
+def read_smiles_csv(in_file):
+  with open(in_file, "r") as f:
+    reader = csv.reader(f)
+    cols = next(reader)
+    data = [r[0] for r in reader]
+    return cols, data
+
+def read_smiles_bin(in_file):
+  with open(in_file, "rb") as f:
+    data = f.read()
+
+  mv = memoryview(data)
+  nl = mv.tobytes().find(b"\n")
+  meta = json.loads(mv[:nl].tobytes().decode("utf-8"))
+  cols = meta.get("columns", [])
+  count = meta.get("count", 0)
+
+  smiles_list = [None] * count
+  offset = nl + 1
+  for i in range(count):
+    (length,) = struct.unpack_from(">I", mv, offset)
+    offset += 4
+    smiles_list[i] = mv[offset : offset + length].tobytes().decode("utf-8")
+    offset += length
+
+  return cols, smiles_list
+    
+def read_smiles(in_file):
+  if in_file.endswith(".bin"):
+    return read_smiles_bin(in_file)
+  return read_smiles_csv(in_file)
 
 @timeout(TIMEOUT_SEC)
 def one_molecule(mol):
@@ -41,7 +63,42 @@ def convert_to_float(df):
     df = df.map(lambda x: np.nan if pd.isna(x) else x)
     return df
 
+def write_out_csv(results, header, file):
+  with open(file, "w") as f:
+    writer = csv.writer(f)
+    writer.writerow(header)
+    for r in results:
+      writer.writerow(r)
+
+
+def write_out_bin(results, header, file):
+  arr = np.asarray(results, dtype=np.int32)
+  meta = {"columns": header, "shape": arr.shape, "dtype": "int32"}
+  meta_bytes = (json.dumps(meta) + "\n").encode("utf-8")
+
+  with open(file, "wb") as f:
+    f.write(meta_bytes)
+    f.truncate(len(meta_bytes) + arr.nbytes)
+
+  m = np.memmap(
+    file, dtype=arr.dtype, mode="r+", offset=len(meta_bytes), shape=arr.shape
+  )
+  m[:] = arr
+  m.flush()
+
+def write_out(results, header, file):
+  if file.endswith(".bin"):
+    write_out_bin(results, header, file)
+  elif file.endswith(".csv"):
+    write_out_csv(results, header, file)
+  else:
+    raise ValueError(f"Unsupported extension for {file!r}")
+
+calc = Calculator(descriptors, ignore_3D=True)
+
 columns = list(calc.pandas([Chem.MolFromSmiles("CCCC")]).columns)
+
+smiles = read_smiles(infile)
 
 R = []
 invalid_idxs = []
@@ -80,11 +137,4 @@ for c in cols:
 print(len(cols_), "columns after processing")
 print(len(set(cols_)), "unique columns after processing")
 
-with open(outfile, "w") as f:
-    writer = csv.writer(f)
-    writer.writerow(cols_)
-    for i, r in enumerate(R):
-        if i in invalid_idxs:
-            writer.writerow([None for _ in range(len(cols_))])
-        else:
-            writer.writerow(r)
+write_out(R, cols_, output_file)
