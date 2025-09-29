@@ -1,5 +1,6 @@
 import os
 import csv
+import json
 import sys
 from rdkit import Chem
 import pandas as pd
@@ -137,4 +138,4 @@ for c in cols:
 print(len(cols_), "columns after processing")
 print(len(set(cols_)), "unique columns after processing")
 
-write_out(R, cols_, output_file)
+write_out(R, cols_, outfile)
