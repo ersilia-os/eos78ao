@@ -2,8 +2,7 @@
 
 A set of ca 1613 chemical descriptors, including both RDKit and original modules. It is comparable to the well known PaDEL-Descriptors (see eos7asg), but has shorter calculation times and can process larger molecules. In this implementation, we fill in empty values using an imputer trained on DrugBank, and eliminate frequently empty columns to a total of 1458 features
 
-This model was incorporated on 2021-09-28.
-
+This model was incorporated on 2021-09-28.Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 1458 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `319`
 - **Environment Size (Mb):** `829`
-- **Image Size (Mb):** `1645.45`
+- **Image Size (Mb):** `1680.03`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.96`
-- 100 inputs: `34.52`
-- 10000 inputs: `963.71`
+- 10 inputs: `29.36`
+- 100 inputs: `36.05`
+- 10000 inputs: `987.64`
 
 ### References
 - **Source Code**: [https://github.com/mordred-descriptor/mordred](https://github.com/mordred-descriptor/mordred)
