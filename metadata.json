@@ -37,6 +37,8 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-28",
+    "Last Packaging Date": "2025-10-17",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos78ao",
     "Docker Architecture": [
@@ -45,10 +47,10 @@
     ],
     "Model Size": 319.0,
     "Environment Size": 829.0,
-    "Image Size": 1645.45,
-    "Computational Performance 1": 27.96,
-    "Computational Performance 2": 19.6,
-    "Computational Performance 3": 34.52,
-    "Computational Performance 4": 203.31,
-    "Computational Performance 5": 963.71
+    "Image Size": 1680.03,
+    "Computational Performance 1": 29.36,
+    "Computational Performance 2": 20.87,
+    "Computational Performance 3": 36.05,
+    "Computational Performance 4": 210.19,
+    "Computational Performance 5": 987.64
 }
