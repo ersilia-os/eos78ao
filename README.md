@@ -59,7 +59,7 @@ _10 of 1458 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/mordred-descriptor/mordred](https://github.com/mordred-descriptor/mordred)
-- **Publication**: [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y)
+- **Publication**: [https://doi.org/10.1186/s13321-018-0258-y](https://doi.org/10.1186/s13321-018-0258-y)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2018`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
