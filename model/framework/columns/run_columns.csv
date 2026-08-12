@@ -971,7 +971,7 @@ nssspbh,float,high,number of sssPbH
 nsssspb,float,high,number of ssssPb
 ssli,float,high,sum of sLi atoms
 sssbe,float,high,sum of ssBe atoms
-sssssbe,float,high,sum of ssssBe atoms 
+sssssbe,float,high,sum of ssssBe atoms
 sssbh,float,high,sum of ssBH atoms
 ssssb,float,high,sum of sssB atoms
 sssssb,float,high,sum of ssssB atoms
@@ -1257,7 +1257,7 @@ pipc10,float,high,10-ordered pi-path count (log scale)
 tpipc10,float,high,10-ordered total pi-path count (log scale)
 apol,float,high,atomic polarizability
 bpol,float,high,bond polarizability
-nring,float,high, molecule ring count
+nring,float,high,molecule ring count
 n3ring,float,high,3-membered ring count
 n4ring,float,high,4-membered ring count
 n5ring,float,high,5-membered ring count
