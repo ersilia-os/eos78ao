@@ -1,6 +1,6 @@
 # Mordred chemical descriptors
 
-Computes 1,458 molecular descriptors with Mordred, spanning constitutional counts, topological and connectivity indices, autocorrelations, charge and surface area terms. Moriwaki and colleagues wrote it as an open successor to earlier descriptor packages, prioritising breadth of coverage and the ability to handle large molecules that older tools rejected. Values follow deterministically from the structure, so they are reproducible, though many descriptors are strongly correlated and some are undefined for particular structures.
+Computes Mordred molecular descriptors, covering constitutional counts, topological and connectivity indices, autocorrelations, charge and surface-area terms. Moriwaki and colleagues released it as an open alternative to PaDEL-Descriptor, at least twice as fast and able to handle large molecules that other packages reject. Ersilia calculates the two-dimensional descriptor set, drops the columns that are frequently undefined and fills the remaining gaps with an imputer, leaving 1,458 values. Results are deterministic, though many descriptors are strongly correlated.
 
 This model was incorporated on 2021-09-28.Last packaged on 2025-10-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-09-28.Last packaged on 2025-10-22.
 ### Output
 - **Output Dimension:** `1458`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** 1458 Mordred molecular descriptors computed deterministically from structure.
+- **Interpretation:** 1458 two-dimensional Mordred descriptors with missing values imputed, spanning constitutional, topological and physicochemical properties.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
