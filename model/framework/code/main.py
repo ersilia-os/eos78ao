@@ -66,6 +66,13 @@ R = R.apply(pd.to_numeric, errors="coerce")
 # Impute → numpy array
 R_imputed = imputer.transform(R)  # shape: (n_samples, n_features_after_drop)
 
+# Molecules that failed as a whole (unparseable SMILES, timeout or calculation
+# error) must not receive the median-imputed descriptor vector: that would look
+# like a real, typical molecule. Blank them again so they come out as empty rows.
+# Imputation of individual missing descriptors in valid molecules is unchanged.
+if invalid_idxs:
+    R_imputed[invalid_idxs, :] = np.nan
+
 # Clean output column names in the SAME order as R’s columns
 clean_cols = []
 seen = set()
@@ -92,4 +99,15 @@ if invalid_idxs:
     print(f"Warning: {len(invalid_idxs)} invalid SMILES at rows {invalid_idxs[:10]}{'...' if len(invalid_idxs) > 10 else ''}")
 
 # Write out (CSV or BIN), header = clean column names
-write_out(R_imputed, clean_cols, outfile,'float32')
+if outfile.endswith(".csv"):
+    # csv.writer would render NaN as the string "nan", so failed molecules are
+    # written as rows of empty cells instead.
+    invalid_set = set(invalid_idxs)
+    results = [
+        [""] * len(clean_cols) if i in invalid_set else row
+        for i, row in enumerate(R_imputed)
+    ]
+else:
+    # Binary output has no empty-cell representation: failed rows stay NaN.
+    results = R_imputed
+write_out(results, clean_cols, outfile, 'float32')
