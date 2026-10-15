@@ -38,7 +38,7 @@ def impute(df):
     imputer.fit(df)
     return imputer
 
-df = pd.read_csv("../data/drugbank_mordred.csv")
+df = pd.read_csv("../fit/data/drugbank_mordred.csv")
 print(df.shape)
 cols_to_drop = remove_cols(df)
 joblib.dump(cols_to_drop, "../../checkpoints/cols_to_drop.pkl")
