@@ -2,7 +2,7 @@
 
 Computes Mordred molecular descriptors, covering constitutional counts, topological and connectivity indices, autocorrelations, charge and surface-area terms. Moriwaki and colleagues released it as an open alternative to PaDEL-Descriptor, at least twice as fast and able to handle large molecules that other packages reject. Ersilia calculates the two-dimensional descriptor set, drops the columns that are frequently undefined and fills the remaining gaps with an imputer, leaving 1,458 values. Results are deterministic, though many descriptors are strongly correlated.
 
-This model was incorporated on 2021-09-28.Last packaged on 2025-10-22.
+This model was incorporated on 2021-09-28.Last packaged on 2026-10-15.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 1458 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `319`
 - **Environment Size (Mb):** `830`
-- **Image Size (Mb):** `1680.11`
+- **Image Size (Mb):** `1398.88`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.95`
-- 100 inputs: `35.47`
-- 10000 inputs: `965.29`
+- 10 inputs: `30.18`
+- 100 inputs: `32.87`
+- 10000 inputs: `872.48`
 
 ### References
 - **Source Code**: [https://github.com/mordred-descriptor/mordred](https://github.com/mordred-descriptor/mordred)
