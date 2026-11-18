@@ -2,7 +2,8 @@
 
 Computes Mordred molecular descriptors, covering constitutional counts, topological and connectivity indices, autocorrelations, charge and surface-area terms. Moriwaki and colleagues released it as an open alternative to PaDEL-Descriptor, at least twice as fast and able to handle large molecules that other packages reject. Ersilia calculates the two-dimensional descriptor set, drops the columns that are frequently undefined and fills the remaining gaps with an imputer, leaving 1,458 values. Results are deterministic, though many descriptors are strongly correlated.
 
-This model was incorporated on 2021-09-28.Last packaged on 2026-10-15.
+This model was incorporated on 2021-09-28.
+Last packaged on 2026-10-15.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 1458 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos78ao](https://hub.docker.com/r/ersiliaos/eos78ao)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos78ao.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos78ao_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos78ao_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `319`
